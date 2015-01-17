@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+    </style>
+
+    <style name="toolbarStyle" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppHasActionBar" parent="AppTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">true</item>
+        <item name="actionBarPopupTheme">@style/Theme.AppCompat.Light</item>
+    </style>
+
+</resources>
