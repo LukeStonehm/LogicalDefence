@@ -1,6 +1,7 @@
 package za.co.lukestonehm.logicaldefence;
 
 import android.app.Activity;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -81,8 +82,13 @@ public class MainActivity extends ActionBarActivity
         mDrawerListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-//                ListView lv = (ListView)view.getParent();
-                view.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
+                TextView tv = (TextView) parent.getChildAt(mCurrentSelectedPosition);
+                tv.setBackgroundColor(Color.TRANSPARENT);
+                tv.setTextColor(getResources().getColor(R.color.primary_dark_material_dark));
+
+                tv = (TextView) view;
+                tv.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
+                tv.setTextColor(Color.WHITE);
                 selectItem(position);
             }
         });
@@ -147,7 +153,7 @@ public class MainActivity extends ActionBarActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_about) {
             return true;
         }
 
