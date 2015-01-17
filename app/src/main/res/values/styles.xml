@@ -1,15 +1,22 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="actionBarStyle">@style/barTheme</item>
     </style>
 
     <style name="toolbarStyle" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppHasActionBar" parent="AppTheme">
         <item name="android:windowNoTitle">true</item>
-        <item name="windowActionBar">true</item>
-        <item name="actionBarPopupTheme">@style/Theme.AppCompat.Light</item>
+        <item name="windowActionBarOverlay">false</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="actionBarPopupTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+    </style>
+
+    <style name="barTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:background">@color/colorPrimary</item>
     </style>
 
 </resources>

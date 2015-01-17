@@ -2,12 +2,19 @@
 <resources>
 
     <string name="app_name">LogicalDefence</string>
-    <string name="title_section1">Section 1</string>
-    <string name="title_section2">Section 2</string>
-    <string name="title_section3">Section 3</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_example">Example action</string>
     <string name="action_settings">Settings</string>
+    <string name="catlbl">Catergories</string>
+
+    <string-array name="sections">
+        <item>Appeal to the Mind</item>
+        <item>Appeal to the Emotions</item>
+        <item>Faulty Deduction</item>
+        <item>Garbled Cause &amp; Effect</item>
+        <item>Manipulating Content</item>
+        <item>On the Attack</item>
+    </string-array>
 
 </resources>
