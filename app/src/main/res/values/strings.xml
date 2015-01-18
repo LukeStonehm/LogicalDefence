@@ -89,4 +89,82 @@
         <item>\'The President wouldn\'t lie. He\'s our leader and a good American.\'</item>
     </string-array>
 
+    <string-array name="fallacies_titles_3">
+        <item>Anecdotal Evidence</item>
+        <item>Composition</item>
+        <item>Division</item>
+        <item>Design Fallacy</item>
+        <item>Gambler\'s Fallacy</item>
+        <item>Hasty Generalization</item>
+        <item>Jumping to Conclusions</item>
+        <item>Middle Ground</item>
+        <item>Perfectionist Fallacy</item>
+        <item>Relativist Fallacy</item>
+        <item>Spotlight</item>
+        <item>Sweeping Generalisation</item>
+        <item>Undistributed Middle</item>
+    </string-array>
+
+    <string-array name="fallacies_descs_3">
+        <item>Discounting evidence arrived at by systematic search or testing in favor of a few firsthand stories.</item>
+        <item>Assuming that characteristics or beliefs of some of a group applies to the entire group.</item>
+        <item>Assuming that characteristics or beliefs of a group automatically apply to any individual member.</item>
+        <item>Assuming that because something is nicely designed or beautifully visualized, it\'s more valid or better.</item>
+        <item>Assuming a history of independent outcomes will affect future outcomes.</item>
+        <item>Drawing a general conclusion from a tiny sample.</item>
+        <item>Drawing a quick conclusion without fairly considering relevant (and easily available) evidence.</item>
+        <item>Assuming because two opposing arguments have merit, the answer must lie somewhere in between them.</item>
+        <item>Assuming that the only option on the table is perfect success, then rejecting anything that will not work perfectly.</item>
+        <item>Rejecting a claim because of a belief that truth is relative to a person or group.</item>
+        <item>Assuming an observation from a small sample size applies tp am entire group.</item>
+        <item>Applying a general rule too broadly.</item>
+        <item>Assuming because two things share a property, that makes them the same thing.</item>
+    </string-array>
+
+    <string-array name="fallacies_examples_3">
+        <item>\'I\'m going to carry on smoking. My grandfather smoked 40 a day until he died at the age of 90.\'</item>
+        <item>\'Recent terrorist attacks have been carried out by Islamic groups, therefore all terrorists are muslims.\'</item>
+        <item>\'Many Conservatives wish to ban gay marriage, discredit climate change, and deny evolution, therefore all conservatives are homophobic, anti-environment creationists.\'</item>
+        <item>\'Elementary OS is the most well designed and best looking Linux distribution, therefore it is superior.\'</item>
+        <item>\'I\'ve flipped a coin 10 times in a row and it\'s been heads each time, therefore the next coin flip is more likely to come up with tails.\'</item>
+        <item>\'I just got cut up by the woman driver in front. Women can\'t drive.\'</item>
+        <item>\'She wants birth control in her medical cover? What a slut!\'</item>
+        <item>\'I rear ended your car but I don\'t think I should pay for the damage. You think I should pay for all the damage. A fair compromise would be to split the bill in half.\'</item>
+        <item>\'What\'s the point of these anti-drunk driving ad campaigns? People are still going to drink and drive no matter what.\'</item>
+        <item>\'That\'s perhaps true for you, but it\'s not true for me.\'</item>
+        <item>\'This large show manufacturer employs children in sweatshops. Therefore all show companies are evil child-slave owners!\'</item>
+        <item>\'Those young men rioted because they lacked morally responsible fathers.\'</item>
+        <item>\'A theory can mean an unproven idea. Scientists use the term \'the Theory of Evolution\', therefore evolution is an unproven idea.\'</item>
+    </string-array>
+
+    <string-array name="fallacies_titles_4">
+        <item>Affirming the Consequent</item>
+        <item>Circular Logic</item>
+        <item>Cum Hoc Ergo Propter Hoc</item>
+        <item>Denying the Antecedent</item>
+        <item>Ignoring a Common Cause</item>
+        <item>Post Hoc Ergo Propter Hoc</item>
+        <item>Two Wrongs Make a Right</item>
+    </string-array>
+
+    <string-array name="fallacies_descs_4">
+        <item>Assuming there\'s only one explanation for the observation you\'re making.</item>
+        <item>A conclusion is derived from premises based on the conclusion.</item>
+        <item>Claiming two events that occur together must have a cause-and-effect relationship. Also know as \'Confusing Causation with Correlation.\'</item>
+        <item>There isn\'t only one explanation for an outcome, so its false to assume the cause based on the effect.</item>
+        <item>Claiming one event must have caused the other when a third (unseen) event is probably the cause.</item>
+        <item>Claiming that because one event followed another, it was also caused by it.</item>
+        <item>Assuming that if one wrong is committed, another wrong will cancel it out.</item>
+    </string-array>
+
+    <string-array name="fallacies_examples_4">
+        <item>\'Marriage often results in the birth of children, so that\'s the reason why it exists.\'</item>
+        <item>\'Stripping privacy rights only matters to those with something to hide. You must have something to hide if you oppose stripping privacy rights.\'</item>
+        <item>\'Teenagers in gangs listen to rap music with violent themes. Rap music inspires violence in teenagers.\'</item>
+        <item>\'If you get a degree, you\'ll get a good job. If you don;t get a degree, you won\'t get a good job.\'</item>
+        <item>\'We had the 60s sexual revolution, and now people are dying of AIDS.\'</item>
+        <item>\'Since the election of the President, more people than ever are unemployed, therefore the President has damaged the economy.\'</item>
+        <item>\'Sure - the conditions in this prison are cruel and dehumanising, but these inmates are criminals!\'</item>
+    </string-array>
+
 </resources>

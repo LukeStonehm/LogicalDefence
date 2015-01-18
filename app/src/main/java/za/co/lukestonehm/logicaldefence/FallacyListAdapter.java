@@ -42,20 +42,20 @@ public class FallacyListAdapter extends BaseAdapter {
     public View getView(int i, View view, ViewGroup viewGroup) {
         LayoutInflater mInflater = (LayoutInflater)
                 c.getSystemService(Activity.LAYOUT_INFLATER_SERVICE);
-        if (view == null) {
-            view = mInflater.inflate(R.layout.list_item, null);
 
-            Fallacy f = fallaciesItems.get(i);
+        view = mInflater.inflate(R.layout.list_item, null);
 
-            TextView tv = (TextView) view.findViewById(R.id.fallacy_title);
-            tv.setText(f.getTitle());
+        Fallacy f = fallaciesItems.get(i);
 
-            tv = (TextView) view.findViewById(R.id.fallacy_desc);
-            tv.setText(f.getDesc());
+        TextView tv = (TextView) view.findViewById(R.id.fallacy_title);
+        tv.setText(f.getTitle());
 
-            tv = (TextView) view.findViewById(R.id.fallacy_example);
-            tv.setText(f.getExample());
-        }
+        tv = (TextView) view.findViewById(R.id.fallacy_desc);
+        tv.setText(f.getDesc());
+
+        tv = (TextView) view.findViewById(R.id.fallacy_example);
+        tv.setText(f.getExample());
+
 
         return view;
     }
