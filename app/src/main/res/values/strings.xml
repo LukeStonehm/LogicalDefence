@@ -16,4 +16,43 @@
         <item>On the Attack</item>
     </string-array>
 
+    <string-array name="fallacies_titles_1">
+        <item>Appeal to Anonymous Authority</item>
+        <item>Appeal to Authority</item>
+        <item>Appeal to Common Practice</item>
+        <item>Appeal to Ignorance</item>
+        <item>Appeal to Incredulity</item>
+        <item>Appeal to Money</item>
+        <item>Appeal to Novelty</item>
+        <item>Appeal to Popular Belief</item>
+        <item>Appeal to Probability</item>
+        <item>Appeal to Tradition</item>
+    </string-array>
+
+    <string-array name="fallacies_descs_1">
+        <item>Using evidence from an unnamed \'expert\' or \'study\' or generalized group (like \'scientists\') to claim something is true.</item>
+        <item>Claiming something is true because an (unqualified or untrustworthy) \'expert\' says it is.</item>
+        <item>Claiming something is true because it\'s commonly practiced.</item>
+        <item>A claim is true simply because it has not been proven false (or false because it has not been proven true).</item>
+        <item>Because a claim sounds unbelievable, it must not be true.</item>
+        <item>Supposing that, if someone is rich or something is expensive, then it affects the truth of the claim.</item>
+        <item>Supposing something is better because it is new or newer.</item>
+        <item>Claiming something is true because the majority of people believe it.</item>
+        <item>Assuming because something could happen, it will inevitably happen.</item>
+        <item>Claiming something is true because it\'s (apparently) always been that way.</item>
+    </string-array>
+
+    <string-array name="fallacies_examples_1">
+        <item>\'They say that it takes 7 years to digest chewing gum.\'</item>
+        <item>\'Over 4000 prominent scientists and engineers dispute global warming.\'</item>
+        <item>\'This bank has some problems with corruption, but there\'s nothing going on here that doesn\'t go on in all other banks.\'chr</item>
+        <item>\'Nobody has proven to me there is a God. So I know there is no God.\'</item>
+        <item>\'The eye is an incredibly complex biomechanical machine with thousands of interlocking parts. How could that exist without an intelligent designer?\'</item>
+        <item>\'If it costs more, it must be better.\'</item>
+        <item>\'Awesome! The latest version of this operating system is going to make my computer faster and better..\'</item>
+        <item>\'Milk is essential for healthier bones.\'</item>
+        <item>\'There are billions of galaxies with billions of starts in the universe, so there must be another planet with intelligent life on it.\'</item>
+        <item>\'The government has always existed, therefore society cannot live without one.\'</item>
+    </string-array>
+
 </resources>

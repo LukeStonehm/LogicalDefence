@@ -21,6 +21,9 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+import java.util.List;
+
 
 public class MainActivity extends ActionBarActivity
         implements NavCallback {
@@ -71,6 +74,7 @@ public class MainActivity extends ActionBarActivity
 
             @Override
             public void onDrawerOpened(View drawerView) {
+                setDrawerItemSelected((TextView) mDrawerListView.getChildAt(mCurrentSelectedPosition));
                 super.onDrawerOpened(drawerView);
             }
         };
@@ -82,13 +86,8 @@ public class MainActivity extends ActionBarActivity
         mDrawerListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                TextView tv = (TextView) parent.getChildAt(mCurrentSelectedPosition);
-                tv.setBackgroundColor(Color.TRANSPARENT);
-                tv.setTextColor(getResources().getColor(R.color.primary_dark_material_dark));
-
-                tv = (TextView) view;
-                tv.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
-                tv.setTextColor(Color.WHITE);
+                unsetDrawerItemSelected((TextView) parent.getChildAt(mCurrentSelectedPosition));
+                setDrawerItemSelected((TextView) view);
                 selectItem(position);
             }
         });
@@ -106,6 +105,7 @@ public class MainActivity extends ActionBarActivity
         changeSection(mCurrentSelectedPosition);
     }
 
+
     private void selectItem(int position) {
         mCurrentSelectedPosition = position;
 
@@ -122,6 +122,16 @@ public class MainActivity extends ActionBarActivity
         fragmentManager.beginTransaction()
                 .replace(R.id.container, PlaceholderFragment.newInstance(position + 1))
                 .commit();
+    }
+
+    private void setDrawerItemSelected(TextView item) {
+        item.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
+        item.setTextColor(Color.WHITE);
+    }
+
+    private void unsetDrawerItemSelected(TextView item) {
+        item.setBackgroundColor(Color.TRANSPARENT);
+        item.setTextColor(getResources().getColor(R.color.primary_dark_material_dark));
     }
 
     @Override
@@ -189,10 +199,25 @@ public class MainActivity extends ActionBarActivity
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
             View v = inflater.inflate(R.layout.fragment_main, container, false);
-            TextView tv = (TextView) v.findViewById(R.id.section_label);
-            tv.setText("Section: " + getArguments().getInt(ARG_SECTION_NUMBER));
+
+            String[] titles = getStringArrByName("fallacies_titles_" + getArguments().getInt(ARG_SECTION_NUMBER));
+            String[] descs = getStringArrByName("fallacies_descs_" + getArguments().getInt(ARG_SECTION_NUMBER));
+            String[] examples = getStringArrByName("fallacies_examples_" + getArguments().getInt(ARG_SECTION_NUMBER));
+
+            List<Fallacy> fallacies = generateFallacyList(titles, descs, examples);
+
+            ListView lv = (ListView) v.findViewById(R.id.sec_lv);
+            FallacyListAdapter fla = new FallacyListAdapter(getActivity(), fallacies);
+            lv.setAdapter(fla);
+
             //TODO: display things here
             return v;
+        }
+
+        private String[] getStringArrByName(String name) {
+            int i = getResources().getIdentifier(name, "array",
+                    getActivity().getApplicationContext().getPackageName()); // You had used "name"
+            return getResources().getStringArray(i);
         }
 
         @Override
@@ -200,6 +225,14 @@ public class MainActivity extends ActionBarActivity
             super.onAttach(activity);
             ((MainActivity) activity).onSectionAttached(
                     getArguments().getInt(ARG_SECTION_NUMBER));
+        }
+
+        private List<Fallacy> generateFallacyList(String[] titles, String[] descs, String[] examples) {
+            List<Fallacy> list = new ArrayList<>();
+            for (int i = 0; i < titles.length; i++) {
+                list.add(new Fallacy(i, titles[i], descs[i], examples[i]));
+            }
+            return list;
         }
     }
 

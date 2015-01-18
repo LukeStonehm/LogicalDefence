@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:layout_marginTop="20dp"
+    android:background="@android:color/holo_red_dark">
+
+    <TextView
+        android:id="@+id/section_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/primary_dark_material_dark"
+        android:text="testing testing" />
+
+    <View
+        android:id="@+id/title_sep"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_below="@+id/section_label"
+        android:layout_centerVertical="true"
+        android:background="@color/primary_dark_material_dark" />
+
+
+</RelativeLayout>
