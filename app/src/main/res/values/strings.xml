@@ -16,7 +16,6 @@
         <item>Manipulating Content</item>
         <item>On the Attack</item>
     </string-array>
-
     <string-array name="fallacies_titles_1">
         <item>Appeal to Anonymous Authority</item>
         <item>Appeal to Authority</item>
@@ -29,7 +28,6 @@
         <item>Appeal to Probability</item>
         <item>Appeal to Tradition</item>
     </string-array>
-
     <string-array name="fallacies_descs_1">
         <item>Using evidence from an unnamed \'expert\' or \'study\' or generalized group (like \'scientists\') to claim something is true.</item>
         <item>Claiming something is true because an (unqualified or untrustworthy) \'expert\' says it is.</item>
@@ -42,7 +40,6 @@
         <item>Assuming because something could happen, it will inevitably happen.</item>
         <item>Claiming something is true because it\'s (apparently) always been that way.</item>
     </string-array>
-
     <string-array name="fallacies_examples_1">
         <item>\'They say that it takes 7 years to digest chewing gum.\'</item>
         <item>\'Over 4000 prominent scientists and engineers dispute global warming.\'</item>
@@ -55,7 +52,6 @@
         <item>\'There are billions of galaxies with billions of starts in the universe, so there must be another planet with intelligent life on it.\'</item>
         <item>\'The government has always existed, therefore society cannot live without one.\'</item>
     </string-array>
-
     <string-array name="fallacies_titles_2">
         <item>Appeal to Consequences of a Belief</item>
         <item>Appeal to Fear</item>
@@ -66,7 +62,6 @@
         <item>Appeal to Spite</item>
         <item>Appeal to Wishful Thinking</item>
     </string-array>
-
     <string-array name="fallacies_descs_2">
         <item>Arguing a belief is false because it implies something you\'d rather not believe.</item>
         <item>An argument is made by increasing fear and prejudice towards the opposing side.</item>
@@ -77,7 +72,6 @@
         <item>Dismissing a claim by appealing to personal bias against the claimant.</item>
         <item>Suggesting a claim is true or false just because you strongly hope it is.</item>
     </string-array>
-
     <string-array name="fallacies_examples_2">
         <item>\'That can\'t be the Senator on that sex-tape. If it were, he\'d be lying about not knowing her, and he\'s not the kind of man who would lie.\'</item>
         <item>\'Before you know there will be more mosques that churches.\'</item>
@@ -88,7 +82,6 @@
         <item>\'Don\'t you just hate how those rich Liberal Hollywood actors go on TV to promote their agendas?\'</item>
         <item>\'The President wouldn\'t lie. He\'s our leader and a good American.\'</item>
     </string-array>
-
     <string-array name="fallacies_titles_3">
         <item>Anecdotal Evidence</item>
         <item>Composition</item>
@@ -104,7 +97,6 @@
         <item>Sweeping Generalisation</item>
         <item>Undistributed Middle</item>
     </string-array>
-
     <string-array name="fallacies_descs_3">
         <item>Discounting evidence arrived at by systematic search or testing in favor of a few firsthand stories.</item>
         <item>Assuming that characteristics or beliefs of some of a group applies to the entire group.</item>
@@ -120,7 +112,6 @@
         <item>Applying a general rule too broadly.</item>
         <item>Assuming because two things share a property, that makes them the same thing.</item>
     </string-array>
-
     <string-array name="fallacies_examples_3">
         <item>\'I\'m going to carry on smoking. My grandfather smoked 40 a day until he died at the age of 90.\'</item>
         <item>\'Recent terrorist attacks have been carried out by Islamic groups, therefore all terrorists are muslims.\'</item>
@@ -136,7 +127,6 @@
         <item>\'Those young men rioted because they lacked morally responsible fathers.\'</item>
         <item>\'A theory can mean an unproven idea. Scientists use the term \'the Theory of Evolution\', therefore evolution is an unproven idea.\'</item>
     </string-array>
-
     <string-array name="fallacies_titles_4">
         <item>Affirming the Consequent</item>
         <item>Circular Logic</item>
@@ -146,7 +136,6 @@
         <item>Post Hoc Ergo Propter Hoc</item>
         <item>Two Wrongs Make a Right</item>
     </string-array>
-
     <string-array name="fallacies_descs_4">
         <item>Assuming there\'s only one explanation for the observation you\'re making.</item>
         <item>A conclusion is derived from premises based on the conclusion.</item>
@@ -156,7 +145,6 @@
         <item>Claiming that because one event followed another, it was also caused by it.</item>
         <item>Assuming that if one wrong is committed, another wrong will cancel it out.</item>
     </string-array>
-
     <string-array name="fallacies_examples_4">
         <item>\'Marriage often results in the birth of children, so that\'s the reason why it exists.\'</item>
         <item>\'Stripping privacy rights only matters to those with something to hide. You must have something to hide if you oppose stripping privacy rights.\'</item>
@@ -166,5 +154,74 @@
         <item>\'Since the election of the President, more people than ever are unemployed, therefore the President has damaged the economy.\'</item>
         <item>\'Sure - the conditions in this prison are cruel and dehumanising, but these inmates are criminals!\'</item>
     </string-array>
+    <string-array name="fallacies_titles_5">
+        <item>Ad Hoc Rescue</item>
+        <item>Begging the Question</item>
+        <item>Biased Generalizing</item>
+        <item>Confirmation Bias</item>
+        <item>False Dilemma</item>
+        <item>Lie</item>
+        <item>Misleading Vividness</item>
+        <item>Red Herring</item>
+        <item>Slippery Slope</item>
+        <item>Suppressed Evidence</item>
+        <item>Unfalsifiability</item>
+    </string-array>
+    <string-array name="fallacies_descs_5">
+        <item>Trying to save a cherished belief by repeatedly revising the argument to explain away problems.</item>
+        <item>Hiding other contributory factors and supporting the truth of your claim without any evidence other than the conclusion of your claim.</item>
+        <item>Generalizing from an unrepresentative sample to increase the strength of your argument.</item>
+        <item>Looking only for evidence that supports your argument while ignoring contradicting evidence.</item>
+        <item>Presenting two opposing options as the two options while hiding alternatives.</item>
+        <item>An outright untruth repeated knowingly as a fact.</item>
+        <item>Describing an occurrence in vivid detail, even if it is a rare occurrence, to convince someone that it is a true.</item>
+        <item>Introducing irrelevant material to the argument to distract and lead towards a different conclusion.</item>
+        <item>Assuming a relatively small first step will inevitably lead to a chain of related (negative) events.</item>
+        <item>Intentionally failing to use significant and relevant information which counts against one\'s own conclusion.</item>
+        <item>Offering a claim that cannot be proven false, because there is no way to check if it is false or not.</item>
+    </string-array>
+    <string-array name="fallacies_examples_5">
+        <item>\'But apart from better sanitation, medicine, education, irrigation, public health, roads, a freshwater system and public order.. What have the Romans done for us?\'</item>
+        <item>\'All illegal drugs are harmful - that\'s why they\'re illegal.\'</item>
+        <item>\'Our website poll found that 90% of internet users oppose online piracy laws.\'</item>
+        <item>\'It\'s obvious – was an American-government led conspiracy to justify the war in Iraq and Afghanistan. No plane hit the Pentagon. The Twin Towers collapse was a controlled demolition… etc.\'</item>
+        <item>\'We\'re going to have to cut the education budget or go deeper into debt. We can\'t afford to go deeper into debt, so we\'ll have to cut the education budger.\'</item>
+        <item>\'I did not have sexual relations with that women.\'</item>
+        <item>\'After legalising gay marriage, school libraries were required to stock same-sex literature; primary schoolchildren where given homosexual fairy tales and even manuals of explicit homosexual advocacy.\'</item>
+        <item>\'Why should the senator account for irregularities in his expenses? After all, these are senators who have done far worse things.\'</item>
+        <item>\'If we legalize marijuana, more people will start using crack and heroin, then we\'d have to legalize those too.\'</item>
+        <item>\'This Iraqi regime possesses and produces chemical and biological weapons. It is seeking nuclear weapons.\'</item>
+        <item>\'He lied because he\'s possessed by demons.\'</item>
+    </string-array>
+    <string-array name="fallacies_titles_6">
+        <item>Ad Hominem</item>
+        <item>Burden of Proof</item>
+        <item>Circumstance Ad Hominem</item>
+        <item>Genetic Fallacy</item>
+        <item>Guilt by Association</item>
+        <item>Straw Man</item>
+    </string-array>
+    <string-array name="fallacies_descs_6">
+        <item>Bypassing the argument by launching an irrelevant attack on the person rather than their claim.</item>
+        <item>I don\'t need to prove my claim - you must prove it is false.</item>
+        <item>Stating a claim isn\'t credible only because of the advocate\'s interest in their claim.</item>
+        <item>Attacking the cause or origin of a claim, rather than it\'s substance.</item>
+        <item>Discrediting an idea or claim by associating it with an undesirable person or group.</item>
+        <item>Creating a distorted or simplified caricature of your opponents argument, and the arguing against that.</item>
+    </string-array>
+    <string-array name="fallacies_examples_6">
+        <item>\'Anyone that says we should build the Ground Zero Mosque is an American-hating liberal.\'</item>
+        <item>\'I maintain long-term solar cycles are the cause of global warming. Show my I\'m wrong.\'</item>
+        <item>\'A study into the health risks of mobile phones involved mobile phone companies, therefore the study cannot be trusted.\'</item>
+        <item>\'Of course, mainstream liberal media aren\'t going to say Barack Obama is a Muslim.\'</item>
+        <item>\'Oh you want to relax the anti-terrorism laws just like the terrorists want us to do. Are you saying you support terrorism?\'</item>
+        <item>\'You say Israel should stop building settlements on the West Bank in violation of the treaty, so you\'re saying Israel doesn\'t have the right to be a nation?\'</item>
+    </string-array>
+
+    <string name="title_activity_about">About</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="creator">Created by LukeStoneHm\n2015</string>
+    <string name="about_more">A simple app, but beautiful app that presents the logical fallacies of the world in a well presented manner.\n\nThis app is an open source project and is licensed under the GPL2 license.\n\nFeel free to browse the source code which is hosted on GitHub.\n\nhttps://github.com/LukeStonehm/LogicalDefence/</string>
 
 </resources>
