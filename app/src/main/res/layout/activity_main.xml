@@ -40,15 +40,41 @@
         android:name="za.co.lukestonehm.logicaldefence.NavigationDrawerFragment">
 
         <TextView
+            android:id="@+id/navTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:gravity="center_vertical"
+            android:paddingTop="@dimen/item_margin"
+            android:background="@color/colorPrimary"
+            android:paddingLeft="@dimen/nav_drawer_item_padding"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:layout_below="@+id/navTitle"
+            android:id="@+id/navSubTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/subTitle"
+            android:gravity="center_vertical"
+            android:background="@color/colorPrimary"
+            android:paddingLeft="@dimen/nav_drawer_item_padding"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
             android:id="@+id/navHeader"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
+            android:layout_below="@+id/navSubTitle"
             android:text="@string/catlbl"
             android:gravity="center_vertical"
             android:background="@color/colorPrimary"
             android:paddingLeft="@dimen/nav_drawer_item_padding"
             android:textColor="@android:color/white"
             android:textAppearance="?android:attr/textAppearanceMedium" />
+
 
         <ListView
             android:layout_below="@+id/navHeader"

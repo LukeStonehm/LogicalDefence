@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.TextView;
 
 import java.util.List;
 
@@ -43,6 +44,17 @@ public class FallacyListAdapter extends BaseAdapter {
                 c.getSystemService(Activity.LAYOUT_INFLATER_SERVICE);
         if (view == null) {
             view = mInflater.inflate(R.layout.list_item, null);
+
+            Fallacy f = fallaciesItems.get(i);
+
+            TextView tv = (TextView) view.findViewById(R.id.fallacy_title);
+            tv.setText(f.getTitle());
+
+            tv = (TextView) view.findViewById(R.id.fallacy_desc);
+            tv.setText(f.getDesc());
+
+            tv = (TextView) view.findViewById(R.id.fallacy_example);
+            tv.setText(f.getExample());
         }
 
         return view;

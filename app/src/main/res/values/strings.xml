@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">LogicalDefence</string>
+    <string name="app_name">Logical Defence</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_about">About</string>
     <string name="catlbl">Categories</string>
+    <string name="subTitle">The beautiful list of logical fallacies</string>
 
     <string-array name="sections">
         <item>Appeal to the Mind</item>
@@ -45,7 +46,7 @@
     <string-array name="fallacies_examples_1">
         <item>\'They say that it takes 7 years to digest chewing gum.\'</item>
         <item>\'Over 4000 prominent scientists and engineers dispute global warming.\'</item>
-        <item>\'This bank has some problems with corruption, but there\'s nothing going on here that doesn\'t go on in all other banks.\'chr</item>
+        <item>\'This bank has some problems with corruption, but there\'s nothing going on here that doesn\'t go on in all other banks.\'</item>
         <item>\'Nobody has proven to me there is a God. So I know there is no God.\'</item>
         <item>\'The eye is an incredibly complex biomechanical machine with thousands of interlocking parts. How could that exist without an intelligent designer?\'</item>
         <item>\'If it costs more, it must be better.\'</item>
@@ -53,6 +54,39 @@
         <item>\'Milk is essential for healthier bones.\'</item>
         <item>\'There are billions of galaxies with billions of starts in the universe, so there must be another planet with intelligent life on it.\'</item>
         <item>\'The government has always existed, therefore society cannot live without one.\'</item>
+    </string-array>
+
+    <string-array name="fallacies_titles_2">
+        <item>Appeal to Consequences of a Belief</item>
+        <item>Appeal to Fear</item>
+        <item>Appeal to Flattery</item>
+        <item>Appeal to Nature</item>
+        <item>Appeal to Pity</item>
+        <item>Appeal to Ridicule</item>
+        <item>Appeal to Spite</item>
+        <item>Appeal to Wishful Thinking</item>
+    </string-array>
+
+    <string-array name="fallacies_descs_2">
+        <item>Arguing a belief is false because it implies something you\'d rather not believe.</item>
+        <item>An argument is made by increasing fear and prejudice towards the opposing side.</item>
+        <item>Using an irrelevant compliment to slip in an unfounded claim which is accepted along with the compliment.</item>
+        <item>Making your claim seem more true by drawing a comparison with the \'good\' natural world.</item>
+        <item>Attempt to induce pity to sway opponents.</item>
+        <item>Presenting the opponent\'s argument in a way that makes it appear absurd.</item>
+        <item>Dismissing a claim by appealing to personal bias against the claimant.</item>
+        <item>Suggesting a claim is true or false just because you strongly hope it is.</item>
+    </string-array>
+
+    <string-array name="fallacies_examples_2">
+        <item>\'That can\'t be the Senator on that sex-tape. If it were, he\'d be lying about not knowing her, and he\'s not the kind of man who would lie.\'</item>
+        <item>\'Before you know there will be more mosques that churches.\'</item>
+        <item>\'Intelligent and sophisticated readers will of course recognise a fallacy like this when they read one.\'</item>
+        <item>\'Of course homosexuality is unnatural. You don\'t see same-sex animals copulating.\'</item>
+        <item>\'The former dictator is an old, dying man. It\'s wrong to make him stand trial for these alleged offenses.\'</item>
+        <item>\'Faith in God is like believing in Santa Claus and the Tooth Fairy.\'</item>
+        <item>\'Don\'t you just hate how those rich Liberal Hollywood actors go on TV to promote their agendas?\'</item>
+        <item>\'The President wouldn\'t lie. He\'s our leader and a good American.\'</item>
     </string-array>
 
 </resources>
