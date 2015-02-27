@@ -141,6 +141,8 @@ public class MainActivity extends ActionBarActivity
     }
 
     public void onSectionAttached(int number) {
+        if (sections == null)
+            sections = getResources().getStringArray(R.array.sections);
         mTitle = sections[number - 1];
     }
 
