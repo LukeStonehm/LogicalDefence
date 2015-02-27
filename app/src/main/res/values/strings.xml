@@ -222,6 +222,6 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="creator">Created by LukeStoneHm\n2015</string>
-    <string name="about_more">A simple app, but beautiful app that presents the logical fallacies of the world in a well presented manner.\n\nThis app is an open source project and is licensed under the GPL2 license.\n\nFeel free to browse the source code which is hosted on GitHub.\n\nhttps://github.com/LukeStonehm/LogicalDefence/</string>
+    <string name="about_more">A simple, but beautiful app that presents the logical fallacies of the world in a fantastically eye pleasing manner.\n\nThis app is an open source project and is licensed under the GPL2 license.\n\nFeel free to browse the source code which is hosted on GitHub.\n\nhttps://github.com/LukeStonehm/LogicalDefence/</string>
 
 </resources>
