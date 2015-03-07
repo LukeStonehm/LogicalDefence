@@ -211,7 +211,6 @@ public class MainActivity extends ActionBarActivity
             FallacyListAdapter fla = new FallacyListAdapter(getActivity(), fallacies);
             lv.setAdapter(fla);
 
-            //TODO: display things here
             return v;
         }
 
