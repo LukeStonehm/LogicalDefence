@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sections">
+        <item>@string/section_1</item>
+        <item>@string/section_2</item>
+        <item>@string/section_3</item>
+        <item>@string/section_4</item>
+        <item>@string/section_5</item>
+        <item>@string/section_6</item>
+    </string-array>
+
+    <!--fallacies 1-->
+    <string-array name="fallacies_titles_1">
+        <item>@string/fallacies_titles_1_1</item>
+        <item>@string/fallacies_titles_1_2</item>
+        <item>@string/fallacies_titles_1_3</item>
+        <item>@string/fallacies_titles_1_4</item>
+        <item>@string/fallacies_titles_1_5</item>
+        <item>@string/fallacies_titles_1_6</item>
+        <item>@string/fallacies_titles_1_7</item>
+        <item>@string/fallacies_titles_1_8</item>
+        <item>@string/fallacies_titles_1_9</item>
+        <item>@string/fallacies_titles_1_10</item>
+    </string-array>
+    <string-array name="fallacies_descs_1">
+        <item>@string/fallacies_descs_1_1</item>
+        <item>@string/fallacies_descs_1_2</item>
+        <item>@string/fallacies_descs_1_3</item>
+        <item>@string/fallacies_descs_1_4</item>
+        <item>@string/fallacies_descs_1_5</item>
+        <item>@string/fallacies_descs_1_6</item>
+        <item>@string/fallacies_descs_1_7</item>
+        <item>@string/fallacies_descs_1_8</item>
+        <item>@string/fallacies_descs_1_9</item>
+        <item>@string/fallacies_descs_1_10</item>
+    </string-array>
+    <string-array name="fallacies_examples_1">
+        <item>@string/fallacies_examples_1_1</item>
+        <item>@string/fallacies_examples_1_2</item>
+        <item>@string/fallacies_examples_1_3</item>
+        <item>@string/fallacies_examples_1_4</item>
+        <item>@string/fallacies_examples_1_5</item>
+        <item>@string/fallacies_examples_1_6</item>
+        <item>@string/fallacies_examples_1_7</item>
+        <item>@string/fallacies_examples_1_8</item>
+        <item>@string/fallacies_examples_1_9</item>
+        <item>@string/fallacies_examples_1_10</item>
+    </string-array>
+
+    <!--fallacies 2-->
+    <string-array name="fallacies_titles_2">
+        <item>@string/fallacies_titles_2_1</item>
+        <item>@string/fallacies_titles_2_2</item>
+        <item>@string/fallacies_titles_2_3</item>
+        <item>@string/fallacies_titles_2_4</item>
+        <item>@string/fallacies_titles_2_5</item>
+        <item>@string/fallacies_titles_2_6</item>
+        <item>@string/fallacies_titles_2_7</item>
+        <item>@string/fallacies_titles_2_8</item>
+    </string-array>
+    <string-array name="fallacies_descs_2">
+        <item>@string/fallacies_descs_2_1</item>
+        <item>@string/fallacies_descs_2_2</item>
+        <item>@string/fallacies_descs_2_3</item>
+        <item>@string/fallacies_descs_2_4</item>
+        <item>@string/fallacies_descs_2_5</item>
+        <item>@string/fallacies_descs_2_6</item>
+        <item>@string/fallacies_descs_2_7</item>
+        <item>@string/fallacies_descs_2_8</item>
+    </string-array>
+    <string-array name="fallacies_examples_2">
+        <item>@string/fallacies_examples_2_1</item>
+        <item>@string/fallacies_examples_2_2</item>
+        <item>@string/fallacies_examples_2_3</item>
+        <item>@string/fallacies_examples_2_4</item>
+        <item>@string/fallacies_examples_2_5</item>
+        <item>@string/fallacies_examples_2_6</item>
+        <item>@string/fallacies_examples_2_7</item>
+        <item>@string/fallacies_examples_2_8</item>
+    </string-array>
+
+    <!--fallacies 3-->
+    <string-array name="fallacies_titles_3">
+        <item>@string/fallacies_titles_3_1</item>
+        <item>@string/fallacies_titles_3_2</item>
+        <item>@string/fallacies_titles_3_3</item>
+        <item>@string/fallacies_titles_3_4</item>
+        <item>@string/fallacies_titles_3_5</item>
+        <item>@string/fallacies_titles_3_6</item>
+        <item>@string/fallacies_titles_3_7</item>
+        <item>@string/fallacies_titles_3_8</item>
+        <item>@string/fallacies_titles_3_9</item>
+        <item>@string/fallacies_titles_3_10</item>
+        <item>@string/fallacies_titles_3_11</item>
+        <item>@string/fallacies_titles_3_12</item>
+        <item>@string/fallacies_titles_3_13</item>
+    </string-array>
+    <string-array name="fallacies_descs_3">
+        <item>@string/fallacies_descs_3_1</item>
+        <item>@string/fallacies_descs_3_2</item>
+        <item>@string/fallacies_descs_3_3</item>
+        <item>@string/fallacies_descs_3_4</item>
+        <item>@string/fallacies_descs_3_5</item>
+        <item>@string/fallacies_descs_3_6</item>
+        <item>@string/fallacies_descs_3_7</item>
+        <item>@string/fallacies_descs_3_8</item>
+        <item>@string/fallacies_descs_3_9</item>
+        <item>@string/fallacies_descs_3_10</item>
+        <item>@string/fallacies_descs_3_11</item>
+        <item>@string/fallacies_descs_3_12</item>
+        <item>@string/fallacies_descs_3_13</item>
+    </string-array>
+    <string-array name="fallacies_examples_3">
+        <item>@string/fallacies_examples_3_1</item>
+        <item>@string/fallacies_examples_3_2</item>
+        <item>@string/fallacies_examples_3_3</item>
+        <item>@string/fallacies_examples_3_4</item>
+        <item>@string/fallacies_examples_3_5</item>
+        <item>@string/fallacies_examples_3_6</item>
+        <item>@string/fallacies_examples_3_7</item>
+        <item>@string/fallacies_examples_3_8</item>
+        <item>@string/fallacies_examples_3_9</item>
+        <item>@string/fallacies_examples_3_10</item>
+        <item>@string/fallacies_examples_3_11</item>
+        <item>@string/fallacies_examples_3_12</item>
+        <item>@string/fallacies_examples_3_13</item>
+    </string-array>
+
+    <!--fallacies 4-->
+    <string-array name="fallacies_titles_4">
+        <item>@string/fallacies_titles_4_1</item>
+        <item>@string/fallacies_titles_4_2</item>
+        <item>@string/fallacies_titles_4_3</item>
+        <item>@string/fallacies_titles_4_4</item>
+        <item>@string/fallacies_titles_4_5</item>
+        <item>@string/fallacies_titles_4_6</item>
+        <item>@string/fallacies_titles_4_7</item>
+    </string-array>
+    <string-array name="fallacies_descs_4">
+        <item>@string/fallacies_descs_4_1</item>
+        <item>@string/fallacies_descs_4_2</item>
+        <item>@string/fallacies_descs_4_3</item>
+        <item>@string/fallacies_descs_4_4</item>
+        <item>@string/fallacies_descs_4_5</item>
+        <item>@string/fallacies_descs_4_6</item>
+        <item>@string/fallacies_descs_4_7</item>
+    </string-array>
+    <string-array name="fallacies_examples_4">
+        <item>@string/fallacies_examples_4_1</item>
+        <item>@string/fallacies_examples_4_2</item>
+        <item>@string/fallacies_examples_4_3</item>
+        <item>@string/fallacies_examples_4_4</item>
+        <item>@string/fallacies_examples_4_5</item>
+        <item>@string/fallacies_examples_4_6</item>
+        <item>@string/fallacies_examples_4_7</item>
+    </string-array>
+
+    <!--fallacies 5-->
+    <string-array name="fallacies_titles_5">
+        <item>@string/fallacies_titles_5_1</item>
+        <item>@string/fallacies_titles_5_2</item>
+        <item>@string/fallacies_titles_5_3</item>
+        <item>@string/fallacies_titles_5_4</item>
+        <item>@string/fallacies_titles_5_5</item>
+        <item>@string/fallacies_titles_5_6</item>
+        <item>@string/fallacies_titles_5_7</item>
+        <item>@string/fallacies_titles_5_8</item>
+        <item>@string/fallacies_titles_5_9</item>
+        <item>@string/fallacies_titles_5_10</item>
+        <item>@string/fallacies_titles_5_11</item>
+    </string-array>
+    <string-array name="fallacies_descs_5">
+        <item>@string/fallacies_descs_5_1</item>
+        <item>@string/fallacies_descs_5_2</item>
+        <item>@string/fallacies_descs_5_3</item>
+        <item>@string/fallacies_descs_5_4</item>
+        <item>@string/fallacies_descs_5_5</item>
+        <item>@string/fallacies_descs_5_6</item>
+        <item>@string/fallacies_descs_5_7</item>
+        <item>@string/fallacies_descs_5_8</item>
+        <item>@string/fallacies_descs_5_9</item>
+        <item>@string/fallacies_descs_5_10</item>
+        <item>@string/fallacies_descs_5_11</item>
+    </string-array>
+    <string-array name="fallacies_examples_5">
+        <item>@string/fallacies_examples_5_1</item>
+        <item>@string/fallacies_examples_5_2</item>
+        <item>@string/fallacies_examples_5_3</item>
+        <item>@string/fallacies_examples_5_4</item>
+        <item>@string/fallacies_examples_5_5</item>
+        <item>@string/fallacies_examples_5_6</item>
+        <item>@string/fallacies_examples_5_7</item>
+        <item>@string/fallacies_examples_5_8</item>
+        <item>@string/fallacies_examples_5_9</item>
+        <item>@string/fallacies_examples_5_10</item>
+        <item>@string/fallacies_examples_5_11</item>
+    </string-array>
+
+    <!--fallacies 6-->
+    <string-array name="fallacies_titles_6">
+        <item>@string/fallacies_titles_6_1</item>
+        <item>@string/fallacies_titles_6_2</item>
+        <item>@string/fallacies_titles_6_3</item>
+        <item>@string/fallacies_titles_6_4</item>
+        <item>@string/fallacies_titles_6_5</item>
+        <item>@string/fallacies_titles_6_6</item>
+    </string-array>
+    <string-array name="fallacies_descs_6">
+        <item>@string/fallacies_descs_6_1</item>
+        <item>@string/fallacies_descs_6_2</item>
+        <item>@string/fallacies_descs_6_3</item>
+        <item>@string/fallacies_descs_6_4</item>
+        <item>@string/fallacies_descs_6_5</item>
+        <item>@string/fallacies_descs_6_6</item>
+    </string-array>
+    <string-array name="fallacies_examples_6">
+        <item>@string/fallacies_examples_6_1</item>
+        <item>@string/fallacies_examples_6_2</item>
+        <item>@string/fallacies_examples_6_3</item>
+        <item>@string/fallacies_examples_6_4</item>
+        <item>@string/fallacies_examples_6_5</item>
+        <item>@string/fallacies_examples_6_6</item>
+    </string-array>
+</resources>
