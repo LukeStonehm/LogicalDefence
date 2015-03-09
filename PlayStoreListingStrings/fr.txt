@@ -1,0 +1,18 @@
+Logical Defence
+
+Préparez-vous à lutter contre les sophistes du monde avec cette belle app
+
+Vous d'acier, et commencent à défendre votre esprit de la langue utilisée contre vous par les sophistes du monde.
+
+Ils sont nombreux, nous sommes peu nombreux, mais avec l'application de la Défense logique, nous avons maintenant un outil supplémentaire dans notre boîte de rationalité.
+Utilisez cette application pour rechercher rapidement les-sophismes auxquels nous sommes confrontés lorsque nous débattons contre l'irrationnel.
+Appelez ceux qui sont logiquement erronée et aider à construire une société plus rationnelle.
+
+L'honnêteté est la première vertu, donc soyons douloureusement honnête envers ceux qui tentent d'utiliser le langage comme une forme de violence psychologique. Ne acceptez jamais un sophisme, attaquer l'attaquant, et la propagation logique et la raison à ceux que vous aimez.
+
+Ok, assez décousue. Ce est une application qui affiche une liste des erreurs logiques qui hantent l'esprit de tous les rationalistes.
+
+Ce est un projet entièrement open-source (GNU v2), et la source est hébergé sur GitHub ne hésitez pas à me débourser. 
+GitHub Repo: https://github.com/LukeStonehm/LogicalDefence
+
+Ne hésitez pas à laisser vos commentaires / suggestions. Merci de télécharger!
