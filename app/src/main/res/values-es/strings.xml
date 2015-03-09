@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Translated to Castilian Spanish by Ismael Ferreras Morezuelas (swyterzone+logicaldefence@gmail.com) -->
 <resources>
-<!-- string name="app_name" translatable="false">Logical Defence</string -->
+<string name="app_name" translatable="true">Defensa lógica</string>
 <string name="navigation_drawer_open">Abrir cajón de navegación</string>
 <string name="navigation_drawer_close">Cerrar cajón de navegación</string>
 <string name="action_about">Acerca de</string>
@@ -117,7 +117,7 @@
 <string name="fallacies_titles_4_4">Negando el antecedente</string>
 <string name="fallacies_titles_4_5">Ignorando una causa común</string>
 <string name="fallacies_titles_4_6">Post Hoc Ergo Propter Hoc</string>
-<string name="fallacies_titles_4_7">Dos errores hacen un bien</string>
+<string name="fallacies_titles_4_7">Dos errores hacen un acierto</string>
 <string name="fallacies_descs_4_1">Assuming there\'s only one explanation for the observation you\'re making.</string>
 <string name="fallacies_descs_4_2">A conclusion is derived from premises based on the conclusion.</string>
 <string name="fallacies_descs_4_3">Claiming two events that occur together must have a cause-and-effect relationship. Also known as \'Confusing Causation with Correlation\'</string>
