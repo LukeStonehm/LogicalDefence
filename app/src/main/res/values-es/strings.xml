@@ -6,7 +6,7 @@
 <string name="navigation_drawer_close">Cerrar cajón de navegación</string>
 <string name="action_about">Acerca de</string>
 <string name="catlbl">Categorías</string>
-<string name="subTitle">La práctica lista de falacias lógicas</string>
+<string name="subTitle">Una práctica lista de falacias lógicas</string>
 <!--sections-->
 <string name="section_1">Apelando a la mente</string>
 <string name="section_2">Apelando a las emociones</string>
@@ -46,14 +46,14 @@
 <string name="fallacies_examples_1_9">\'There are billions of galaxies with billions of stars in the universe, so there must be another planet with intelligent life on it.\'</string>
 <string name="fallacies_examples_1_10">\'The government has always existed, therefore society cannot live without one.\'</string>
 <!--fallacies 2-->
-<string name="fallacies_titles_2_1">Appeal to Consequences of a Belief</string>
-<string name="fallacies_titles_2_2">Appeal to Fear</string>
-<string name="fallacies_titles_2_3">Appeal to Flattery</string>
-<string name="fallacies_titles_2_4">Appeal to Nature</string>
-<string name="fallacies_titles_2_5">Appeal to Pity</string>
-<string name="fallacies_titles_2_6">Appeal to Ridicule</string>
-<string name="fallacies_titles_2_7">Appeal to Spite</string>
-<string name="fallacies_titles_2_8">Appeal to Wishful Thinking</string>
+<string name="fallacies_titles_2_1">Apelando a las consecuencias de una creencia</string>
+<string name="fallacies_titles_2_2">Apelando al miedo</string>
+<string name="fallacies_titles_2_3">Apelando al alago</string>
+<string name="fallacies_titles_2_4">Apelando a la naturaleza</string>
+<string name="fallacies_titles_2_5">Apelando a la compasión</string>
+<string name="fallacies_titles_2_6">Apelando al ridículo</string>
+<string name="fallacies_titles_2_7"Apelando al rencor</string>
+<string name="fallacies_titles_2_8">Apelando a la ilusión</string>
 <string name="fallacies_descs_2_1">Arguing a belief is false because it implies something you\'d rather not believe.</string>
 <string name="fallacies_descs_2_2">An argument is made by increasing fear and prejudice towards the opposing side.</string>
 <string name="fallacies_descs_2_3">Using an irrelevant compliment to slip in an unfounded claim which is accepted along with the compliment.</string>
@@ -75,15 +75,15 @@
 <string name="fallacies_titles_3_2">Por composición</string>
 <string name="fallacies_titles_3_3">Por división</string>
 <string name="fallacies_titles_3_4">Falacia de diseño</string>
-<string name="fallacies_titles_3_5">Gambler\'s Fallacy</string>
+<string name="fallacies_titles_3_5">Falacia del jugador</string>
 <string name="fallacies_titles_3_6">Generalización precipitada</string>
-<string name="fallacies_titles_3_7">Jumping to Conclusions</string>
-<string name="fallacies_titles_3_8">Territorio intermedio</string>
-<string name="fallacies_titles_3_9">Falacia perfectionista</string>
+<string name="fallacies_titles_3_7">Saltar a conclusiones</string>
+<string name="fallacies_titles_3_8">Punto intermedio</string>
+<string name="fallacies_titles_3_9">Falacia perfeccionista</string>
 <string name="fallacies_titles_3_10">Falacia relativista</string>
-<string name="fallacies_titles_3_11">Spotlight</string>
-<string name="fallacies_titles_3_12">Sweeping Generalisation</string>
-<string name="fallacies_titles_3_13">Undistributed Middle</string>
+<string name="fallacies_titles_3_11">Centrar la atención</string>
+<string name="fallacies_titles_3_12">Generalización excluyente</string>
+<string name="fallacies_titles_3_13">Medio no distribuido</string>
 <string name="fallacies_descs_3_1">Discounting evidence arrived at by systematic search or testing in favor of a few first hand stories.</string>
 <string name="fallacies_descs_3_2">Assuming that characteristics or beliefs of some of a group applies to the entire group.</string>
 <string name="fallacies_descs_3_3">Assuming that characteristics or beliefs of a group automatically apply to any individual member.</string>
@@ -111,13 +111,13 @@
 <string name="fallacies_examples_3_12">\'Those young men rioted because they lacked morally responsible fathers.\'</string>
 <string name="fallacies_examples_3_13">\'A theory can mean an unproven idea. Scientists use the term \'the Theory of Evolution\', therefore evolution is an unproven idea.\'</string>
 <!--fallacies 4-->
-<string name="fallacies_titles_4_1">Affirming the Consequent</string>
-<string name="fallacies_titles_4_2">Circular Logic</string>
+<string name="fallacies_titles_4_1">Afirmando lo consecuente</string>
+<string name="fallacies_titles_4_2">Lógica circular</string>
 <string name="fallacies_titles_4_3">Cum Hoc Ergo Propter Hoc</string>
-<string name="fallacies_titles_4_4">Denying the Antecedent</string>
-<string name="fallacies_titles_4_5">Ignoring a Common Cause</string>
+<string name="fallacies_titles_4_4">Negando el antecedente</string>
+<string name="fallacies_titles_4_5">Ignorando una causa común</string>
 <string name="fallacies_titles_4_6">Post Hoc Ergo Propter Hoc</string>
-<string name="fallacies_titles_4_7">Two Wrongs Make a Right</string>
+<string name="fallacies_titles_4_7">Dos errores hacen un bien</string>
 <string name="fallacies_descs_4_1">Assuming there\'s only one explanation for the observation you\'re making.</string>
 <string name="fallacies_descs_4_2">A conclusion is derived from premises based on the conclusion.</string>
 <string name="fallacies_descs_4_3">Claiming two events that occur together must have a cause-and-effect relationship. Also known as \'Confusing Causation with Correlation\'</string>
@@ -140,10 +140,10 @@
 <string name="fallacies_titles_5_5">Dilema engañoso</string>
 <string name="fallacies_titles_5_6">Mentira</string>
 <string name="fallacies_titles_5_7">Intensidad engañosa</string>
-<string name="fallacies_titles_5_8">Desviando la atención</string>
-<string name="fallacies_titles_5_9">Slippery Slope</string>
-<string name="fallacies_titles_5_10">Suppressed Evidence</string>
-<string name="fallacies_titles_5_11">Unfalsifiability</string>
+<string name="fallacies_titles_5_8">Desviar la atención</string>
+<string name="fallacies_titles_5_9">Pendiente resbaladiza</string>
+<string name="fallacies_titles_5_10">Supresión de pruebas</string>
+<string name="fallacies_titles_5_11">Infalsabilidad</string>
 <string name="fallacies_descs_5_1">Trying to save a cherished belief by repeatedly revising the argument to explain away problems.</string>
 <string name="fallacies_descs_5_2">Hiding other contributory factors and supporting the truth of your claim without any evidence other than the conclusion of your claim.</string>
 <string name="fallacies_descs_5_3">Generalizing from an unrepresentative sample to increase the strength of your argument.</string>
@@ -168,7 +168,7 @@
 <string name="fallacies_examples_5_11">\'He lied because he\'s possessed by demons.\'</string>
 <!--fallacies 6-->
 <string name="fallacies_titles_6_1">Ad Hominem</string>
-<string name="fallacies_titles_6_2">PEso de la prueba</string>
+<string name="fallacies_titles_6_2">Peso de la prueba</string>
 <string name="fallacies_titles_6_3">Ad Hominem circunstancial</string>
 <string name="fallacies_titles_6_4">Falacia genética</string>
 <string name="fallacies_titles_6_5">Culpable por asociación</string>
