@@ -35,16 +35,16 @@
 <string name="fallacies_descs_1_8">Reivindicar que algo es cierto porque la mayoría de la gente crea en ello.</string>
 <string name="fallacies_descs_1_9">Asumir que porque algo pueda pasar tenga que pasar de forma inevitable.</string>
 <string name="fallacies_descs_1_10">Reivindicar que algo es cierto porque (por lo visto) siempre haya sido así.</string>
-<string name="fallacies_examples_1_1">\'They say that it takes 7 years to digest chewing gum.\'</string>
-<string name="fallacies_examples_1_2">\'Over 4000 prominent scientists and engineers dispute global warming.\'</string>
-<string name="fallacies_examples_1_3">\'This bank has some problems with corruption, but there\'s nothing going on here that doesn\'t go on in all other banks.\'</string>
-<string name="fallacies_examples_1_4">\'Nobody has proven to me there\'s a God. So I know there is no God.\'</string>
-<string name="fallacies_examples_1_5">\'The eye is an incredibly complex biomechanical machine with thousands of interlocking parts. How could that exist without an intelligent designer?\'</string>
-<string name="fallacies_examples_1_6">\'If it costs more, it must be better.\'</string>
-<string name="fallacies_examples_1_7">\'Awesome! The latest version of this operating system is going to make my computer faster and better..\'</string>
-<string name="fallacies_examples_1_8">\'Milk is essential for healthy bones.\'</string>
-<string name="fallacies_examples_1_9">\'There are billions of galaxies with billions of stars in the universe, so there must be another planet with intelligent life on it.\'</string>
-<string name="fallacies_examples_1_10">\'The government has always existed, therefore society cannot live without one.\'</string>
+<string name="fallacies_examples_1_1">«Se dice que la digestión de un chicle tarda siete años»</string>
+<string name="fallacies_examples_1_2">«Más de cuatro mil prominentes científicos e ingenieros cuestionan la existencia del cambio climático.»</string>
+<string name="fallacies_examples_1_3">«Este banco tiene problemas de corrupción, pero nada que en otros bancos.» \'This bank has some problems with corruption, but there\'s nothing going on here that doesn\'t go on in all other banks.\'</string>
+<string name="fallacies_examples_1_4">«Sé que no existe Dios porque nadie ha probado que exista.»</string>
+<string name="fallacies_examples_1_5">«El ojo es una máquina biomecánica increíblemente compleja con miles de partes interrelacionadas. Cómo podría existir de no ser por un artífice inteligente.</string>
+<string name="fallacies_examples_1_6">«Si cuesta más tendrá que ser mejor.»</string>
+<string name="fallacies_examples_1_7">«Genial. Seguro que última versión de este sistema operativo hace que mi equipo sea más rápido y estable…»</string>
+<string name="fallacies_examples_1_8">«La leche es fundamental para tener unos huesos fuertes.»</string>
+<string name="fallacies_examples_1_9">«En el universo existen muchos billones de galaxias con billones de estrellas, por lo que en algún lugar debe haber algún planeta con vida inteligente.»</string>
+<string name="fallacies_examples_1_10">«Siempre ha existido un gobierno, por lo que una sociedad no puede mantenerse sin uno.»</string>
 <!--fallacies 2-->
 <string name="fallacies_titles_2_1">Apelando a las consecuencias de una creencia</string>
 <string name="fallacies_titles_2_2">Apelando al miedo</string>
