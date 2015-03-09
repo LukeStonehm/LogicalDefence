@@ -62,14 +62,14 @@
 <string name="fallacies_descs_2_6">Presentar el argumento del contrario haciéndolo parecer absurdo.</string>
 <string name="fallacies_descs_2_7">Rechazar un argumento apelando a prejuicios personales con la persona nombrada.</string>
 <string name="fallacies_descs_2_8">Sugerir que algo es verdadero o falso por el puro hecho de que quieras creer que lo sea.</string>
-<string name="fallacies_examples_2_1">\'That can\'t be the Senator on that sex-tape. If it were, he\'d be lying about not knowing her, and he\'s not the kind of man who would lie.\'</string>
-<string name="fallacies_examples_2_2">\'Before you know there will be more mosques than churches.\'</string>
-<string name="fallacies_examples_2_3">\'Intelligent and sophisticated readers will of course recognise a fallacy like this when they read one.\'</string>
-<string name="fallacies_examples_2_4">\'Of course homosexuality is unnatural. You don\'t see same-sex animals copulating.\'</string>
-<string name="fallacies_examples_2_5">\'The former dictator is an old, dying man. It\'s wrong to make him stand trial for these alleged offenses.\'</string>
-<string name="fallacies_examples_2_6">\'Faith in God is like believing in Santa Claus and the Tooth Fairy.\'</string>
-<string name="fallacies_examples_2_7">\'Don\'t you just hate how those rich Liberal Hollywood actors go on TV to promote their agendas?\'</string>
-<string name="fallacies_examples_2_8">\'The President wouldn\'t lie. He\'s our leader and a good American.\'</string>
+<string name="fallacies_examples_2_1">«Ese del vídeo sexual no puede ser el diputado. Si lo fuera estaría mintiendo sobre no conocerla, y él no es el tipo de persona que suelta mentiras así como así.»</string>
+<string name="fallacies_examples_2_2">«Ya verás, antes de que nos demos cuenta habrá más mezquitas que iglesias.»</string>
+<string name="fallacies_examples_2_3">«El lector discerniente y sofisticado seguramente reconocerá una falacia como esta cuando lea una.»</string>
+<string name="fallacies_examples_2_4">«Normal que la homosexualidad sea antinatural. No ves por ahí que animales del mismo sexo copulen.»</string>
+<string name="fallacies_examples_2_5">«El exdictador es ya un hombre viejo y consumido. No es justo juzgarle por esos supuestos delitos.»</string>
+<string name="fallacies_examples_2_6">«Creer en Dios es como creer en Papá Noel o el Ratoncito Pérez.»</string>
+<string name="fallacies_examples_2_7">«¿No te fastidia ver como esos actores ricachones van a la tele a hacer su propaganda política de izquierdas?»</string>
+<string name="fallacies_examples_2_8">«El presidente del gobierno no nos mentiría, es nuestro líder y un ciudadano ejemplar.»</string>
 <!--fallacies 3-->
 <string name="fallacies_titles_3_1">Prueba anecdótica</string>
 <string name="fallacies_titles_3_2">Por composición</string>
