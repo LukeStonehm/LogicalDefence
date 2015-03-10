@@ -125,13 +125,13 @@
 <string name="fallacies_descs_4_5">Creer que un suceso haya desencadenado el otro cuando lo más probable es que lo cause un tercer suceso (que pasara inadvertido).</string>
 <string name="fallacies_descs_4_6">Creer que porque un hecho suceda inmediatamente después de otro tenga que ser un resultado del primero.</string>
 <string name="fallacies_descs_4_7">Asumir que hacer algo inmoral justifica que puedas hacer algo inmoral.</string>
-<string name="fallacies_examples_4_1">\'Marriage often results in the birth of children, so that\'s the only reason why it exists.\'</string>
-<string name="fallacies_examples_4_2">\'Stripping privacy rights only matters to those with something to hide. You must have something to hide if you oppose stripping privacy rights.\'</string>
-<string name="fallacies_examples_4_3">\'Teenagers in gangs listen to rap music with violent themes. Rap music inspires violence in teenagers.\'</string>
-<string name="fallacies_examples_4_4">\'If you get a degree, you\'ll get a good job. If you don\'t get a degree, you won\'t get a good job.\'</string>
-<string name="fallacies_examples_4_5">\'We had the 60s sexual revolution, and now people are dying of AIDS.\'</string>
-<string name="fallacies_examples_4_6">\'Since the election of the President, more people than ever are unemployed, therefore the President has damaged the economy.\'</string>
-<string name="fallacies_examples_4_7">\'Sure - the conditions in this prison are cruel and dehumanising, but these inmates are criminals!\'</string>
+<string name="fallacies_examples_4_1">«El matrimonio suele repercutir en el nacimiento de hijos comunes, por lo que esa es la razón de su existencia.»</string>
+<string name="fallacies_examples_4_2">«Limitar el derecho a la privacidad solo importa a aquellos con algo que temer. Por lo que tienes que estar ocultando cosas si te opones tan firmemente a este tipo de leyes.»</string>
+<string name="fallacies_examples_4_3">«Estos jóvenes pandilleros escuchan rap con tintes violentos. El rap inspira violencia en la juventud.»</string>
+<string name="fallacies_examples_4_4">«Si estudias una carrera llegarás a tener un buen trabajo, pero si no lo haces nunca lo conseguirás.»</string>
+<string name="fallacies_examples_4_5">«Fueron parte en la revolución sexual de los años sesenta, y vaya, ahora la gente tiene sida.»</string>
+<string name="fallacies_examples_4_6">«Tras elegirle presidente las cifras del paro han subido enteros, por lo que está claro que ha sido él quien ha acabado con nuestra economía.»</string>
+<string name="fallacies_examples_4_7">«Claro, claro. Las condiciones de vida en esta prisión son crueles e inhumanas, pero no hay que olvidar que los reclusos son delincuentes.»</string>
 <!--fallacies 5-->
 <string name="fallacies_titles_5_1">Rescate Ad Hoc</string>
 <string name="fallacies_titles_5_2">Petición de principio</string>
