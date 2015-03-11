@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+	<string name="app_name">Difesa Logica</string>
     <string name="navigation_drawer_open">Apri il menù</string>
     <string name="navigation_drawer_close">Chiudi il menù</string>
     <string name="action_about">Informazioni</string>
