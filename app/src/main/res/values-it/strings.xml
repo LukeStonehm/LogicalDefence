@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-	<string name="app_name">Difesa Logica</string>
+    <string name="app_name" translatable="true">Difesa Logica</string>
     <string name="navigation_drawer_open">Apri il menù</string>
     <string name="navigation_drawer_close">Chiudi il menù</string>
     <string name="action_about">Informazioni</string>
@@ -209,6 +209,5 @@
     <string name="action_settings">Impostazioni</string>
     <string name="creator">Creata da LukeStoneHm\n2015</string>
     <string name="about_more">Una semplice, ma bellissima app che presenta le fallacie logiche del mondo in modo fantasticamente piacevole alla vista.\n\nQuesta app è un progetto libero ed è rilasciata secondo i termini della licenza GPL v2.\n\nSentiti libero di esplorare il codice sorgente che si trova su GitHub.\n\nhttps://github.com/LukeStonehm/LogicalDefence/</string>
-    <string name="app_name">Difesa Logical</string>
 
 </resources>
