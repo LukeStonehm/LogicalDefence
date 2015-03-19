@@ -9,9 +9,9 @@
     <string name="navigation_drawer_open">Ouvrir le tiroir de navigation</string>
     <string name="subTitle">Une liste des erreurs logiques</string>
     <string name="title_activity_about">À propos de</string>
-    <string name="fallacies_descs_1_1">Avancer un argument en s'appuyent sur les preuves d\'un « expert » sans nom, d'une « étude » ou un groupe généralisé (par ex. « les scientifiques »).</string>
-    <string name="fallacies_descs_1_10">Avancer un argument en utilistant la tradition: c'est vrai parce que cela a (apparemment) toujours été ainsi.</string>
-    <string name="fallacies_descs_1_2">Prétendre que quelque chose est vrai parce qu\'un « expert » (qualifié ou non fiable) dit que ça l'est.</string>
+    <string name="fallacies_descs_1_1">Avancer un argument en s\'appuyent sur les preuves d\'un « expert » sans nom, d\'une « étude » ou un groupe généralisé (par ex. « les scientifiques »).</string>
+    <string name="fallacies_descs_1_10">Avancer un argument en utilistant la tradition: c\'est vrai parce que cela a (apparemment) toujours été ainsi.</string>
+    <string name="fallacies_descs_1_2">Prétendre que quelque chose est vrai parce qu\'un « expert » (qualifié ou non fiable) dit que ça l\'est.</string>
     <string name="fallacies_descs_1_3">Prétendre que quelque chose est normal parce qu\'elle est couramment pratiquée.</string>
     <string name="fallacies_descs_1_4">Une affirmation est vraie simplement parce qu\'elle n\'a pas été prouvé fausse (ou fausse parce qu\'elle n\'a pas été prouvée vraie).</string>
     <string name="fallacies_descs_1_5">Parce que une affirmation semble incroyable, elle ne peut pas être vraie.</string>
