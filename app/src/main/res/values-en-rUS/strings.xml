@@ -29,7 +29,7 @@
     <string name="fallacies_titles_1_10">Appeal to Tradition</string>
 
     <string name="fallacies_descs_1_1">Using evidence from an unnamed \'expert\' or \'study\' or generalized group (like \'scientists\') to claim something is true.</string>
-    <string name="fallacies_descs_1_2">Claiming something is true because an (unqualified or untrustworthy) \'expert\' says it is.</string>
+    <string name="fallacies_descs_1_2">Claiming something is true because an (a person holding authority) \'expert\' says it is.</string>
     <string name="fallacies_descs_1_3">Claiming something is true because it\'s commonly practiced.</string>
     <string name="fallacies_descs_1_4">A claim is true simply because it has not been proven false (or false because it has not been proven true).</string>
     <string name="fallacies_descs_1_5">Because a claim sounds unbelievable, it must not be true.</string>
