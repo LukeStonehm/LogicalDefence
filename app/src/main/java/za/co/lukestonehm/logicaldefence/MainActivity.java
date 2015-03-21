@@ -43,6 +43,8 @@ public class MainActivity extends ActionBarActivity
     NavCallback mCallbacks;
     Menu currentActionViewMenu;
 
+    AppPreferences appPrefs;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,6 +54,7 @@ public class MainActivity extends ActionBarActivity
     private void drawScreen() {
         setContentView(R.layout.activity_main);
         mCallbacks = this;
+        appPrefs = new AppPreferences(this);
 
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         mDrawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.START);
@@ -99,6 +102,8 @@ public class MainActivity extends ActionBarActivity
         ));
 
         //TODO: Pref this
+        mCurrentSelectedPosition = appPrefs.getSection();
+
         mTitle = sections[mCurrentSelectedPosition];
         setTitle(mTitle);
         mDrawerListView.setItemChecked(mCurrentSelectedPosition, true);
@@ -112,6 +117,11 @@ public class MainActivity extends ActionBarActivity
         mDrawerListView.setItemChecked(position, true);
         mDrawerLayout.closeDrawers();
         mCallbacks.onNavigationDrawerItemSelected(position);
+
+        if (appPrefs == null)
+            appPrefs = new AppPreferences(this);
+
+        appPrefs.setSection(position);
 
         mTitle = sections[position];
         setTitle(mTitle);
