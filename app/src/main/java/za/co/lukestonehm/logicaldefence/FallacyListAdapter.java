@@ -43,7 +43,8 @@ public class FallacyListAdapter extends BaseAdapter {
         LayoutInflater mInflater = (LayoutInflater)
                 c.getSystemService(Activity.LAYOUT_INFLATER_SERVICE);
 
-        view = mInflater.inflate(R.layout.list_item, null);
+        if (view == null)
+            view = mInflater.inflate(R.layout.list_item, null);
 
         Fallacy f = fallaciesItems.get(i);
 
