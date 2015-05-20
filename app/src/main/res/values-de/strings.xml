@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
     <string name="app_name">Logical Defense (Logische Selbstverteidigung)</string>
-    <string name="navigation_drawer_open">Navigatinsmenü öffnen</string>
-    <string name="navigation_drawer_close">Navigatinsmenü schliessen</string>
+    <string name="navigation_drawer_open">Navigationsmenü öffnen</string>
+    <string name="navigation_drawer_close">Navigationsmenü schließen</string>
     <string name="action_about">Info</string>
     <string name="catlbl">Kategorien</string>
     <string name="subTitle">Die schöne Liste der logischen Fehlschlüsse</string>
@@ -28,9 +28,9 @@
     <string name="fallacies_titles_1_9">Begründung durch Wahrscheinlichkeit</string>
     <string name="fallacies_titles_1_10">Begründung durch Tradition</string>
 
-    <string name="fallacies_descs_1_1">Begründung mit der Erkentniss \'eines Experten\' , \'einer Studie\' oder sonst einer grösseren Gruppe (etwa \'Wissenschaftler\').</string>
+    <string name="fallacies_descs_1_1">Begründung mit der Erkenntnis \'eines Experten\' , \'einer Studie\' oder sonst einer größeren Gruppe (etwa \'Wissenschaftler\').</string>
     <string name="fallacies_descs_1_2">argumentum ad verecundiam  (lat. für ,Beweis durch Ehrfurcht‘) Etwas soll Wahr sein, weil es ein \'Experte\' sagt.</string>
-    <string name="fallacies_descs_1_3">Es wird behauptet, dass ertwas wahr ist, weil es immer so gemacht wird.</string>
+    <string name="fallacies_descs_1_3">Es wird behauptet, dass etwas wahr ist, weil es immer so gemacht wird.</string>
     <string name="fallacies_descs_1_4">Etwas ist wahr, weil es nicht als Falsch bewiesen wurde(oder anders herum).</string>
     <string name="fallacies_descs_1_5">Weil etwas, schwer vorstellbar ist, wird angenommen, das es nicht Wahr sein kann.</string>
     <string name="fallacies_descs_1_6">Es wird angenommen, dass weil jemand reich ist, oder weil etwas teuer ist, sich der Wahrheitsgehalt einer Aussage ändert. </string>
@@ -41,7 +41,7 @@
 
     <string name="fallacies_examples_1_1">\'Sie sagen, dass es über sieben Jahre braucht um ein Kaugummi zu verdauen.\'</string>
     <string name="fallacies_examples_1_2">\'Über 4000 berühmte Wissenschaftler und Ingenieure diskutieren die globale Erwährmung.\'</string>
-    <string name="fallacies_examples_1_3">\'Die Bank hat probleme mit Korruption, aber das ist nicht, was es nicht in allen anderen Banken auch so geben würde.\'</string>
+    <string name="fallacies_examples_1_3">\'Die Bank hat Probleme mit Korruption, aber das ist nicht, was es nicht in allen anderen Banken auch so geben würde.\'</string>
     <string name="fallacies_examples_1_4">\'Niemand hat mir Gott beweisen können, also gibt es keinen Gott.\'</string>
     <string name="fallacies_examples_1_5">\'Das Auge ist eine unvorstellbar komplexe biochemische Maschine: Wie ausser durch schöpfung könnte etwas derartiges entstehen?\'</string>
     <string name="fallacies_examples_1_6">\'Wenn der Preis höher ist, muss auch der Wert höher sein.\'</string>
@@ -61,11 +61,11 @@
     <string name="fallacies_titles_2_8">Begründung durch Wunschdenken</string>
 
     <string name="fallacies_descs_2_1">nego consequentiam: Etwas kann nicht Wahr sein, weil dann auch etwas Wahr seien müsste, auch etwas unvorstellbares Wahr sein.  </string>
-    <string name="fallacies_descs_2_2">etwas wird durch die gefährlichkeit der gegnerischen Position begründet. </string>
+    <string name="fallacies_descs_2_2">etwas wird durch die Gefährlichkeit der gegnerischen Position begründet. </string>
     <string name="fallacies_descs_2_3">Es wird ein irrelevantes Kompliment gemacht, damit dieses zusammen mit einer unbegründeten Behauptung angenommen wird.</string>
     <string name="fallacies_descs_2_4">Etwas wird richtiger, weil es  \'natürlich\' ist.</string>
     <string name="fallacies_descs_2_5">Der andere hat unrecht, weil seine Position eine Schande ist.</string>
-    <string name="fallacies_descs_2_6">Das Argument des gegeners wird so dargestellt, dass es absurd erscheint.</string>
+    <string name="fallacies_descs_2_6">Das Argument des Gegners wird so dargestellt, dass es absurd erscheint.</string>
     <string name="fallacies_descs_2_7">Etwas ist falsch, weil es dem Urheber des Arguments nützen würde.</string>
     <string name="fallacies_descs_2_8">Etwas ist Wahr oder Falsch, nur weil man so stark darauf hofft.</string>
 
@@ -82,7 +82,7 @@
     <string name="fallacies_titles_3_1">Beweis durch Beispiel</string>
     <string name="fallacies_titles_3_2">verallgemeinerndes Vorurteil</string>
     <string name="fallacies_titles_3_3">einfaches Vorurteil</string>
-    <string name="fallacies_titles_3_4">Degsin Fehler</string>
+    <string name="fallacies_titles_3_4">Design Fehler</string>
     <string name="fallacies_titles_3_5">Spielerfehlschluss</string>
     <string name="fallacies_titles_3_6">Vorschnelle Verallgemeinerung</string>
     <string name="fallacies_titles_3_7">Zur Schlussfolgerung springen</string>
@@ -90,14 +90,14 @@
     <string name="fallacies_titles_3_9">Perfektionismus</string>
     <string name="fallacies_titles_3_10">Zugehörigkeit</string>
     <string name="fallacies_titles_3_11">Fokus</string>
-    <string name="fallacies_titles_3_12">Pauschaliesierung</string>
+    <string name="fallacies_titles_3_12">Pauschalisierung</string>
     <string name="fallacies_titles_3_13">Mangelnde Differenzierung</string>
 
-    <string name="fallacies_descs_3_1">Etwas durch Studien erwiesenes wird durch eine persönliche Einzelerfahrung wiederlegt.</string>
-    <string name="fallacies_descs_3_2">Eine eigenschaft, die auf einige Mitglieder einer Gruppe zutrifft, wird auf die Gesmtheit übertragen.</string>
+    <string name="fallacies_descs_3_1">Etwas durch Studien erwiesenes wird durch eine persönliche Eigenerfahrung widerlegt.</string>
+    <string name="fallacies_descs_3_2">Eine Eigenschaft, die auf einige Mitglieder einer Gruppe zutrifft, wird auf die Gesamtheit übertragen.</string>
     <string name="fallacies_descs_3_3">Es wird angenommen, dass die Eigenschaften, die für eine Gruppe typisch sind, auf jedes Individuum zutrefen.</string>
     <string name="fallacies_descs_3_4">Weil etwas gut Dargestellt und Strukturiert ist, wird es als richtiger wahrgenommen.</string>
-    <string name="fallacies_descs_3_5">Die Annahme, dass die Geschichte unabhängiger Ergeignisse zukünftige Ereignisse beinflusst.</string>
+    <string name="fallacies_descs_3_5">Die Annahme, dass die Geschichte unabhängiger Ergeignisse zukünftige Ereignisse beeinflusst.</string>
     <string name="fallacies_descs_3_6">Einen allgemeinen Schluss von einem Beispiel ableiten.</string>
     <string name="fallacies_descs_3_7">Zu einem schnellen Schluss kommen ohne alle naheliegenden Fakten beachtet zu haben.</string>
     <string name="fallacies_descs_3_8">Weil beide Parteien gute Argumente haben muss die Lösung ein Kompromiss sein.</string>
@@ -109,24 +109,24 @@
 
     <string name="fallacies_examples_3_1">\'Ich werde weiter rauchen, mein Opa ist auch als Raucher 90 geworden.\'</string>
     <string name="fallacies_examples_3_2">\'Die Islamisten waren für die letzten Anschläge verantwortlich. Alle Muslime sind Terroristen.\'</string>
-    <string name="fallacies_examples_3_3">\'Viele Konservative sind gegen gleichgeschlechtliche Ehe, bezweifeln die globale Erwährmung oder verneinen die Evolotionstheorie. Also sind alle konservativen homophobe kreationisten, die der umwelt schaden wollen.\'</string>
-    <string name="fallacies_examples_3_4">\'Plan 9 ist das elegantestete Unix, also ist es auch das beste.\'</string>
+    <string name="fallacies_examples_3_3">\'Viele Konservative sind gegen gleichgeschlechtliche Ehe, bezweifeln die globale Erwähnung oder verneinen die Evolutionstheorie. Also sind alle konservativen homophobe Kreationisten, die der Umwelt schaden wollen.\'</string>
+    <string name="fallacies_examples_3_4">\'Plan 9 ist das eleganteste Unix, also ist es auch das beste.\'</string>
     <string name="fallacies_examples_3_5">\' Die letzten 10 Würfe ist die Münze immer Kopf gewesen: Als nächtes wird sie also auf Zahl fallen.\'</string>
     <string name="fallacies_examples_3_6">\'Die Frau vor mir hat Falsch geparkt. Frauen können nicht Auto fahren.\'</string>
     <string name="fallacies_examples_3_7">\'Sie will, dass ihre Krankenversicherung für Verhütung zahlt. Was für eine Schlampe!\'</string>
     <string name="fallacies_examples_3_8">\'Ich hab dein Auto geschrottet: Ich will gar nichts Zahlen und du willst, dass ich alles zahle. Es scheint fair, wenn jeder für die hälfte aufkommt.\'</string>
     <string name="fallacies_examples_3_9">\'Was bringen all die Aktionen gegen betrunkenes Autofahren? Die Leute machen es doch trotzdem.\'</string>
     <string name="fallacies_examples_3_10">\'Für dich das Wahr, für mich aber nicht.\'</string>
-    <string name="fallacies_examples_3_11">\'Diese große Schumarke produzier mit Kinderarbeit. Also sind alle großen Schuhmarken die Ausbeuter von kleinen Kindern.\'</string>
+    <string name="fallacies_examples_3_11">\'Diese große Schuhmarke produziert mit Kinderarbeit. Also sind alle großen Schuhmarken die Ausbeuter von kleinen Kindern.\'</string>
     <string name="fallacies_examples_3_12">\Die jungen Männer haben einen Aufstand gemacht, weil sie nicht erzogen wurden. \'</string>
-    <string name="fallacies_examples_3_13">\'Eine Theorie muss nicht belegt sein. Es heisst Evolotionstheorie. Also ist die Evolutionstheorie noch gar nicht belegt.\'</string>
+    <string name="fallacies_examples_3_13">\'Eine Theorie muss nicht belegt sein. Es heißt Evolutionstheorie. Also ist die Evolutionstheorie noch gar nicht belegt.\'</string>
 
     <!--fallacies 4-->
     <string name="fallacies_titles_4_1">petitio principii</string>
     <string name="fallacies_titles_4_2">Selbstreferenzielle Logik</string>
     <string name="fallacies_titles_4_3">Cum Hoc Ergo Propter Hoc</string>
     <string name="fallacies_titles_4_4">Bestreiten des Vorläufers</string>
-    <string name="fallacies_titles_4_5">Etwas naheligendes Ignorieren</string>
+    <string name="fallacies_titles_4_5">Etwas naheliegendes Ignorieren</string>
     <string name="fallacies_titles_4_6">Post Hoc Ergo Propter Hoc</string>
     <string name="fallacies_titles_4_7">Doppelt falsch ist Richtig</string>
 
@@ -141,7 +141,7 @@
     <string name="fallacies_examples_4_1">\'Wenn geheiratet wird kommt es oft zu Kindern. Deswegen gibt es die Ehe.\'</string>
     <string name="fallacies_examples_4_2">\'Einschränkungen der Privatsphäre stören nur Menschen, die etwas zu verstecken haben.Also musst du etwas verstecken wollen, wenn du für Datenschutz bist.\'</string>
     <string name="fallacies_examples_4_3">\'Jugendliche hören gewaltverherlichende texte in der Rap-Musik. Rap verursacht Jugendgewalt.\'</string>
-    <string name="fallacies_examples_4_4">\'Wenn du einen Abschluss hast bekommst du einen guten Job. Bekommst du keine guten abschluss, bekommst du auch keinen guten Job.\'</string>
+    <string name="fallacies_examples_4_4">\'Wenn du einen Abschluss hast bekommst du einen guten Job. Bekommst du keine guten Abschluss, bekommst du auch keinen guten Job.\'</string>
     <string name="fallacies_examples_4_5">\'Wir hatten die 68er und jetzt sterben die leute an AIDS.\'</string>
     <string name="fallacies_examples_4_6">\'Seit der Wahl läuft die Wirtschaft gut. die Regierung leistet gute Arbeit.\'</string>
     <string name="fallacies_examples_4_7">\'Natürlich sind die Bedingungen im Gefängniss schlimm. Aber im gefängniss sind ja auch Kriminelle! \'</string>
@@ -149,7 +149,7 @@
     <!--fallacies 5-->
     <string name="fallacies_titles_5_1">Wiederholung</string>
     <string name="fallacies_titles_5_2">Die Frage herausfordern</string>
-    <string name="fallacies_titles_5_3">Generaliesierung mit Tendenz</string>
+    <string name="fallacies_titles_5_3">Generalisierung mit Tendenz</string>
     <string name="fallacies_titles_5_4">Confirmation Bias</string>
     <string name="fallacies_titles_5_5">Falsches Dilemma</string>
     <string name="fallacies_titles_5_6">Lüge</string>
@@ -157,7 +157,7 @@
     <string name="fallacies_titles_5_8">Finte</string>
     <string name="fallacies_titles_5_9">Dammbruchargument</string>
     <string name="fallacies_titles_5_10">unterdrückte Erkentniss</string>
-    <string name="fallacies_titles_5_11">Unwiederlegbarkeit</string>
+    <string name="fallacies_titles_5_11">Unwiderlegbarkeit</string>
 
     <string name="fallacies_descs_5_1">Eine lieb gewordene Ansicht wird versucht zu schützen indem immer wieder das Argument hinterfragt wird und Gegenargumente ausgelendet werden.</string>
     <string name="fallacies_descs_5_2">Andere Faktoren, die das Argument begründen werden nicht erwähnt so das nur die Schlussfolgerung die Behauptung stützt.</string>
@@ -175,11 +175,11 @@
     <string name="fallacies_examples_5_2">\'Alle illegalen Drogen sind schädlich - darum sind sie ja auch Illegal\'</string>
     <string name="fallacies_examples_5_3">\'Unsere Webseite hat herausgefunden, das 90% der Internetnutzer gegen Privatsphäre sind..\'</string>
     <string name="fallacies_examples_5_4">\'Es ist klar: der 11. September ist eine Verschwörung der amerikanischen Regierung um die Krige im Irak und Afganistan zu rechtfertigen.\'</string>
-    <string name="fallacies_examples_5_5">\'entweder wir reduzieren die Bildungs- und Sozial-Ausgaben oder die Neuverschuldung nimmt zu. Wir können uns nicht weiter neuverschulden, also müssen die Bildungsausgaben gesenkt werden.\'</string>
-    <string name="fallacies_examples_5_6">\'I did not have sexual relations with that woman.\'</string>
+    <string name="fallacies_examples_5_5">\'entweder wir reduzieren die Bildungs- und Sozial-Ausgaben oder die Neuverschuldung nimmt zu. Wir können uns nicht weiter neu verschulden, also müssen die Bildungsausgaben gesenkt werden.\'</string>
+    <string name="fallacies_examples_5_6">\'Ich habe das Geld nicht angenommen. \'</string>
     <string name="fallacies_examples_5_7">\'Nachdem gleichgeschlechtliche Ehe zugelassen wurde mussten auch Schulen homosexuelle Bücher haben; Grundschulkinder mussten homosexuelle Märchen lesen und es gab sogar direkte anleitungen die homosexuelle Agenda zu stützen.\'</string>
     <string name="fallacies_examples_5_8">\'Warum sollte der Politiker sich für die unregelmässigkeiten in seinen Ausgaben rechtfertigen?Politiker machen doch sonst viel schlimmere Dinge.\'</string>
-    <string name="fallacies_examples_5_9">\'Wenn wir Marijuana legaliesiern, werden auch crack und heroin mehr konsumiert, danach müssen wir dann auch diese Drogen legaliesieren.\'</string>
+    <string name="fallacies_examples_5_9">\'Wenn wir Marihuana legalisieren, werden auch Crack und Heroin mehr konsumiert, danach müssen wir dann auch diese Drogen legaliesieren.\'</string>
     <string name="fallacies_examples_5_10">\'Die Irakische Regierung produziert schon chemische und biologische Waffen also wird sie auch Atomwaffen produziern\'</string>
     <string name="fallacies_examples_5_11">\'Er lügt, weil er vom Teufel besessen ist.\'</string>
 
@@ -193,16 +193,16 @@
 
     <string name="fallacies_descs_6_1">Das Argumentum ad personam ist ein Ausweg, wenn der Gegner zu gewinnen scheint. Es wird vom Gegenstand des Streits abgewichen und die Person des Gegners verbal angegriffen.</string>
     <string name="fallacies_descs_6_2">Ich muss nichts beweisen. Beweise, dass ich falsch liege..</string>
-    <string name="fallacies_descs_6_3">Eine behauptung kann nicht Wahr sein, weil sie dem urheber nutzt.</string>
+    <string name="fallacies_descs_6_3">Eine Behauptung kann nicht Wahr sein, weil sie dem urheber nutzt.</string>
     <string name="fallacies_descs_6_4">Es wird auf die Motivation des Arguments anstatt auf dessen Inhaltliche Richtigkeit geachtet..</string>
-    <string name="fallacies_descs_6_5">Ein Argument wird schlecht, dardurch, das es mit einer bestimmten Peron oder Gruppe assoziert wird.</string>
+    <string name="fallacies_descs_6_5">Ein Argument wird schlecht, dadurch, das es mit einer bestimmten Peron oder Gruppe assoziiert wird.</string>
     <string name="fallacies_descs_6_6">Man erzeugt eine Karikatur der gegnerichen Position und Argumentiert dann gegen diese.</string>
 
     <string name="fallacies_examples_6_1">\'Wer will, dass wir am Ground Zero eine Moschee bauen  ist ein antiamerikanische Liberaler\'</string>
     <string name="fallacies_examples_6_2">\'Ich denke große Klimazyklen sind der Grund für die globale Erwärmung, zeig, dass ich falsch liege.\'</string>
     <string name="fallacies_examples_6_3">\'Die Studie über die Risiken der Handystrahlung wurde von Mobilfunkfirmen mitfinanziert, also ist sie unglaubwürdig.\'</string>
     <string name="fallacies_examples_6_4">\'Natürlich werden die liberitären Leitmedien nicht sagen, dass Obama ein Muslim ist.\'</string>
-    <string name="fallacies_examples_6_5">\'Aha, die Gesetze gegen den Terrorismus zu schwächen wäre ganz im Sinne der terroristen. Gib zu du unterstützt Terrorismus!\'</string>
+    <string name="fallacies_examples_6_5">\'Aha, die Gesetze gegen den Terrorismus zu schwächen wäre ganz im Sinne der Terroristen. Gib zu du unterstützt Terrorismus!\'</string>
     <string name="fallacies_examples_6_6">\'du sagst Israel sollte die Siedlungen in West Bank stoppen: Warum sprichst du Israel das recht ab eine Nation zu sein?\'</string>
 
     <string name="title_activity_about">Über die App</string>
