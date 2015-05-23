@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Logical Defense (Logische Selbstverteidigung)</string>
+    <string name="app_name">Logische Selbstverteidigung</string>
     <string name="navigation_drawer_open">Navigationsmenü öffnen</string>
     <string name="navigation_drawer_close">Navigationsmenü schließen</string>
     <string name="action_about">Info</string>
@@ -46,7 +46,7 @@
     <string name="fallacies_examples_1_5">\'Das Auge ist eine unvorstellbar komplexe biochemische Maschine: Wie ausser durch schöpfung könnte etwas derartiges entstehen?\'</string>
     <string name="fallacies_examples_1_6">\'Wenn der Preis höher ist, muss auch der Wert höher sein.\'</string>
     <string name="fallacies_examples_1_7">\'Wow! Das neue Betriebssystem wird meinen Computer besser und schneller machen ...\'</string>
-    <string name="fallacies_examples_1_8">\'Milch ist essentsiell für gesunde Knochen.'\'</string>
+    <string name="fallacies_examples_1_8">\'Milch ist essentsiell für gesunde Knochen.\'\'</string>
     <string name="fallacies_examples_1_9">\'Es gibt Milliarden von Galaxien mit Milliarden von Sternen ... irgendwo muss es intelligentes Leben geben.\'</string>
     <string name="fallacies_examples_1_10">\'Es gab immer eine Regierung. Eine Gesellschaft ohne Regierung kann es also nicht geben.\'</string>
 
