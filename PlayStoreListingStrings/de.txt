@@ -1,0 +1,18 @@
+Logical Defense -- Logische Verteidigung
+
+Sophisten wollen dich mit ihrer Retorik verwirren: Mit dieser tollen App kannst du dich gegen die Sophisten verteidigen.
+
+Stärke dich selbst, und fange an deinen Intellekt von den gegen dich verwendeten verrwirrenden Rethoriken der Sophisten zu befreien.
+
+Die Sophisten sind viele und wir nur wenige, aber mit der Logical Defense App haben wir jetzt ein weiteres Werkzeug um uns zu verteidigen.
+Mit der App kann man schnell die Sophismen nachschauen und belegen.
+Bestimme die logischen fehler und helfe so eine rationalere Gesellschaft zu entwickeln.
+
+Ehrlichkeit ist eine Tugend, also sei streng mit denen, die versuchen dich mit ihren Rhetoriken zu verwirren. Akzeptiere keinen Fehlschluss, es wird Zeit sich zu verteidigen und Vernunft und Klarheit mit seinen Verbündeten zu teilen.
+
+Genug Gelaber: Diese App zeigt die schlimmsten und beaknntesten Fehlschlüsse in übersichtlicher Form an.
+
+Diese App ist freie Software (GNU v2), der Quellcode ist auf GitHub, du kannst das Projekt gerne forken :)
+GitHub Repository: https://github.com/LukeStonehm/LogicalDefence
+
+Kommentare und Hinweise sind gerne gesehen. Danke für den Download!
