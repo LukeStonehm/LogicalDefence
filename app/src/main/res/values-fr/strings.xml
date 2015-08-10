@@ -181,4 +181,6 @@
     <string name="section_5">Manipulation du contenu</string>
     <string name="section_6">Attaque</string>
     <string name="app_name">Défense logique</string>
+    <string name="from">\n\nShared From Logical Defence Application</string>
+    <string name="share">Share a fallacy</string>
 </resources>

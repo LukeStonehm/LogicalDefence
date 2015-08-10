@@ -189,4 +189,6 @@
 <string name="action_settings">Ajustes</string>
 <string name="creator">Creado por LukeStoneHm\n2015</string>
 <string name="about_more">Una pequeña aplicación que presenta las falacias lógicas más comunes de forma bonita y concisa.\n\nEsta aplicación es un proyecto de código abierto bajo licencia GPL 2.\n\nPuedes ver el código fuente en GitHub.\n\nhttps://github.com/LukeStonehm/LogicalDefence/</string>
+    <string name="from">\n\nShared From Logical Defence Application</string>
+    <string name="share">Share a fallacy</string>
 </resources>
