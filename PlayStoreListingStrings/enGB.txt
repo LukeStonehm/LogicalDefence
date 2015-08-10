@@ -12,6 +12,12 @@ Honesty is the first virtue, so let's be painfully honest towards those who atte
 
 Ok, enough rambling. This is an app that displays a list of the logical fallacies that haunt every rationalists' mind.
 
+Some features:
+
+- Left drawer that houses categories.
+- Share function -> Long press a fallacy to share it.
+- Nice about screen.
+
 This is a fully open-source project (GNU v2), and the source is hosted on GitHub so feel free to fork me :)
 GitHub Repo: https://github.com/LukeStonehm/LogicalDefence
 
