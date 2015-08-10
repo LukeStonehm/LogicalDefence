@@ -6,7 +6,7 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="actionBarStyle">@style/barTheme</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>F
+        <item name="colorAccent">@color/colorAccent</item>
     </style>
 
     <style name="toolbarStyle" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
@@ -21,6 +21,10 @@
 
     <style name="barTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
         <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="listItemStyle">
+        <item name="android:background">?android:selectableItemBackground</item>
     </style>
 
     <style name="listStyle" parent="android:Widget.TextView">

@@ -51,4 +51,8 @@ public class Fallacy {
     public String toString() {
         return pos + "\n" + title + "\n" + desc;
     }
+
+    public String getShareString() {
+        return title + "\n\n" + desc + "\n\n" + example;
+    }
 }

@@ -8,39 +8,54 @@
         android:id="@+id/fallacy_title"
         android:layout_width="match_parent"
         android:layout_height="@dimen/item_height"
+        android:background="?android:selectableItemBackground"
         android:gravity="center_vertical"
-        android:textColor="@android:color/white"
+        android:paddingLeft="@dimen/nav_drawer_item_padding"
+        android:paddingRight="@dimen/nav_drawer_item_padding"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:paddingLeft="@dimen/nav_drawer_item_padding"
-        android:paddingRight="@dimen/nav_drawer_item_padding" />
+        android:textColor="@android:color/white" />
 
-
-    <TextView
-        android:id="@+id/fallacy_desc"
+    <FrameLayout
+        android:id="@+id/fallacy_desc_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/fallacy_title"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/black_90"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:paddingLeft="@dimen/nav_drawer_item_padding"
-        android:paddingRight="@dimen/nav_drawer_item_padding"
-        android:paddingTop="@dimen/item_margin"
-        android:paddingBottom="@dimen/item_margin"
-        android:background="@android:color/white" />
-
-
-    <TextView
-        android:id="@+id/fallacy_example"
-        android:layout_width="match_parent"
-        android:layout_below="@+id/fallacy_desc"
-        android:layout_height="wrap_content"
-        android:textColor="@color/black_70"
-        android:paddingRight="@dimen/nav_drawer_item_padding"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textStyle="italic"
-        android:paddingLeft="@dimen/nav_drawer_item_padding"
         android:background="@android:color/white"
-        android:paddingBottom="@dimen/item_margin" />
+        android:paddingBottom="@dimen/item_margin"
+        android:paddingLeft="@dimen/nav_drawer_item_padding"
+        android:paddingRight="@dimen/nav_drawer_item_padding"
+        android:paddingTop="@dimen/item_margin">
+
+        <TextView
+            android:id="@+id/fallacy_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:selectableItemBackground"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/black_90" />
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fallacy_desc_wrapper"
+        android:background="@android:color/white"
+        android:paddingBottom="@dimen/item_margin"
+        android:paddingLeft="@dimen/nav_drawer_item_padding"
+        android:paddingRight="@dimen/nav_drawer_item_padding"
+        android:paddingTop="@dimen/item_margin">
+
+        <TextView
+            android:id="@+id/fallacy_example"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:selectableItemBackground"
+            android:paddingBottom="@dimen/item_margin"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/black_70"
+            android:textStyle="italic" />
+    </FrameLayout>
 
 
 </RelativeLayout>
