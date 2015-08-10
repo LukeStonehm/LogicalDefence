@@ -11,6 +11,8 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -222,9 +224,10 @@ public class MainActivity extends AppCompatActivity
 
             List<Fallacy> fallacies = generateFallacyList(titles, descs, examples);
 
-            ListView lv = (ListView) v.findViewById(R.id.sec_lv);
+            RecyclerView mRecyclerView = (RecyclerView) v.findViewById(R.id.sec_rv);
+            mRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
             FallacyListAdapter fla = new FallacyListAdapter(getActivity(), fallacies);
-            lv.setAdapter(fla);
+            mRecyclerView.setAdapter(fla);
 
             return v;
         }
