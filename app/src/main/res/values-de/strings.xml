@@ -209,7 +209,7 @@
     <string name="action_settings">Einstellungen</string>
     <string name="creator">Programmiert von LukeStoneHm\n2015 (übersetzt ins Deutsche von Arndt Adler)</string>
     <string name="about_more">Eine einfache und schöne App die logische Fehlschlüsse in einer wunderschönen Form präsentiert \n\nDiese App ist freie Software (frei wie in Freiheit). Sie ist unter GPL-2-Lizenz. \n\n Du bist Eingeladen, dir den Quellcode auf GitHub anzusehen.\n\nhttps://github.com/LukeStonehm/LogicalDefence/</string>
-    <string name="from">\n\nShared From Logical Defence Application</string>
-    <string name="share">Share a fallacy</string>
+    <string name="from">\n\geteilt  mit der Logical Defence App</string>
+    <string name="share">Teile einen Fehlschluss</string>
 
 </resources>
