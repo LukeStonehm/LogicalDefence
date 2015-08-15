@@ -8,8 +8,8 @@ android {
         applicationId "za.co.lukestonehm.logicaldefence"
         minSdkVersion 16
         targetSdkVersion 21
-        versionCode 12
-        versionName "1.2.0"
+        versionCode 13
+        versionName "1.2.1"
     }
     buildTypes {
         release {
