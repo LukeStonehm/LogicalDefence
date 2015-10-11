@@ -13,6 +13,13 @@ L'onestà è la prima virtù, quindi dovremmo essere dolorosamente onesti contro
 
 Ok, basta farneticare. Questa app mostra una lista delle fallacie logiche che infestano tutte le menti dei razionalisti.
 
+Alcune delle funzionalità:
+
+- Menù a sinistra contenente le categorie.
+- Condivisione -> Tieni premuta una fallacia per condividerla.
+- Schermata delle informazioni carina.
+- Selezione della lingua.
+
 Questo è un progetto completamente libero (GNU v2), ed il codice sorgente si trova su GitHub, quindi sentiti libero di esplorare :)
 
 GitHub: https://github.com/LukeStonehm/LogicalDefence
