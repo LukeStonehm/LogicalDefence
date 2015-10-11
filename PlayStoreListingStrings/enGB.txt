@@ -17,6 +17,7 @@ Some features:
 - Left drawer that houses categories.
 - Share function -> Long press a fallacy to share it.
 - Nice about screen.
+- Language selection function.
 
 This is a fully open-source project (GNU v2), and the source is hosted on GitHub so feel free to fork me :)
 GitHub Repo: https://github.com/LukeStonehm/LogicalDefence
