@@ -5,6 +5,7 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_about">About</string>
+    <string name="action_language">Language</string>
     <string name="catlbl">Categories</string>
     <string name="subTitle">The beautiful list of logical fallacies</string>
 
@@ -212,5 +213,7 @@
 
     <string name="share">Share a fallacy</string>
     <string name="from">\n\nShared From Logical Defence Application</string>
+
+    <string name="language_dialog_title">Choose language</string>
 
 </resources>
