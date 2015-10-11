@@ -47,9 +47,8 @@ public class MainActivity extends AppCompatActivity
     private ActionBarDrawerToggle mDrawerToggle;
     private ListView mDrawerListView;
 
-    String[] locales = {"", "en-rUS", "de", "es", "fr", "it"};
-    CharSequence[] languages = {"English", "English (US)", "German", "Spanish", "French", "Italian"};
-
+    String[] locales;
+    String[] languages;
     NavCallback mCallbacks;
     Menu currentActionViewMenu;
 
@@ -70,6 +69,8 @@ public class MainActivity extends AppCompatActivity
         mDrawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.START);
 
         sections = getResources().getStringArray(R.array.sections);
+        locales = getResources().getStringArray(R.array.supported_locales);
+        languages = getResources().getStringArray(R.array.locale_names);
 
         Toolbar mActionBar = (Toolbar) findViewById(R.id.action_bar);
         setSupportActionBar(mActionBar);
@@ -202,10 +203,7 @@ public class MainActivity extends AppCompatActivity
                 public void onClick(DialogInterface dialog, int which) {
                     //set language languages[which] if language was chosen
                     //Inspired from http://stackoverflow.com/questions/12908289/how-to-change-language-of-app-when-user-selects-language
-                    Locale newLocale = new Locale(locales[which]);
-                    Configuration config = getResources().getConfiguration();
-                    config.locale = newLocale;
-                    getResources().updateConfiguration(config, getResources().getDisplayMetrics());
+                    setLocale(which);
                     Intent refresh = new Intent(getApplicationContext(), MainActivity.class);
                     startActivity(refresh);
                     finish();
@@ -217,6 +215,13 @@ public class MainActivity extends AppCompatActivity
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void setLocale(int which) {
+        Locale newLocale = new Locale(locales[which]);
+        Configuration config = getResources().getConfiguration();
+        config.locale = newLocale;
+        getResources().updateConfiguration(config, getResources().getDisplayMetrics());
     }
 
     /**

@@ -191,4 +191,12 @@
 <string name="about_more">Una pequeña aplicación que presenta las falacias lógicas más comunes de forma bonita y concisa.\n\nEsta aplicación es un proyecto de código abierto bajo licencia GPL 2.\n\nPuedes ver el código fuente en GitHub.\n\nhttps://github.com/LukeStonehm/LogicalDefence/</string>
     <string name="from">\n\nShared From Logical Defence Application</string>
     <string name="share">Share a fallacy</string>
+    <string name="action_language">Language</string>
+    <string name="language_dialog_title">Choose language</string>
+    <string name="locale_name_de">German</string>
+    <string name="locale_name_en">English</string>
+    <string name="locale_name_en_rUS">English (US)</string>
+    <string name="locale_name_es">Spanish</string>
+    <string name="locale_name_fr">French</string>
+    <string name="locale_name_it">Italian</string>
 </resources>
