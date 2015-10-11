@@ -13,6 +13,13 @@ Nunca aceptes una falacia lógica, contrarresta sus ataques y extiende la lógic
 
 Bueno, basta de cháchara. Esta es una aplicación dedicada a mostrar la lista de falacias lógicas que asola la mente de cualquier racionalista.
 
+Características destacables:
+
+- El desplegable izquierdo lista las distintas categorías.
+- Función de compartir -> Mantén pulsada una falacia para compartirla con otros.
+- Bonita pantalla de 'Acerca de'.
+- Función de selección del idioma.
+
 Somos un proyecto de código abierto (GNU v2), con el código fuente alojado en GitHub, y aceptamos colaboraciones :)
 Repositorio de GitHub: https://github.com/LukeStonehm/LogicalDefence
 
