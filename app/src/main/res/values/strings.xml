@@ -213,6 +213,16 @@
     <string name="share">Share a fallacy</string>
     <string name="from">\n\nShared From Logical Defence Application</string>
 
+    <string name="action_language">Language</string>
+    <string name="language_dialog_title">Choose language</string>
+
+    <string name="locale_name_en">English</string>
+    <string name="locale_name_en_rUS">English (US)</string>
+    <string name="locale_name_de">German</string>
+    <string name="locale_name_es">Spanish</string>
+    <string name="locale_name_fr">French</string>
+    <string name="locale_name_it">Italian</string>
+    
     <string name="search_action">Search for fallacy</string>
 
 </resources>

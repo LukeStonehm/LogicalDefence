@@ -211,5 +211,13 @@
     <string name="about_more">Eine einfache und schöne App die logische Fehlschlüsse in einer wunderschönen Form präsentiert \n\nDiese App ist freie Software (frei wie in Freiheit). Sie ist unter GPL-2-Lizenz. \n\n Du bist Eingeladen, dir den Quellcode auf GitHub anzusehen.\n\nhttps://github.com/LukeStonehm/LogicalDefence/</string>
     <string name="from">\n\ngeteilt  mit der Logical Defence App</string>
     <string name="share">Teile einen Fehlschluss</string>
+    <string name="action_language">Language</string>
+    <string name="language_dialog_title">Choose language</string>
+    <string name="locale_name_de">German</string>
+    <string name="locale_name_en">English</string>
+    <string name="locale_name_en_rUS">English (US)</string>
+    <string name="locale_name_es">Spanish</string>
+    <string name="locale_name_fr">French</string>
+    <string name="locale_name_it">Italian</string>
 
 </resources>

@@ -211,5 +211,13 @@
     <string name="about_more">A simple, but beautiful app that presents the logical fallacies of the world in a fantastically eye pleasing manner.\n\nThis app is an open source project and is licensed under the GPL 2 license.\n\nFeel free to browse the source code which is hosted on GitHub.\n\nhttps://github.com/LukeStonehm/LogicalDefence/</string>
     <string name="from">\n\nShared From Logical Defence Application</string>
     <string name="share">Share a fallacy</string>
+    <string name="action_language">Language</string>
+    <string name="language_dialog_title">Choose language</string>
+    <string name="locale_name_de">German</string>
+    <string name="locale_name_en">English</string>
+    <string name="locale_name_en_rUS">English (US)</string>
+    <string name="locale_name_es">Spanish</string>
+    <string name="locale_name_fr">French</string>
+    <string name="locale_name_it">Italian</string>
 
 </resources>

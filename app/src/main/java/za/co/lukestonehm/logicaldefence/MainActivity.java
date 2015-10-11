@@ -3,7 +3,9 @@ package za.co.lukestonehm.logicaldefence;
 import android.app.Activity;
 import android.app.SearchManager;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -13,6 +15,7 @@ import android.support.v4.view.MenuItemCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -30,6 +33,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 
 
 public class MainActivity extends AppCompatActivity
@@ -47,6 +51,8 @@ public class MainActivity extends AppCompatActivity
     private ActionBarDrawerToggle mDrawerToggle;
     private ListView mDrawerListView;
 
+    String[] locales;
+    String[] languages;
     NavCallback mCallbacks;
     Menu currentActionViewMenu;
 
@@ -65,7 +71,12 @@ public class MainActivity extends AppCompatActivity
 
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         mDrawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.START);
+        locales = getResources().getStringArray(R.array.supported_locales);
+        languages = getResources().getStringArray(R.array.locale_names);
 
+        setLocale(appPrefs.getLocale());
+
+        //load sections after locale setup
         sections = getResources().getStringArray(R.array.sections);
 
         Toolbar mActionBar = (Toolbar) findViewById(R.id.action_bar);
@@ -112,7 +123,6 @@ public class MainActivity extends AppCompatActivity
                 R.id.nav_item, sections
         ));
 
-        //TODO: Pref this
         mCurrentSelectedPosition = appPrefs.getSection();
 
         mTitle = sections[mCurrentSelectedPosition];
@@ -196,7 +206,43 @@ public class MainActivity extends AppCompatActivity
             return true;
         }
 
+        if (id == R.id.action_language) {
+
+            //Create Alert dialog to choose language from
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setTitle(R.string.language_dialog_title);
+            builder.setItems(languages, new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+                    setLocale(which);
+                    Intent refresh = new Intent(getApplicationContext(), MainActivity.class);
+                    startActivity(refresh);
+                    finish();
+                }
+            });
+            builder.show();
+
+            return true;
+        }
+
         return super.onOptionsItemSelected(item);
+    }
+
+    /**
+     * Set the selected language
+     *
+     * @param which position in locale array
+     * @see <a href="http://stackoverflow.com/questions/12908289/how-to-change-language-of-app-when-user-selects-language">how-to-change-language-of-app-when-user-selects-language</a>
+     */
+    public void setLocale(int which) {
+        if (which > -1) {
+            Locale newLocale = new Locale(locales[which]);
+            Configuration config = getResources().getConfiguration();
+            config.locale = newLocale;
+            getResources().updateConfiguration(config, getResources().getDisplayMetrics());
+
+            appPrefs.setLocale(which);//save locale
+        }
     }
 
     /**
