@@ -181,7 +181,7 @@
     <string name="section_5">Manipulation du contenu</string>
     <string name="section_6">Attaque</string>
     <string name="app_name">Défense logique</string>
-    <string name="from">\n\nEn provenance de l'application "Logical Defence"</string>
+    <string name="from">\n\nEn provenance de l\'application "Logical Defence"</string>
     <string name="share">Diffusez de la logique pure.</string>
     <string name="action_language">Langue</string>
     <string name="language_dialog_title">Choisissez votre langue</string>
