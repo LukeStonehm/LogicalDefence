@@ -67,10 +67,13 @@ public class MainActivity extends AppCompatActivity
 
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         mDrawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.START);
-
-        sections = getResources().getStringArray(R.array.sections);
         locales = getResources().getStringArray(R.array.supported_locales);
         languages = getResources().getStringArray(R.array.locale_names);
+
+        setLocale(appPrefs.getLocale());
+
+        //load sections after locale setup
+        sections = getResources().getStringArray(R.array.sections);
 
         Toolbar mActionBar = (Toolbar) findViewById(R.id.action_bar);
         setSupportActionBar(mActionBar);
@@ -116,7 +119,6 @@ public class MainActivity extends AppCompatActivity
                 R.id.nav_item, sections
         ));
 
-        //TODO: Pref this
         mCurrentSelectedPosition = appPrefs.getSection();
 
         mTitle = sections[mCurrentSelectedPosition];
@@ -201,8 +203,6 @@ public class MainActivity extends AppCompatActivity
             builder.setItems(languages, new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
-                    //set language languages[which] if language was chosen
-                    //Inspired from http://stackoverflow.com/questions/12908289/how-to-change-language-of-app-when-user-selects-language
                     setLocale(which);
                     Intent refresh = new Intent(getApplicationContext(), MainActivity.class);
                     startActivity(refresh);
@@ -217,11 +217,21 @@ public class MainActivity extends AppCompatActivity
         return super.onOptionsItemSelected(item);
     }
 
+    /**
+     * Set the selected language
+     *
+     * @param which position in locale array
+     * @see <a href="http://stackoverflow.com/questions/12908289/how-to-change-language-of-app-when-user-selects-language">how-to-change-language-of-app-when-user-selects-language</a>
+     */
     public void setLocale(int which) {
-        Locale newLocale = new Locale(locales[which]);
-        Configuration config = getResources().getConfiguration();
-        config.locale = newLocale;
-        getResources().updateConfiguration(config, getResources().getDisplayMetrics());
+        if (which > -1) {
+            Locale newLocale = new Locale(locales[which]);
+            Configuration config = getResources().getConfiguration();
+            config.locale = newLocale;
+            getResources().updateConfiguration(config, getResources().getDisplayMetrics());
+
+            appPrefs.setLocale(which);//save locale
+        }
     }
 
     /**
