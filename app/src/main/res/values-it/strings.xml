@@ -209,7 +209,7 @@
     <string name="action_settings">Impostazioni</string>
     <string name="creator">Creata da LukeStoneHm\n2015</string>
     <string name="about_more">Una semplice, ma bellissima app che presenta le fallacie logiche del mondo in modo fantasticamente piacevole alla vista.\n\nQuesta app è un progetto libero ed è rilasciata secondo i termini della licenza GPL v2.\n\nSentiti libero di esplorare il codice sorgente che si trova su GitHub.\n\nhttps://github.com/LukeStonehm/LogicalDefence/</string>
-    <string name="from">\n\nCondivisa dall'Applicazione Difesa Logica </string>
+    <string name="from">\n\nCondivisa dall\'Applicazione Difesa Logica </string>
     <string name="share">Condividi una fallacia</string>
     <string name="action_language">Lingua</string>
     <string name="language_dialog_title">Scegli una lingua</string>
