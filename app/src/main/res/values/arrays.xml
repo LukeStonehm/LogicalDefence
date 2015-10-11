@@ -222,7 +222,7 @@
         <item>@string/fallacies_examples_6_6</item>
     </string-array>
 
-    <string-array name="supported_locales">
+    <string-array name="supported_locales" translatable="false">
         <item />
         <item>en-rUS</item>
         <item>de</item>
