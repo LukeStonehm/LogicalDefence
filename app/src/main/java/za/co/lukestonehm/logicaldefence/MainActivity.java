@@ -1,7 +1,9 @@
 package za.co.lukestonehm.logicaldefence;
 
 import android.app.Activity;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -10,6 +12,7 @@ import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -26,6 +29,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 
 
 public class MainActivity extends AppCompatActivity
@@ -42,6 +46,9 @@ public class MainActivity extends AppCompatActivity
     private DrawerLayout mDrawerLayout;
     private ActionBarDrawerToggle mDrawerToggle;
     private ListView mDrawerListView;
+
+    String[] locales = {"", "en-rUS", "de", "es", "fr", "it"};
+    CharSequence[] languages = {"English", "English (US)", "German", "Spanish", "French", "Italian"};
 
     NavCallback mCallbacks;
     Menu currentActionViewMenu;
@@ -182,6 +189,30 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.action_about) {
             startActivity(new Intent(this, About.class));
+            return true;
+        }
+
+        if (id == R.id.action_language) {
+
+            //Create Alert dialog to choose language from
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setTitle(R.string.language_dialog_title);
+            builder.setItems(languages, new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+                    //set language languages[which] if language was chosen
+                    //Inspired from http://stackoverflow.com/questions/12908289/how-to-change-language-of-app-when-user-selects-language
+                    Locale newLocale = new Locale(locales[which]);
+                    Configuration config = getResources().getConfiguration();
+                    config.locale = newLocale;
+                    getResources().updateConfiguration(config, getResources().getDisplayMetrics());
+                    Intent refresh = new Intent(getApplicationContext(), MainActivity.class);
+                    startActivity(refresh);
+                    finish();
+                }
+            });
+            builder.show();
+
             return true;
         }
 
