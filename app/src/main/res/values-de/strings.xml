@@ -24,7 +24,7 @@
     <string name="fallacies_titles_1_5">Begründung durch Unglaubwürdigkeit</string>
     <string name="fallacies_titles_1_6">Begründung durch Geld</string>
     <string name="fallacies_titles_1_7">Begründung durch Neuheit</string>
-    <string name="fallacies_titles_1_8">Begründung durch Volksgkaube</string>
+    <string name="fallacies_titles_1_8">Begründung durch Volksglaube</string>
     <string name="fallacies_titles_1_9">Begründung durch Wahrscheinlichkeit</string>
     <string name="fallacies_titles_1_10">Begründung durch Tradition</string>
 
@@ -118,7 +118,7 @@
     <string name="fallacies_examples_3_9">\'Was bringen all die Aktionen gegen betrunkenes Autofahren? Die Leute machen es doch trotzdem.\'</string>
     <string name="fallacies_examples_3_10">\'Für dich mag es wahr sein, für mich aber nicht.\'</string>
     <string name="fallacies_examples_3_11">\'Diese große Schuhmarke produziert in Kinderarbeit. Also sind alle großen Schuhmarken die Ausbeuter von kleinen Kindern.\'</string>
-    <string name="fallacies_examples_3_12">\Die jungen Männer haben einen Aufstand gemacht, weil sie nicht erzogen wurden. \'</string>
+    <string name="fallacies_examples_3_12">\'Die jungen Männer haben einen Aufstand gemacht, weil sie nicht erzogen wurden. \'</string>
     <string name="fallacies_examples_3_13">\'Eine Theorie muss nicht belegt sein. Es heißt Evolutionstheorie. Also ist die Evolutionstheorie noch gar nicht belegt.\'</string>
 
     <!--fallacies 4-->
@@ -164,7 +164,7 @@
     <string name="fallacies_descs_5_3">Von einem unrepräsentativen Beispiel wird verallgemeinert, um das Argument zu stützen.</string>
     <string name="fallacies_descs_5_4">Nur nach Fakten suchen, die die These stützen, anstatt auch die anderen Fakten zu prüfen.</string>
     <string name="fallacies_descs_5_5">Es wird der falsche Eindruck erweckt, dass es nur zwei Alternativen gibt.</string>
-    <string name="fallacies_descs_5_6">Eine unverblühmte Lüge wird als wahr dargestellt.</string>
+    <string name="fallacies_descs_5_6">Eine unverblümte Lüge wird als wahr dargestellt.</string>
     <string name="fallacies_descs_5_7">Etwas wird dadurch wahrer, dass es mit mehr Details dargestellt wird.</string>
     <string name="fallacies_descs_5_8">Irrelevante Informationen werden in die Diskussion eingeführt, um eine bestimmte Schlussfolgerung zu verhindern.</string>
     <string name="fallacies_descs_5_9">Es wird behauptet, dass ein relativ kleiner Schritt zu einer negativen Kette von Ereignissen führen wird.</string>
@@ -196,7 +196,7 @@
     <string name="fallacies_descs_6_3">Eine Behauptung kann nicht wahr sein, weil sie dem Urheber nutzt.</string>
     <string name="fallacies_descs_6_4">Es wird auf die Motivation des Arguments, anstatt auf dessen inhaltliche Richtigkeit geachtet.</string>
     <string name="fallacies_descs_6_5">Ein Argument wird dadurch schlecht, indem es mit einer bestimmten Person oder Gruppe assoziiert wird.</string>
-    <string name="fallacies_descs_6_6">Man erzeugt eine Karikatur der gegnerichen Position und argumentiert dann gegen diese.</string>
+    <string name="fallacies_descs_6_6">Man erzeugt eine Karikatur der gegnerischen Position und argumentiert dann gegen diese.</string>
 
     <string name="fallacies_examples_6_1">\'Wer will, dass wir am Ground Zero eine Moschee bauen, ist ein antiamerikanischer Liberaler.\'</string>
     <string name="fallacies_examples_6_2">\'Ich denke, große Klimazyklen sind der Grund für die globale Erwärmung. Zeig\', dass ich falsch liege.\'</string>
