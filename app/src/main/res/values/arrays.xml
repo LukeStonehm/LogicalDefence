@@ -7,6 +7,7 @@
         <item>@string/section_4</item>
         <item>@string/section_5</item>
         <item>@string/section_6</item>
+        <item>@string/section_7</item>
     </string-array>
 
     <!--fallacies 1-->

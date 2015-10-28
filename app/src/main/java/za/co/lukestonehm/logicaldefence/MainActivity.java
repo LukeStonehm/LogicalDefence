@@ -1,6 +1,7 @@
 package za.co.lukestonehm.logicaldefence;
 
 import android.app.Activity;
+import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.Configuration;
@@ -17,6 +18,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -33,7 +35,7 @@ import java.util.Locale;
 
 
 public class MainActivity extends AppCompatActivity
-        implements NavCallback {
+        implements CallbackListener {
 
 
     public static final String TAG = "LogicalDefence";
@@ -49,22 +51,31 @@ public class MainActivity extends AppCompatActivity
 
     String[] locales;
     String[] languages;
-    NavCallback mCallbacks;
+    CallbackListener mCallbacks;
     Menu currentActionViewMenu;
 
     AppPreferences appPrefs;
 
+    ProgressDialog progressDialog;
+    HttpAsync httpAsync;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        drawScreen();
+        init();
+        showProgress(getString(R.string.progress_title), getString(R.string.progress_body));
+        httpAsync = new HttpAsync(this);
+        httpAsync.setListener(this);
+        httpAsync.execute(getString(R.string.fallacy_url));
     }
 
-    private void drawScreen() {
+    private void init() {
         setContentView(R.layout.activity_main);
         mCallbacks = this;
         appPrefs = new AppPreferences(this);
+    }
 
+    private void drawScreen() {
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         mDrawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.START);
         locales = getResources().getStringArray(R.array.supported_locales);
@@ -167,6 +178,14 @@ public class MainActivity extends AppCompatActivity
         changeSection(position);
     }
 
+    @Override
+    public void httpResult(String result) {
+        Log.d(TAG, result);
+        appPrefs.setFallacyJSON(result);
+        hideProgress();
+        drawScreen();
+    }
+
     public void onSectionAttached(int number) {
         if (sections == null)
             sections = getResources().getStringArray(R.array.sections);
@@ -217,6 +236,22 @@ public class MainActivity extends AppCompatActivity
         return super.onOptionsItemSelected(item);
     }
 
+    public void showProgress(String title, String body) {
+        progressDialog = new ProgressDialog(this);
+        progressDialog.setTitle(title);
+        progressDialog.setMessage(body);
+        progressDialog.setCancelable(true);
+        progressDialog.show();
+    }
+
+    public void hideProgress() {
+        if (progressDialog != null) {
+            if (progressDialog.isShowing())
+                progressDialog.dismiss();
+            progressDialog = null;
+        }
+    }
+
     /**
      * Set the selected language
      *
@@ -264,9 +299,20 @@ public class MainActivity extends AppCompatActivity
                                  Bundle savedInstanceState) {
             View v = inflater.inflate(R.layout.fragment_main, container, false);
 
-            String[] titles = getStringArrByName("fallacies_titles_" + getArguments().getInt(ARG_SECTION_NUMBER));
-            String[] descs = getStringArrByName("fallacies_descs_" + getArguments().getInt(ARG_SECTION_NUMBER));
-            String[] examples = getStringArrByName("fallacies_examples_" + getArguments().getInt(ARG_SECTION_NUMBER));
+            String[] titles;
+            String[] descs;
+            String[] examples;
+
+            if (getArguments().getInt(ARG_SECTION_NUMBER) != 6) {
+                titles = getStringArrByName("fallacies_titles_" + getArguments().getInt(ARG_SECTION_NUMBER));
+                descs = getStringArrByName("fallacies_descs_" + getArguments().getInt(ARG_SECTION_NUMBER));
+                examples = getStringArrByName("fallacies_examples_" + getArguments().getInt(ARG_SECTION_NUMBER));
+            } else {
+                //use fetched data
+                titles = new String[2];
+                descs = new String[2];
+                examples = new String[2];
+            }
 
             List<Fallacy> fallacies = generateFallacyList(titles, descs, examples);
 

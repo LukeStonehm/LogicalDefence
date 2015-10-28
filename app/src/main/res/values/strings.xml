@@ -15,6 +15,7 @@
     <string name="section_4">Garbled Cause &amp; Effect</string>
     <string name="section_5">Manipulating Content</string>
     <string name="section_6">On the Attack</string>
+    <string name="section_7">Async Fallacies</string>
 
     <!--fallacies 1-->
     <string name="fallacies_titles_1_1">Appeal to Anonymous Authority</string>
@@ -222,4 +223,9 @@
     <string name="locale_name_es">Spanish</string>
     <string name="locale_name_fr">French</string>
     <string name="locale_name_it">Italian</string>
+
+    <string name="fallacy_url" translatable="false">http://api.lukestonehm.co.za/fallacy.json</string>
+    <string name="progress_title" translatable="false">Please wait…</string>
+    <string name="progress_body" translatable="false">Fetching data, please stand by...</string>
+
 </resources>

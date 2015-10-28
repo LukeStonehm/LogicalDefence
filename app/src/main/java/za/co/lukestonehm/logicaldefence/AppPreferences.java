@@ -11,6 +11,7 @@ import android.preference.PreferenceManager;
 public class AppPreferences {
     public static final String KEY_PREFS_SELECTED_SECTION = "selected_section";
     public static final String KEY_PREFS_SELECTED_LOCALE = "selected_locale";
+    public static final String KEY_PREFS_ASYNC_FALLACY_JSON = "fallacy_json";
 
     SharedPreferences _generalPrefs;
     SharedPreferences.Editor _generalPrefsEditor;
@@ -42,6 +43,16 @@ public class AppPreferences {
 
     public void setLocale(int which) {
         _generalPrefsEditor.putInt(KEY_PREFS_SELECTED_LOCALE, which);
+        _generalPrefsEditor.commit();
+    }
+
+    public String getFallacyJSON() {
+        //if -1, has not been set, do not attempt to change the locale
+        return _generalPrefs.getString(KEY_PREFS_ASYNC_FALLACY_JSON, null);
+    }
+
+    public void setFallacyJSON(String json) {
+        _generalPrefsEditor.putString(KEY_PREFS_ASYNC_FALLACY_JSON, json);
         _generalPrefsEditor.commit();
     }
 }
