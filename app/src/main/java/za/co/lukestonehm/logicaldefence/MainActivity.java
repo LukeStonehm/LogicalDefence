@@ -29,6 +29,10 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
@@ -158,7 +162,7 @@ public class MainActivity extends AppCompatActivity
     private void changeSection(int position) {
         FragmentManager fragmentManager = getSupportFragmentManager();
         fragmentManager.beginTransaction()
-                .replace(R.id.container, PlaceholderFragment.newInstance(position + 1))
+                .replace(R.id.container, PlaceholderFragment.newInstance(position + 1, appPrefs.getFallacyJSON()))
                 .commit();
     }
 
@@ -278,15 +282,19 @@ public class MainActivity extends AppCompatActivity
          * fragment.
          */
         private static final String ARG_SECTION_NUMBER = "section_number";
+        private static final String ARG_FALLACY_JSON = "fallacy_json";
 
         /**
          * Returns a new instance of this fragment for the given section
          * number.
          */
-        public static PlaceholderFragment newInstance(int sectionNumber) {
+        public static PlaceholderFragment newInstance(int sectionNumber, String fallacyJson) {
             PlaceholderFragment fragment = new PlaceholderFragment();
             Bundle args = new Bundle();
             args.putInt(ARG_SECTION_NUMBER, sectionNumber);
+            if (sectionNumber == 7)
+                args.putString(ARG_FALLACY_JSON, fallacyJson);
+
             fragment.setArguments(args);
             return fragment;
         }
@@ -299,19 +307,38 @@ public class MainActivity extends AppCompatActivity
                                  Bundle savedInstanceState) {
             View v = inflater.inflate(R.layout.fragment_main, container, false);
 
-            String[] titles;
-            String[] descs;
-            String[] examples;
+            String[] titles = new String[0];
+            String[] descs = new String[0];
+            String[] examples = new String[0];
 
-            if (getArguments().getInt(ARG_SECTION_NUMBER) != 6) {
+            if (getArguments().getInt(ARG_SECTION_NUMBER) != 7) {
                 titles = getStringArrByName("fallacies_titles_" + getArguments().getInt(ARG_SECTION_NUMBER));
                 descs = getStringArrByName("fallacies_descs_" + getArguments().getInt(ARG_SECTION_NUMBER));
                 examples = getStringArrByName("fallacies_examples_" + getArguments().getInt(ARG_SECTION_NUMBER));
             } else {
                 //use fetched data
-                titles = new String[2];
-                descs = new String[2];
-                examples = new String[2];
+                String json = getArguments().getString(ARG_FALLACY_JSON);
+                if (json != null) {
+                    try {
+                        JSONArray jsonFallacies = new JSONArray(json);
+                        titles = new String[jsonFallacies.length()];
+                        descs = new String[jsonFallacies.length()];
+                        examples = new String[jsonFallacies.length()];
+
+                        for (int i = 0; i < jsonFallacies.length(); i++) {
+                            JSONObject fallacy = jsonFallacies.getJSONObject(i);
+
+                            titles[i] = fallacy.getString("title");
+                            descs[i] = fallacy.getString("desc");
+                            examples[i] = fallacy.getString("example");
+                        }
+                    } catch (JSONException e) {
+                        //if something goes wrong, make this section blank
+                        titles = new String[0];
+                        descs = new String[0];
+                        examples = new String[0];
+                    }
+                }
             }
 
             List<Fallacy> fallacies = generateFallacyList(titles, descs, examples);
