@@ -316,7 +316,7 @@ public class MainActivity extends AppCompatActivity
                 descs = getStringArrByName("fallacies_descs_" + getArguments().getInt(ARG_SECTION_NUMBER));
                 examples = getStringArrByName("fallacies_examples_" + getArguments().getInt(ARG_SECTION_NUMBER));
             } else {
-                //use fetched data
+                //if pos 7, is async fetch
                 String json = getArguments().getString(ARG_FALLACY_JSON);
                 if (json != null) {
                     try {
