@@ -29,7 +29,7 @@
     <string name="fallacies_titles_1_10">Ricorso alla Tradizione</string>
 
     <string name="fallacies_descs_1_1">Usare prove di un esperto o studio o gruppo generalizzato (come \"gli scienziati\") per affermare che qualcosa sia vero.</string>
-    <string name="fallacies_descs_1_2">Affermare che qualcosa sia vero perché un \"esperto\" (non qualificato o non affidabile) sostiene che lo sia.</string>
+    <string name="fallacies_descs_1_2">Affermare che qualcosa sia vero solo perché un \"esperto\" (una persona in possesso di autorità) sostiene che lo sia.</string>
     <string name="fallacies_descs_1_3">Affermare che qualcosa sia vero perché è comunemente praticato.</string>
     <string name="fallacies_descs_1_4">Un\'affermazione è vera semplicemente perché non è mai stata dimostrata la sua falsità (o falsa perché non è stata dimostrata essere vera).</string>
     <string name="fallacies_descs_1_5">Se una affermazione sembra incredibile, allora non può essere vera.</string>
