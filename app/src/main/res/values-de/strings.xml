@@ -18,7 +18,7 @@
 
     <!--fallacies 1-->
     <string name="fallacies_titles_1_1">Begründung durch anonyme Autoritäten</string>
-    <string name="fallacies_titles_1_2"> Begründung durch Autorität</string>
+    <string name="fallacies_titles_1_2">Begründung durch Autorität</string>
     <string name="fallacies_titles_1_3">Begründung durch häufige Praxis</string>
     <string name="fallacies_titles_1_4">Begründung durch Ignoranz</string>
     <string name="fallacies_titles_1_5">Begründung durch Unglaubwürdigkeit</string>
@@ -28,14 +28,14 @@
     <string name="fallacies_titles_1_9">Begründung durch Wahrscheinlichkeit</string>
     <string name="fallacies_titles_1_10">Begründung durch Tradition</string>
 
-    <string name="fallacies_descs_1_1">Begründung mit der Erkenntnis \'eines Experten\' , \'einer Studie\' oder sonst einer größeren Gruppe (etwa \'Wissenschaftler\').</string>
-    <string name="fallacies_descs_1_2">Argumentum Ad Verecundiam  (lat. für ,Beweis durch Ehrfurcht‘) Etwas soll wahr sein, weil es ein \'Experte\' sagt.</string>
+    <string name="fallacies_descs_1_1">Begründung mit der Erkenntnis eines \'Experten\', einer \'Studie\' oder sonst einer größeren Gruppe (etwa \'Wissenschaftler\').</string>
+    <string name="fallacies_descs_1_2">Argumentum Ad Verecundiam (lat. für \'Beweis durch Ehrfurcht\'): Etwas soll wahr sein, weil es ein \'Experte\' sagt.</string>
     <string name="fallacies_descs_1_3">Es wird behauptet, dass etwas wahr ist, weil es immer so gemacht wird.</string>
     <string name="fallacies_descs_1_4">Etwas ist wahr, weil es nicht als falsch bewiesen wurde (oder anders herum).</string>
     <string name="fallacies_descs_1_5">Weil etwas schwer vorstellbar ist, wird angenommen, dass es nicht wahr sein kann.</string>
-    <string name="fallacies_descs_1_6">Es wird angenommen, dass, weil jemand reich ist, oder weil etwas teuer ist, sich der Wahrheitsgehalt einer Aussage ändert. </string>
+    <string name="fallacies_descs_1_6">Es wird angenommen, dass, weil jemand reich ist, oder weil etwas teuer ist, sich der Wahrheitsgehalt einer Aussage ändert.</string>
     <string name="fallacies_descs_1_7">Etwas soll besser sein, nur weil es neu ist.</string>
-    <string name="fallacies_descs_1_8">Es wird behauptet, dass etwas wahr ist, weil die Mehrheit es glaubt. </string>
+    <string name="fallacies_descs_1_8">Es wird behauptet, dass etwas wahr ist, weil die Mehrheit es glaubt.</string>
     <string name="fallacies_descs_1_9">Es wird angenommen, weil etwas geschehen kann, wird es geschehen.</string>
     <string name="fallacies_descs_1_10">Etwas ist wahr, weil es immer schon so war.</string>
 
@@ -46,7 +46,7 @@
     <string name="fallacies_examples_1_5">\'Das Auge ist eine unvorstellbar komplexe biochemische Maschine: Wie, außer durch Schöpfung, könnte etwas derartiges entstehen?\'</string>
     <string name="fallacies_examples_1_6">\'Wenn der Preis höher ist, muss auch der Wert höher sein.\'</string>
     <string name="fallacies_examples_1_7">\'Wow! Das neue Betriebssystem wird meinen Computer besser und schneller machen...\'</string>
-    <string name="fallacies_examples_1_8">\'Milch ist essenziell für gesunde Knochen.\'\'</string>
+    <string name="fallacies_examples_1_8">\'Milch ist essenziell für gesunde Knochen.\'</string>
     <string name="fallacies_examples_1_9">\'Es gibt Milliarden von Galaxien mit Milliarden von Sternen... Irgendwo muss es intelligentes Leben geben.\'</string>
     <string name="fallacies_examples_1_10">\'Es gab immer eine Regierung. Eine Gesellschaft ohne Regierung kann es also nicht geben.\'</string>
 
@@ -60,10 +60,10 @@
     <string name="fallacies_titles_2_7">Begründung durch Boshaftigkeit</string>
     <string name="fallacies_titles_2_8">Begründung durch Wunschdenken</string>
 
-    <string name="fallacies_descs_2_1">Nego Consequentiam: Etwas kann nicht wahr sein, weil dann auch etwas unvorstellbares wahr sein müsste.  </string>
-    <string name="fallacies_descs_2_2">Etwas wird durch die Gefährlichkeit der gegnerischen Position begründet. </string>
+    <string name="fallacies_descs_2_1">Nego Consequentiam: Etwas kann nicht wahr sein, weil dann auch etwas unvorstellbares wahr sein müsste.</string>
+    <string name="fallacies_descs_2_2">Etwas wird durch die Gefährlichkeit der gegnerischen Position begründet.</string>
     <string name="fallacies_descs_2_3">Es wird ein irrelevantes Kompliment gemacht, damit dieses zusammen mit einer unbegründeten Behauptung angenommen wird.</string>
-    <string name="fallacies_descs_2_4">Etwas wird richtiger, weil es  \'natürlich\' ist.</string>
+    <string name="fallacies_descs_2_4">Etwas wird richtiger, weil es \'natürlich\' ist.</string>
     <string name="fallacies_descs_2_5">Der Andere hat unrecht, weil seine Position eine Schande ist.</string>
     <string name="fallacies_descs_2_6">Das Argument des Gegners wird so dargestellt, dass es absurd erscheint.</string>
     <string name="fallacies_descs_2_7">Etwas ist falsch, weil es dem Urheber des Arguments nützen würde.</string>
@@ -72,7 +72,7 @@
     <string name="fallacies_examples_2_1">\'Das auf dem Video kann nicht der Politiker sein. Wenn er es wäre, hätte er gelogen. Aber er würde niemals lügen.\'</string>
     <string name="fallacies_examples_2_2">\'Noch bevor du dich wundern kannst, gibt es mehr Moscheen als Kirchen.\'</string>
     <string name="fallacies_examples_2_3">\'Einem gebildeten Leser (wie Sie einer sind), würde ein solcher Fehlschluss bestimmt auffallen. \'</string>
-    <string name="fallacies_examples_2_4">\'Homosexualität ist unnatürlich.  Tiere machen so etwas ja auch nicht.\'</string>
+    <string name="fallacies_examples_2_4">\'Homosexualität ist unnatürlich. Tiere machen so etwas ja auch nicht.\'</string>
     <string name="fallacies_examples_2_5">\'Der ehemalige Diktator ist jetzt ein alter und kranker Mann. Es wäre falsch, jetzt ein Verfahren wegen der Anschuldigungen zu eröffnen.\'</string>
     <string name="fallacies_examples_2_6">\'Wenn ich an Gott glaube, könnte ich genauso gut auch an den Weihnachtsmann glauben.\'</string>
     <string name="fallacies_examples_2_7">\'Stört es dich nicht auch, dass die reichen Hollywood-Schauspieler ihr Geld nutzen, um uns ihr Weltbild aufzuzwängen?\'</string>
@@ -133,9 +133,9 @@
     <string name="fallacies_descs_4_1">Es kann nur eine mögliche Erklärung geben.</string>
     <string name="fallacies_descs_4_2">Die Konklusion folgt aus der Prämisse, die wiederum aus der Konklusion folgt.</string>
     <string name="fallacies_descs_4_3">Es wird behauptet, dass zwei zeitlich zusammenhängende Ereignisse eine Ursache-Wirkung-Beziehung haben. Auch bekannt als \'Scheinkorrelation\'.</string>
-    <string name="fallacies_descs_4_4">Es gibt nicht nur diese Erklärung, also ist es falsch, anzunehmen, dass diese die Ursache ist. </string>
+    <string name="fallacies_descs_4_4">Es gibt nicht nur diese Erklärung, also ist es falsch, anzunehmen, dass diese die Ursache ist.</string>
     <string name="fallacies_descs_4_5">Es wird behauptet, dass ein Ereigniss ein anderes ausgelöst hat, obwohl ein anderes auch vorstellbar ist.</string>
-    <string name="fallacies_descs_4_6">Weil ein bestimmtes Ereignis auf ein anderes folgt, soll das erste auch die Ursache für das zweite sein. </string>
+    <string name="fallacies_descs_4_6">Weil ein bestimmtes Ereignis auf ein anderes folgt, soll das erste auch die Ursache für das zweite sein.</string>
     <string name="fallacies_descs_4_7">Weil etwas falsch ist, kann es durch weitere falsche Schritte wieder richtig werden.</string>
 
     <string name="fallacies_examples_4_1">\'Wenn geheiratet wird kommt es oft zu Kindern. Deswegen gibt es die Ehe.\'</string>
@@ -156,7 +156,7 @@
     <string name="fallacies_titles_5_7">Irreführender Detailreichtum</string>
     <string name="fallacies_titles_5_8">Finte</string>
     <string name="fallacies_titles_5_9">Dammbruchargument</string>
-    <string name="fallacies_titles_5_10">Unterdrückte Erkentnis</string>
+    <string name="fallacies_titles_5_10">Unterdrückte Erkenntnis</string>
     <string name="fallacies_titles_5_11">Unwiderlegbarkeit</string>
 
     <string name="fallacies_descs_5_1">Es wird versucht, eine lieb gewordene Ansicht zu schützen, indem immer wieder das Argument hinterfragt und Gegenargumente ausgeblendet werden.</string>
@@ -168,15 +168,15 @@
     <string name="fallacies_descs_5_7">Etwas wird dadurch wahrer, dass es mit mehr Details dargestellt wird.</string>
     <string name="fallacies_descs_5_8">Irrelevante Informationen werden in die Diskussion eingeführt, um eine bestimmte Schlussfolgerung zu verhindern.</string>
     <string name="fallacies_descs_5_9">Es wird behauptet, dass ein relativ kleiner Schritt zu einer negativen Kette von Ereignissen führen wird.</string>
-    <string name="fallacies_descs_5_10">Es wird absichtlich schlecht für die gegneriche Position argumentiert.</string>
+    <string name="fallacies_descs_5_10">Es wird absichtlich schlecht für die gegnerische Position argumentiert.</string>
     <string name="fallacies_descs_5_11">Es wird eine Behauptung gemacht, die nicht widerlegt werden kann.</string>
 
     <string name="fallacies_examples_5_1">\'Aber abgesehen von besserer Infrastruktur, Medizin, Bildung, Wasseranschluss, öffentlicher Gesundheit, Straßen, einem Trinkwassersystem und öffentlicher Ordnung... Was haben die Römer je für uns getan?\'</string>
-    <string name="fallacies_examples_5_2">\'Alle illegalen Drogen sind schädlich - darum sind sie ja auch illegal.\'</string>
+    <string name="fallacies_examples_5_2">\'Alle illegalen Drogen sind schädlich – darum sind sie ja auch illegal.\'</string>
     <string name="fallacies_examples_5_3">\'Unsere Webseite hat herausgefunden, das 90% der Internetnutzer gegen Privatsphäre sind.\'</string>
     <string name="fallacies_examples_5_4">\'Es ist klar: Der 11. September ist eine Verschwörung der amerikanischen Regierung, um die Kriege im Irak und Afganistan zu rechtfertigen.\'</string>
-    <string name="fallacies_examples_5_5">\'Entweder wir reduzieren die Bildungs- und Sozial-Ausgaben, oder die Neuverschuldung nimmt zu. Wir können uns nicht weiter neu verschulden, also müssen die Bildungsausgaben gesenkt werden.\'</string>
-    <string name="fallacies_examples_5_6">\'Ich habe das Geld nicht angenommen. \'</string>
+    <string name="fallacies_examples_5_5">\'Entweder wir reduzieren die Bildungs- und Sozialausgaben, oder die Neuverschuldung nimmt zu. Wir können uns nicht weiter neu verschulden, also müssen die Bildungsausgaben gesenkt werden.\'</string>
+    <string name="fallacies_examples_5_6">\'Ich habe das Geld nicht angenommen.\'</string>
     <string name="fallacies_examples_5_7">\'Nachdem gleichgeschlechtliche Ehe zugelassen wurde, mussten auch Schulen homosexuelle Bücher haben; Grundschulkinder mussten homosexuelle Märchen lesen und es gab sogar direkte Anleitungen, die homosexuelle Agenda zu stützen.\'</string>
     <string name="fallacies_examples_5_8">\'Warum sollte der Politiker sich für die Unregelmäßigkeiten in seinen Ausgaben rechtfertigen? Politiker machen doch sonst viel schlimmere Dinge.\'</string>
     <string name="fallacies_examples_5_9">\'Wenn wir Marihuana legalisieren, werden auch vermehrt Crack und Heroin konsumiert. Danach müssen wir dann auch diese Drogen legalisieren.\'</string>
@@ -208,8 +208,8 @@
     <string name="title_activity_about">Über die App</string>
     <string name="action_settings">Einstellungen</string>
     <string name="creator">Programmiert von LukeStoneHm\n2015 (übersetzt ins Deutsche von Arndt Adler)</string>
-    <string name="about_more">Eine einfache und schöne App die logische Fehlschlüsse in einer wunderschönen Form präsentiert \n\nDiese App ist freie Software (frei wie in Freiheit). Sie steht unter GPL-2-Lizenz. \n\n Du bist Eingeladen, dir den Quellcode auf GitHub anzusehen.\n\nhttps://github.com/LukeStonehm/LogicalDefence/</string>
-    <string name="from">\n\ngeteilt  mit der Logical Defence App</string>
+    <string name="about_more">Eine einfache und schöne App, die logische Fehlschlüsse in einer wunderschönen Form präsentiert.\n\nDiese App ist freie Software (frei wie in Freiheit). Sie steht unter GPL-2-Lizenz.\n\nDu bist eingeladen, dir den Quellcode auf GitHub anzusehen.\n\nhttps://github.com/LukeStonehm/LogicalDefence/</string>
+    <string name="from">\n\ngeteilt mit der Logical Defence App</string>
     <string name="share">Teile einen Fehlschluss</string>
     <string name="action_language">Sprache</string>
     <string name="language_dialog_title">Sprache wählen</string>
