@@ -47,7 +47,7 @@
     <string name="fallacies_examples_1_6">\'Se costa di più, deve essere migliore.\'</string>
     <string name="fallacies_examples_1_7">\'Splendido! L\'ultima versione di questo sistema operativo renderà il mio computer più veloce e migliore.\'</string>
     <string name="fallacies_examples_1_8">\'Il latte è essenziale per ossa sane.\'</string>
-    <string name="fallacies_examples_1_9">\'Ci sono miliardi di galassie con miliardi di stelle nell\'universo, quindi ci deve essere un\'altro pianeta che ospita forme di vita intelligenti.\'</string>
+    <string name="fallacies_examples_1_9">\'Ci sono miliardi di galassie con miliardi di stelle nell\'universo, quindi ci deve essere un altro pianeta che ospita forme di vita intelligenti.\'</string>
     <string name="fallacies_examples_1_10">\'Il governo è sempre esistito, quindi la società non può farne a meno.\'</string>
 
     <!--fallacies 2-->
@@ -115,7 +115,7 @@
     <string name="fallacies_examples_3_6">\'Quella donna al volante mi ha appena tagliato la strada. Le donne non sanno guidare.\'</string>
     <string name="fallacies_examples_3_7">\'Lei vuole il controllo delle nascite nella sua assicurazione medica? Che figlia di buona donna!\'</string>
     <string name="fallacies_examples_3_8">\'Ho colpito la tua auto da dietro. Non credo che dovei pagare il danno. Tu credi che io debba pagare tutto il danno. Un buon compromesso sarebbe quello di dimezzare il costo.\'</string>
-    <string name="fallacies_examples_3_9">\'Qual\'è l\'obiettivo di queste campagne contro la guida in stato di ebrezza? La gente continuerà a guidare ubriaca comunque.\'</string>
+    <string name="fallacies_examples_3_9">\'Qual è l\'obiettivo di queste campagne contro la guida in stato di ebrezza? La gente continuerà a guidare ubriaca comunque.\'</string>
     <string name="fallacies_examples_3_10">\'Forse è vero per te, ma non lo è per me.\'</string>
     <string name="fallacies_examples_3_11">\'Questo grande produttore di scarpe impiega bambini nelle sue fabbriche, quindi tutte le aziende di scarpe sono diaboliche!\'</string>
     <string name="fallacies_examples_3_12">\'Quei giovani uomini si sono ribellati perché non hanno avuto dei padri moralmente responsabili.\'</string>
@@ -130,13 +130,13 @@
     <string name="fallacies_titles_4_6">Post Hoc Ergo Propter Hoc</string>
     <string name="fallacies_titles_4_7">Due Sbagli fanno un Giusto</string>
 
-    <string name="fallacies_descs_4_1">Assumere che esiste una solo spiegazione per l\'osservazione che stai facendo.</string>
+    <string name="fallacies_descs_4_1">Assumere che esiste una sola spiegazione per l\'osservazione che stai facendo.</string>
     <string name="fallacies_descs_4_2">Una conclusione viene derivata dalle premesse basandosi sulla conclusione.</string>
     <string name="fallacies_descs_4_3">Affermare che due eventi che occorrono insieme devono avere una relazione di causa-effetto. Conosciuto anche come \'Confondere la Causalità con la Correlazione\'</string>
     <string name="fallacies_descs_4_4">Non c\'è una sola spiegazione per un risultato, quindi è falso assumere la causa basandosi sull\'effetto.</string>
     <string name="fallacies_descs_4_5">Affermare che un evento deve aver causato l\'altro quando un terzo (non visto) evento è probabilmente la causa.</string>
-    <string name="fallacies_descs_4_6">Affermare che siccome un evento è seguito da un\'altro evento, allora anche il secondo ha avuto la stessa causa.</string>
-    <string name="fallacies_descs_4_7">Assumere che se si sbaglia una volta, un\'altro errore lo cancellerà.</string>
+    <string name="fallacies_descs_4_6">Affermare che siccome un evento è seguito da un altro evento, allora anche il secondo ha avuto la stessa causa.</string>
+    <string name="fallacies_descs_4_7">Assumere che se si sbaglia una volta, un altro errore lo cancellerà.</string>
 
     <string name="fallacies_examples_4_1">\'Il matrimonio di solito comporta la nascita di bambini, quindi questa è l\'unica ragione per il quale esiste.\'</string>
     <string name="fallacies_examples_4_2">\'Togliere i diritti alla privacy è importante solo per coloro che hanno qualcosa da nascondere. Devi avere qualcosa da nascondere se ti opponi a toglierli.\'</string>
@@ -168,7 +168,7 @@
     <string name="fallacies_descs_5_7">Descrivere un caso con molti dettagli anche se è si trattasse di un caso raro, per convincere qualcuno della sua veridicità.</string>
     <string name="fallacies_descs_5_8">Introdurre materiale irrilevante ad un argomento per distrarre e portare verso conclusioni differenti.</string>
     <string name="fallacies_descs_5_9">Assumere che un primo passo relativamente piccolo porterà inevitabilmente a una catena di eventi correlati (negativi).</string>
-    <string name="fallacies_descs_5_10">Evitare intenzionalmente di usare informazioni significative e rilevanti che contano contro le conclusioni di un\'altro.</string>
+    <string name="fallacies_descs_5_10">Evitare intenzionalmente di usare informazioni significative e rilevanti che contano contro le conclusioni di un altro.</string>
     <string name="fallacies_descs_5_11">Offrire un\'asserzione che non può essere dimostrata falsa, perché non c\'è modo di sapere se è vera o falsa.</string>
 
     <string name="fallacies_examples_5_1">\'A parte condizioni sanitarie migliori, medicine, educazione, irrigazione, salute pubblica, strade, acquedotti e l\'ordine pubblico... Che altro hanno fatto i Romani per noi?\'</string>
