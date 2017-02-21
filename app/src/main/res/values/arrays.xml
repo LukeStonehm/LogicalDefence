@@ -229,6 +229,7 @@
         <item>es</item>
         <item>fr</item>
         <item>it</item>
+        <item>pt</item>
     </string-array>
 
     <string-array name="locale_names">
@@ -238,5 +239,6 @@
         <item>@string/locale_name_es</item>
         <item>@string/locale_name_fr</item>
         <item>@string/locale_name_it</item>
+        <item>@string/locale_name_pt</item>
     </string-array>
 </resources>

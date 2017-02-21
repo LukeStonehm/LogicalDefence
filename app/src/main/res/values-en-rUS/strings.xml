@@ -219,5 +219,6 @@
     <string name="locale_name_es">Spanish</string>
     <string name="locale_name_fr">French</string>
     <string name="locale_name_it">Italian</string>
+    <string name="locale_name_pt">Portuguese</string>
 
 </resources>

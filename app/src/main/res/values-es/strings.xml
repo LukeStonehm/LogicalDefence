@@ -199,4 +199,5 @@
     <string name="locale_name_es">Castellano</string>
     <string name="locale_name_fr">Francés</string>
     <string name="locale_name_it">Italiano</string>
+    <string name="locale_name_pt">Portuguese</string>
 </resources>
