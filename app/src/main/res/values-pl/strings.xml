@@ -45,7 +45,7 @@
     <string name="fallacies_examples_1_4">\'Nikt nie potrafi mi udowodnić istnienia Boga, więc ja wiem, że Bóg nie istnieje.\'</string>
     <string name="fallacies_examples_1_5">\'Oko jest niezwykle skomplikowanym biomechanicznym układem z tysiącami wzajemnie współgrającymi częściami. Jak takie coś mogłoby powstać bez inteligentnego projektanta?\'</string>
     <string name="fallacies_examples_1_6">\'Im coś jest droższe, tym musi być lepsze.\'</string>
-    <string name="fallacies_examples_1_7">\'Super! Najnowsza wersja tego systemu operacyjnego sprawi, że mój komputer stanie się lepszy i szybszy...\'</string>
+    <string name="fallacies_examples_1_7">\'Super! Najnowsza wersja tego systemu operacyjnego sprawi, że mój komputer stanie się lepszy i szybszy…\'</string>
     <string name="fallacies_examples_1_8">\'Mleko jest niezbędne dla zdrowych kości.\'</string>
     <string name="fallacies_examples_1_9">\'We wszechświecie istnieją miliardy galaktyk z miliardami gwiazd, więc gdzieś tam musi znajdować się inna planeta z inteligentnymi istotami.\'</string>
     <string name="fallacies_examples_1_10">\'Rząd zawsze istniał, więc społeczeństwo nie może istnieć bez niego.\'</string>
@@ -171,9 +171,9 @@
     <string name="fallacies_descs_5_10">Celowe nieużywanie znaczących i istotnych informacji, które działają przeciwko twierdzeniu przeciwnika.</string>
     <string name="fallacies_descs_5_11">Wygłaszanie twierdzenia, które nie może zostać obalone, ponieważ nie ma możliwości sprawdzenia czy tak jest czy nie.</string>
 
-    <string name="fallacies_examples_5_1">\'Poza osiągnięciami w kanalizacji, medycynie, edukacji, irygacji, opiece zdrowotnej, drogami i porządkiem publicznym... Co takiego Rzymianie dla nas zrobili?\'</string>
-    <string name="fallacies_examples_5_2">\'Wszystkie nielegalne narkotyki są szkodliwe - i dlatego są nielegalne..\'</string>
-    <string name="fallacies_examples_5_3">\'Według ankiety na naszej stronie 90% internautów jest przeciwko prawu zakazującego piractwo w sieci..\'</string>
+    <string name="fallacies_examples_5_1">\'Poza osiągnięciami w kanalizacji, medycynie, edukacji, irygacji, opiece zdrowotnej, drogami i porządkiem publicznym… Co takiego Rzymianie dla nas zrobili?\'</string>
+    <string name="fallacies_examples_5_2">\'Wszystkie nielegalne narkotyki są szkodliwe - i dlatego są nielegalne.\'</string>
+    <string name="fallacies_examples_5_3">\'Według ankiety na naszej stronie 90% internautów jest przeciwko prawu zakazującego piractwo w sieci.\'</string>
     <string name="fallacies_examples_5_4">\'To oczywiste - zamachy z 11 września zostały zaplanowane przez rząd amerykański, aby usprawiedliwić atak na Irak i Afganistan. Żaden samolot nie uderzył w Pentagon. Zniszczenie wież WTC było kontrolowanym wysadzeniem… itp.\'</string>
     <string name="fallacies_examples_5_5">\'Albo zmniejszymy wydatki na edukację, albo zwiększymy deficyt. Nie możemy sobie pozwolić na zwiększenie deficytu, więc musimy obciąć wydatki na edukację.\'</string>
     <string name="fallacies_examples_5_6">\'Nie utrzymywałem kontaktów seksualnych z tą kobietą.\'</string>
