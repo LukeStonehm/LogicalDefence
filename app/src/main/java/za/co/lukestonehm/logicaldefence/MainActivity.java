@@ -152,13 +152,17 @@ public class MainActivity extends AppCompatActivity
     }
 
     private void setDrawerItemSelected(TextView item) {
-        item.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
-        item.setTextColor(Color.WHITE);
+        if (item != null) {
+            item.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
+            item.setTextColor(Color.WHITE);
+        }
     }
 
     private void unsetDrawerItemSelected(TextView item) {
-        item.setBackgroundColor(Color.TRANSPARENT);
-        item.setTextColor(getResources().getColor(R.color.primary_dark_material_dark));
+        if (item != null) {
+            item.setBackgroundColor(Color.TRANSPARENT);
+            item.setTextColor(getResources().getColor(R.color.primary_dark_material_dark));
+        }
     }
 
     @Override
