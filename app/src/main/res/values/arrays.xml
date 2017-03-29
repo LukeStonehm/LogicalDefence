@@ -230,6 +230,8 @@
         <item>fr</item>
         <item>it</item>
         <item>pt</item>
+        <item>pl</item>
+        <item>eo</item>
     </string-array>
 
     <string-array name="locale_names">
@@ -240,5 +242,7 @@
         <item>@string/locale_name_fr</item>
         <item>@string/locale_name_it</item>
         <item>@string/locale_name_pt</item>
+        <item>@string/locale_name_pl</item>
+        <item>@string/locale_name_eo</item>
     </string-array>
 </resources>

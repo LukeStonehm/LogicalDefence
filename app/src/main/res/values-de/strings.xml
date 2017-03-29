@@ -220,5 +220,6 @@
     <string name="locale_name_fr">Französisch</string>
     <string name="locale_name_it">Italienisch</string>
     <string name="locale_name_pt">Portuguese</string>
-
+    <string name="locale_name_pl">Polnisch</string>
+    <string name="locale_name_eo">Esperanto</string>
 </resources>

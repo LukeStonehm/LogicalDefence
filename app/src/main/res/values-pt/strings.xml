@@ -223,4 +223,6 @@
     <string name="locale_name_fr">Francês</string>
     <string name="locale_name_it">Italiano</string>
     <string name="locale_name_pt">Português</string>
+    <string name="locale_name_pl">Polonês</string>
+    <string name="locale_name_eo">Esperanto</string>
 </resources>
