@@ -61,7 +61,7 @@
     <string name="fallacies_titles_2_8">Odwołanie do myśli życzeniowej</string>
 
     <string name="fallacies_descs_2_1">Twierdzenie, że coś jest fałszywe, ponieważ implikuje coś, w co nie byłbyś w stanie uwierzyć.</string>
-    <string name="fallacies_descs_2_2">Argument jest tak skonstruowana, aby zwiększyć strach i uprzedzenia przeciwko drugiej stronie.</string>
+    <string name="fallacies_descs_2_2">Argument jest tak skonstruowany, aby zwiększyć strach i uprzedzenia przeciwko drugiej stronie.</string>
     <string name="fallacies_descs_2_3">Użycie niezwiązanego ze sprawą pochlebstwa, aby przemycić bezpodstawne twierdzenie, które zostanie zaakceptowane razem z pochlebstwem.</string>
     <string name="fallacies_descs_2_4">Uwiarygodnianie swojej tezy poprzez porównywanie jej do \'słusznego\' świata natury.</string>
     <string name="fallacies_descs_2_5">Próbowanie wzbudzenia litości, aby przekonać oponenta.</string>
@@ -208,7 +208,7 @@
     <string name="title_activity_about">O programie</string>
     <string name="action_settings">Ustawiania</string>
     <string name="creator">Twórca: LukeStoneHm\n2015</string>
-    <string name="about_more">Prosta ale ładna aplikacja prezentująca powszechne logiczne sofizmaty w przyjazny dla oka sposób.\n\nTa aplikacja jest projektem otwartoźródłowym na licencji GPL 2.\n\nZachęcamy Cię do przejrzenia kodu źródłowego na GitHubie.\n\nhttps://github.com/LukeStonehm/LogicalDefence/</string>
+    <string name="about_more">Prosta, ale ładna aplikacja prezentująca powszechne logiczne sofizmaty w przyjazny dla oka sposób.\n\nTa aplikacja jest projektem otwartoźródłowym na licencji GPL 2.\n\nZachęcamy Cię do przejrzenia kodu źródłowego na GitHubie.\n\nhttps://github.com/LukeStonehm/LogicalDefence/</string>
 
     <string name="share">Podziel się sofizmatem</string>
     <string name="from">\n\nUdostępnione z aplikacji Logical Defence</string>
