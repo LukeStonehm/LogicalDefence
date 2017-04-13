@@ -119,7 +119,7 @@
     <string name="fallacies_examples_3_10">\'Tio ĉi eble estas vera por vi, sed ne estas vera por mi.\'</string>
     <string name="fallacies_examples_3_11">\'Tiu ĉi granda ŝufaristo dungas infanojn en laboregejoj. Do ĉiuj ŝufaristaj firmaoj fie sklavigas infanojn!\'</string>
     <string name="fallacies_examples_3_12">\'Tiuj junuloj malboniĝis, ĉar morale respondumaj patroj mankis al ili.\'</string>
-    <string name="fallacies_examples_3_13">\'Teorio povas signifi neprovitan ideon. Sciencistoj uzas la esprimon \'teorio de evoluo\', do evoluo estas neprovita ideo.\'</string>
+    <string name="fallacies_examples_3_13">\'Teorio povas signifi nepruvitan ideon. Sciencistoj uzas la esprimon \'teorio de evoluo\', do evoluo estas nepruvita ideo.\'</string>
 
     <!--fallacies 4-->
     <string name="fallacies_titles_4_1">Trompa dedukto</string>
@@ -148,7 +148,7 @@
 
     <!--fallacies 5-->
     <string name="fallacies_titles_5_1">Hipotezo porokaza</string>
-    <string name="fallacies_titles_5_2">Argumentado per rondo</string>
+    <string name="fallacies_titles_5_2">Nesufiĉa argumentado</string>
     <string name="fallacies_titles_5_3">Tendenca ĝeneraligo</string>
     <string name="fallacies_titles_5_4">Tendenca konfirmo</string>
     <string name="fallacies_titles_5_5">Pensada ekstremeco</string>
@@ -159,10 +159,10 @@
     <string name="fallacies_titles_5_10">Prisilentita pruvo</string>
     <string name="fallacies_titles_5_11">Neverigebleco</string>
 
-    <string name="fallacies_descs_5_1">Provado de savi kredata argumento per ripete korekti la argumenton por forigi ĝiajn problemojn.</string>
-    <string name="fallacies_descs_5_2">Kaŝi aliajn faktorojn kaj subteni nur sian propran aserton sen iu ajn pruvo escepte de konkludo de sia aserto.</string>
+    <string name="fallacies_descs_5_1">Provado de savi kredatan argumenton per ripete korekti la argumenton por forigi ĝiajn problemojn.</string>
+    <string name="fallacies_descs_5_2">Kaŝi aliajn faktorojn kaj subteni nur sian propran aserton sen iu ajn pruvo escepte de konkludo de sia aserto. Ankaŭ konata kiel \'argumentado per rondo\'.</string>
     <string name="fallacies_descs_5_3">Ĝeneraligi bazite sur nereprezentanta pruvo por plifortigi sian argumenton.</string>
-    <string name="fallacies_descs_5_4">Serĉi nur pruvojn, kiujn konfirmas vian argumenton kaj ignori aliajn malkonfirmantajn pruvojn.</string>
+    <string name="fallacies_descs_5_4">Serĉi nur pruvojn, kiuj konfirmas vian argumenton kaj ignori aliajn malkonfirmantajn pruvojn.</string>
     <string name="fallacies_descs_5_5">Prezenti nur du kontraŭajn elektojn kaj nemontri alternativojn inter ili.</string>
     <string name="fallacies_descs_5_6">Konscie eldiri malveraĵon kiel fakton.</string>
     <string name="fallacies_descs_5_7">Priskribi okazintaĵon tre detale, eĉ se tio estis tre malofta okazintaĵo, por konvinki iun, ke tio estis vera.</string>
@@ -174,7 +174,7 @@
     <string name="fallacies_examples_5_1">\'Escepte de plibonigoj en kanalizado, medicino, edukado, irigacio, publika sanservo, vojkonstruado, akvokonduktado kaj socia ordo… Kion la Romianoj faris al ni?\'</string>
     <string name="fallacies_examples_5_2">\'Ĉiuj malleĝaj narkotaĵoj estas danĝeraj - pro tio ili estas malleĝaj.\'</string>
     <string name="fallacies_examples_5_3">\'Laŭ demandaro en nia retejo 90% Interret-uzantoj kontraŭas al leĝoj kontraŭ ret-piratado.\'</string>
-    <string name="fallacies_examples_5_4">\'Tio ĉi estas evidenta - atencoj de la 11-a septembro estis uson-registara konspirado por pravigi la militojn en Irako kaj Afganujo. Neniu aviadilo koliziis kun la Pentagono. Disfaligo de la Ĝemelturoj estis kontrolata eksplodigado… ktp.\'</string>
+    <string name="fallacies_examples_5_4">\'Tio ĉi estas evidenta - atencoj de la 11-a septembro estis Uson-registara konspirado por pravigi la militojn en Irako kaj Afganujo. Neniu aviadilo koliziis kun la Pentagono. Disfaligo de la Ĝemelturoj estis kontrolata eksplodigado… ktp.\'</string>
     <string name="fallacies_examples_5_5">\'Ni devos malpliigi elspezojn por edukado aŭ pliigi buĝetan deficiton. Ni ne povas pliigi deficiton, do ni devos malpliigi edukadan buĝeton.\'</string>
     <string name="fallacies_examples_5_6">\'Mi ne havis seksajn rilatojn kun tiu virino.\'</string>
     <string name="fallacies_examples_5_7">\'Post legiĝo de samseksajn edz(in)ecojn, lernejaj bibliotekoj estis postulataj por proviziĝi en geja literaturo; infanoj en bazlernejoj legis gejajn fabelojn kaj eĉ manlibretojn pri kiel agi samsekseme.\'</string>
@@ -196,14 +196,14 @@
     <string name="fallacies_descs_6_3">Rifuzi aserton nur pro tio, ke elparolanto de la aserto profitus de sia aserto.</string>
     <string name="fallacies_descs_6_4">Ataki elparolanton aŭ devenon de aserton, anstataŭ ĝian esencon.</string>
     <string name="fallacies_descs_6_5">Misfamigi ideon aŭ aserton per asocii ĝin kun misfamiga persono aŭ grupo.</string>
-    <string name="fallacies_descs_6_6">Krei fuŝformitan aŭ trosimpligitan karikaturon de argumento de via oponanto, kaj disputi kontraŭ ĝin. Ankaŭ konata kiel \'timiganto\'.</string>
+    <string name="fallacies_descs_6_6">Krei fuŝformitan aŭ trosimpligitan karikaturon de argumento de via oponanto, kaj disputi kontraŭ ĝi. Ankaŭ konata kiel \'timiganto\'.</string>
 
     <string name="fallacies_examples_6_1">\'Ĉiu, kiu diras ke ni devas konstrui moskeon en \'Zono Nulo\' estas liberalulo malamanta Usonon.\'</string>
     <string name="fallacies_examples_6_2">\'Mi diras, ke longtempaj Sunaj cikloj estas respondumaj por la tutmonda varmiĝo. Pruvu, ke mi eraras.\'</string>
     <string name="fallacies_examples_6_3">\'En esploro pri san-riskoj pro uzado de ĉeltelefonoj partoprenis ĉeltelefonaj firmaoj, do la esploro estas malkredinda.\'</string>
     <string name="fallacies_examples_6_4">\'Certe ĉefaj liberalaj amaskomunikiloj ne dirus, ke Barack OBAMA estas islamano.\'</string>
     <string name="fallacies_examples_6_5">\'Ho, vi volas trankviligi kontraŭterurismajn leĝojn same kiel teruristoj volas. Ĉu vi diras, ke vi apogas terurismon?\'</string>
-    <string name="fallacies_examples_6_6">\'Do vi diras, ke Israelo devas ĉesi konstrui domojn en Cisjordanio kontraŭ interkonsento, do vi asertas, ke Izraelanoj ne rajtas formi ŝtaton?\'</string>
+    <string name="fallacies_examples_6_6">\'Do vi diras, ke Israelo devas ĉesi konstrui domojn en Cisjordanio kontraŭ interkonsento, do vi asertas, ke Israelanoj ne rajtas formi ŝtaton?\'</string>
 
     <string name="title_activity_about">Pri</string>
     <string name="action_settings">Agordoj</string>
