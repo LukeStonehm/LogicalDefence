@@ -213,13 +213,14 @@
     <string name="share">Teile einen Fehlschluss</string>
     <string name="action_language">Sprache</string>
     <string name="language_dialog_title">Sprache wählen</string>
+    <string name="locale_name_en">English</string>
+    <string name="locale_name_en_rUS">English (US)</string>
     <string name="locale_name_de">Deutsch</string>
-    <string name="locale_name_en">Englisch</string>
-    <string name="locale_name_en_rUS">Englisch (US)</string>
-    <string name="locale_name_es">Spanisch</string>
-    <string name="locale_name_fr">Französisch</string>
-    <string name="locale_name_it">Italienisch</string>
-    <string name="locale_name_pt">Portuguese</string>
-    <string name="locale_name_pl">Polnisch</string>
+    <string name="locale_name_es">Español</string>
+    <string name="locale_name_fr">Français</string>
+    <string name="locale_name_it">Italiano</string>
+    <string name="locale_name_pt">Português</string>
+    <string name="locale_name_pl">Polski</string>
     <string name="locale_name_eo">Esperanto</string>
+    <string name="locale_name_zh_rCN">简体中文</string>
 </resources>
