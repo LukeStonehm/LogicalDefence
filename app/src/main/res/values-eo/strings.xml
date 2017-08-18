@@ -216,13 +216,14 @@
     <string name="action_language">Lingvo</string>
     <string name="language_dialog_title">Elekti lingvon</string>
 
-    <string name="locale_name_en">Angla (Brita)</string>
-    <string name="locale_name_en_rUS">Angla (Usona)</string>
-    <string name="locale_name_de">Germana</string>
-    <string name="locale_name_es">Hispana</string>
-    <string name="locale_name_fr">Franca</string>
-    <string name="locale_name_it">Itala</string>
-    <string name="locale_name_pt">Portugala</string>
-	<string name="locale_name_pl">Pola</string>
-	<string name="locale_name_eo">Esperanto</string>
+    <string name="locale_name_en">English (UK)</string>
+    <string name="locale_name_en_rUS">English (US)</string>
+    <string name="locale_name_de">Deutsch</string>
+    <string name="locale_name_es">Español</string>
+    <string name="locale_name_fr">Français</string>
+    <string name="locale_name_it">Italiano</string>
+    <string name="locale_name_pt">Português</string>
+    <string name="locale_name_pl">Polski</string>
+    <string name="locale_name_eo">Esperanto</string>
+    <string name="locale_name_zh_rCN">简体中文</string>
 </resources>

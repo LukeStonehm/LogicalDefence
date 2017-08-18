@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Logical Defence</string>
+    <string name="navigation_drawer_open">打开导航抽屉</string>
+    <string name="navigation_drawer_close">关闭导航抽屉</string>
+    <string name="action_about">关于</string>
+    <string name="catlbl">类别</string>
+    <string name="subTitle">精心设计的列表，为你展示逻辑谬误</string>
+
+    <!--sections-->
+    <string name="section_1">诉诸思维</string>
+    <string name="section_2">诉诸情感</string>
+    <string name="section_3">不当演绎</string>
+    <string name="section_4">篡改因果</string>
+    <string name="section_5">操纵内容</string>
+    <string name="section_6">采取攻击</string>
+
+    <!--fallacies 1-->
+    <string name="fallacies_titles_1_1">诉诸佚名权威</string>
+    <string name="fallacies_titles_1_2">诉诸权威</string>
+    <string name="fallacies_titles_1_3">诉诸惯例</string>
+    <string name="fallacies_titles_1_4">诉诸无知</string>
+    <string name="fallacies_titles_1_5">诉诸难以置信</string>
+    <string name="fallacies_titles_1_6">诉诸富贵</string>
+    <string name="fallacies_titles_1_7">诉诸新潮</string>
+    <string name="fallacies_titles_1_8">诉诸群众</string>
+    <string name="fallacies_titles_1_9">诉诸可能</string>
+    <string name="fallacies_titles_1_10">诉诸传统</string>
+
+    <string name="fallacies_descs_1_1">使用来自一位佚名“专家”、一项无名“研究”或一个泛化团体（如“科学家们”）的证据来断言某事物是正确的。</string>
+    <string name="fallacies_descs_1_2">断言某事物是正确的，因为一名“专家”（执掌权威者）这么说。</string>
+    <string name="fallacies_descs_1_3">断言某事物是正确的，因为它被广泛实施。</string>
+    <string name="fallacies_descs_1_4">一个断语是正确的，仅因为它还没被证伪（或者是错误的，因为它还没被证实）。</string>
+    <string name="fallacies_descs_1_5">若一个断语听起来令人难以置信，则它必不正确。</string>
+    <string name="fallacies_descs_1_6">推断富有者或昂贵的东西能影响断语的真值。</string>
+    <string name="fallacies_descs_1_7">推断某样新东西，或更新的东西更好。</string>
+    <string name="fallacies_descs_1_8">断言某事物是真的，因为大多数人相信它。</string>
+    <string name="fallacies_descs_1_9">假定因为某事能够发生，它将无可避免地发生。</string>
+    <string name="fallacies_descs_1_10">断言某事物是正确的，因为它（看起来）一直如此。</string>
+
+    <string name="fallacies_examples_1_1">“他们说口香糖要七年才能消化完。”</string>
+    <string name="fallacies_examples_1_2">“超过4000名的杰出科学家和工程师质疑全球变暖。”</string>
+    <string name="fallacies_examples_1_3">“这家银行有一些腐败问题，但这情况在别处也都有。”</string>
+    <string name="fallacies_examples_1_4">“至今无人向我证明上帝存，所以我知道上帝不存在。”</string>
+    <string name="fallacies_examples_1_5">“眼睛是难以置信的复杂生物力学机器，有着成千上万互相联结的部分。如果没有一个智能设计者，它如何能存在呢？”</string>
+    <string name="fallacies_examples_1_6">“若它要花更多钱，它就一定会更好。”</string>
+    <string name="fallacies_examples_1_7">“棒极了！这个操作系统的最新版本将使我的电脑更快更强……”</string>
+    <string name="fallacies_examples_1_8">“牛奶对健康的骨骼至关重要。”</string>
+    <string name="fallacies_examples_1_9">“宇宙中有数十亿计的星系，每个星系有数十亿计的恒星，所以一定有另一颗存在智慧生命的行星。”</string>
+    <string name="fallacies_examples_1_10">“政府自始就存在，因此社会不能脱离一个政府而存留。”</string>
+
+    <!--fallacies 2-->
+    <string name="fallacies_titles_2_1">诉诸后果</string>
+    <string name="fallacies_titles_2_2">诉诸恐惧</string>
+    <string name="fallacies_titles_2_3">诉诸谄媚</string>
+    <string name="fallacies_titles_2_4">诉诸自然</string>
+    <string name="fallacies_titles_2_5">诉诸怜悯</string>
+    <string name="fallacies_titles_2_6">诉诸荒谬</string>
+    <string name="fallacies_titles_2_7">诉诸仇恨</string>
+    <string name="fallacies_titles_2_8">一厢情愿</string>
+
+    <string name="fallacies_descs_2_1">断言一个信念为假，因为它暗示了某些你倾向于不相信的结论。</string>
+    <string name="fallacies_descs_2_2">通过向对立面增加恐惧和偏见来作出一个命题。</string>
+    <string name="fallacies_descs_2_3">使用一段不相关的赞美来滑至一条无依据的断语，使这断语连同赞美一起被接受。</string>
+    <string name="fallacies_descs_2_4">通过与“好”的自然世界对比来使你的断语看起来更正确。</string>
+    <string name="fallacies_descs_2_5">试图以阐述不幸的方式动摇对立方。</string>
+    <string name="fallacies_descs_2_6">以一种使其看似荒谬的方式提出你对立方的命题。</string>
+    <string name="fallacies_descs_2_7">通过引起对宣称者的个人偏见来反对其宣称。</string>
+    <string name="fallacies_descs_2_8">表明一个声明仅因你自己的希望而为真或为假。</string>
+
+    <string name="fallacies_examples_2_1">“色情录像上的那个人不可能是那位参议员。如果是，他说自己不认识她就是在说谎，而他不是会说谎的那类人。”</string>
+    <string name="fallacies_examples_2_2">“在你知道之前, 清真寺就会多于教堂。”</string>
+    <string name="fallacies_examples_2_3">“智慧而老到的读者自然一经读到就会认出这样的一个谬误。”</string>
+    <string name="fallacies_examples_2_4">“同性恋（同性性行为）当然是不自然的——你没见过同性动物性交。”</string>
+    <string name="fallacies_examples_2_5">“前专政者是一个行将就木的老人。让他为这些宣称的暴政而接受审判是不对的。”</string>
+    <string name="fallacies_examples_2_6">“信仰上帝就像相信圣诞老人和童话故事。”</string>
+    <string name="fallacies_examples_2_7">“你就不恨那些富有的自由派好莱坞演员在电视中发表他们的观点的举动吗？”</string>
+    <string name="fallacies_examples_2_8">“总统不会说谎的。他是我们的领袖，是一名优秀的美国人。”</string>
+
+    <!--fallacies 3-->
+    <string name="fallacies_titles_3_1">轶事证据</string>
+    <string name="fallacies_titles_3_2">合成谬误</string>
+    <string name="fallacies_titles_3_3">分割谬误</string>
+    <string name="fallacies_titles_3_4">设计谬误</string>
+    <string name="fallacies_titles_3_5">赌徒谬误</string>
+    <string name="fallacies_titles_3_6">轻率概化</string>
+    <string name="fallacies_titles_3_7">跳到结论</string>
+    <string name="fallacies_titles_3_8">诉诸中庸</string>
+    <string name="fallacies_titles_3_9">涅槃谬误</string>
+    <string name="fallacies_titles_3_10">相对主义谬误</string>
+    <string name="fallacies_titles_3_11">以偏概全</string>
+    <string name="fallacies_titles_3_12">笼统概化</string>
+    <string name="fallacies_titles_3_13">中词不周延</string>
+
+    <string name="fallacies_descs_3_1">轻视由系统的研究或测试得出的证据，而偏好少数第一手的故事。</string>
+    <string name="fallacies_descs_3_2">假定群体中的部分所具有的性质或信念适用于该群体的全体。</string>
+    <string name="fallacies_descs_3_3">假定群体的性质或信念自动地适用于该群体内任一个体成员。</string>
+    <string name="fallacies_descs_3_4">假定因为某物是巧妙设计或在视觉上优美的，所以它更合适或更好。</string>
+    <string name="fallacies_descs_3_5">假设历史上的独立性结果将影响未来的结果。</string>
+    <string name="fallacies_descs_3_6">从一个微小样本得出一个概括性结论。</string>
+    <string name="fallacies_descs_3_7">草率做出结论，而不公正地考虑相关（且唾手可得的）证据。</string>
+    <string name="fallacies_descs_3_8">假定因为相对的两个命题各有优点，所以答案定然在它们之间的某处。</string>
+    <string name="fallacies_descs_3_9">假定讨论中唯一的选项只能是完美的，于是反对任何不能完美运行的方案。</string>
+    <string name="fallacies_descs_3_10">因为一个信念，即真值取决于一定的个人或团体，而反对一条断语。</string>
+    <string name="fallacies_descs_3_11">假设从一个小样本得来的观察适用于整个群体。</string>
+    <string name="fallacies_descs_3_12">过于广泛地应用一种总体规律。</string>
+    <string name="fallacies_descs_3_13">假设两样事物因共有一种性质而实为一件事物。</string>
+
+    <string name="fallacies_examples_3_1">“我将继续抽烟。我的祖父一天抽40支烟，直到他90岁过世。”</string>
+    <string name="fallacies_examples_3_2">“最近的恐怖袭击是由伊斯兰组织发起的，因此所有恐怖分子都是穆斯林。”</string>
+    <string name="fallacies_examples_3_3">“许多保守派成员希望禁止同性婚姻，否认气候变化,以及否认进化，因此所有保守派人士都是恐同、反环境的神创论者。”</string>
+    <string name="fallacies_examples_3_4">“Elementary OS 是设计最精巧、外貌最美观的 Linux 发行版，因此它显然更优越。”</string>
+    <string name="fallacies_examples_3_5">“我已接连抛一枚硬币十次，次次是正面朝上，因此下一次掷硬币更可能是反面朝上。”</string>
+    <string name="fallacies_examples_3_6">“我刚刚被一名在我前面横冲出的女驾驶员截住。女人不能开车。”</string>
+    <string name="fallacies_examples_3_7">“她想要在她医疗保险内的节育？真是个懒婆娘！”</string>
+    <string name="fallacies_examples_3_8">“我的车尾撞坏了你的车，但我不认为自己应该赔偿损失。而你认为我应该赔偿全部损失。那么公平折中的办法应该是我们各付一半。”</string>
+    <string name="fallacies_examples_3_9">“这些反酒驾宣传活动的意义是什么？不论怎样，人们还是在喝酒并开车。”</string>
+    <string name="fallacies_examples_3_10">“那对你来说可能是对的，但对于我不是。”</string>
+    <string name="fallacies_examples_3_11">“这家大型制鞋商在它的血汗工厂中雇佣儿童。因此所有的鞋具公司都是罪恶的儿童奴隶拥有者！”</string>
+    <string name="fallacies_examples_3_12">“这些年轻人制造暴乱是因为他们没有在道德方面负责的父亲。”</string>
+    <string name="fallacies_examples_3_13">“一个科学理论可表示一个未经证实的想法。科学家们使用‘进化理论’这样的术语，因此进化是未经证实的想法。”</string>
+
+    <!--fallacies 4-->
+    <string name="fallacies_titles_4_1">肯定后件</string>
+    <string name="fallacies_titles_4_2">循环论证</string>
+    <string name="fallacies_titles_4_3">与此故因此</string>
+    <string name="fallacies_titles_4_4">否定前件</string>
+    <string name="fallacies_titles_4_5">忽视共同原因</string>
+    <string name="fallacies_titles_4_6">后此故因此</string>
+    <string name="fallacies_titles_4_7">积非成是</string>
+
+    <string name="fallacies_descs_4_1">假设你所做的观察只有一种解释。</string>
+    <string name="fallacies_descs_4_2">从基于某结论的一个前提得出该结论。</string>
+    <string name="fallacies_descs_4_3">断定同时发生的两事件有因果关系。亦称“相关证明因果”。</string>
+    <string name="fallacies_descs_4_4">对一种结果不止有一种解释，所以基于影响来假定原因的做法是错误的。</string>
+    <string name="fallacies_descs_4_5">在一个（未见的）第三事件很可能是诱因的情况下，断言一事件必然引发了另一事件。</string>
+    <string name="fallacies_descs_4_6">断言在某事件发生后发生的事件是由前者所引发。</string>
+    <string name="fallacies_descs_4_7">假定如果一个错误被犯下，另一个错误将能抵消它。</string>
+
+    <string name="fallacies_examples_4_1">“婚姻常常会导致孩子的降生，这一这就是婚姻存在的唯一原因。”</string>
+    <string name="fallacies_examples_4_2">“侵犯隐私权只对那些有见不得人的事情的人有影响。你若是反对侵犯隐私权，就定是有什么见不得人的事情。”</string>
+    <string name="fallacies_examples_4_3">“拉帮结派的青少年们听暴力主题的说唱音乐。说唱音乐在青少年群体中诱发暴力。”</string>
+    <string name="fallacies_examples_4_4">“如果你取得一个好学位，你就将得到一份好工作。如果你没有取得一个好学位，你将不能得到一份好工作。”</string>
+    <string name="fallacies_examples_4_5">“我们有了60年代的性革命，于是如今人们正死于艾滋。”</string>
+    <string name="fallacies_examples_4_6">“自总统大选后，失业人数比以往更多了，因此总统破坏了经济。”</string>
+    <string name="fallacies_examples_4_7">“诚然，这监狱的条件残忍而压抑人性——但这些住者可是罪犯！”</string>
+
+    <!--fallacies 5-->
+    <string name="fallacies_titles_5_1">特例假设</string>
+    <string name="fallacies_titles_5_2">乞题</string>
+    <string name="fallacies_titles_5_3">偏差概化</string>
+    <string name="fallacies_titles_5_4">确认偏误</string>
+    <string name="fallacies_titles_5_5">假两难推理</string>
+    <string name="fallacies_titles_5_6">谎言</string>
+    <string name="fallacies_titles_5_7">误导性鲜活个案</string>
+    <string name="fallacies_titles_5_8">红鲱鱼</string>
+    <string name="fallacies_titles_5_9">滑坡谬误</string>
+    <string name="fallacies_titles_5_10">单方论证</string>
+    <string name="fallacies_titles_5_11">不可证伪性</string>
+
+    <string name="fallacies_descs_5_1">试图通过一再修订命题、排除问题来保留一个自己珍视的信念。</string>
+    <string name="fallacies_descs_5_2">隐匿其他贡献因素，同时支持你断语的真值，不用除你断语的结论外的任何证据。</string>
+    <string name="fallacies_descs_5_3">概化一个不具代表性的样本来加强你的断语。</string>
+    <string name="fallacies_descs_5_4">只关注支持你断语的证据，而忽略与之冲突的证据。</string>
+    <string name="fallacies_descs_5_5">提供两个互斥选项作为唯二的选项，隐匿其他的替代选项。</string>
+    <string name="fallacies_descs_5_6">在知情的状态下重复申明一个公开的谎言为事实。</string>
+    <string name="fallacies_descs_5_7">用生动的细节形容一个现象，以此说服他人，即使这现象罕有发生。</string>
+    <string name="fallacies_descs_5_8">向命题引用不相关材料以分散注意，并引出一个不同的结论。</string>
+    <string name="fallacies_descs_5_9">假设相对较小的第一步将无可避免地导致一系列相关联的（负面）事件。</string>
+    <string name="fallacies_descs_5_10">有意不使用明显而相关的、与自己的结论相冲突的信息。</string>
+    <string name="fallacies_descs_5_11">提出一个没有途径能检验其是否为假，从而无法被证伪的断语。</string>
+
+    <string name="fallacies_examples_5_1">“不过除了更好的卫生、医药、教育、灌溉、公众健康、道路、一套淡水系统，以及公共秩序……罗马人都为我们做了些什么？”</string>
+    <string name="fallacies_examples_5_2">“所有非法药物都是有害的——这就是为什么它们是非法的。”</string>
+    <string name="fallacies_examples_5_3">“我们网站的投票发现90%的互联网用户反对网络盗版法案。”</string>
+    <string name="fallacies_examples_5_4">“显然，9/11 事件是一场由美国政府主导的阴谋，目的是合法化对伊拉克和阿富汗的战争。没有飞机冲向五角大楼；双子塔的倒塌缘于受控爆破……等等。”</string>
+    <string name="fallacies_examples_5_5">“我们将要削减教育预算, 否则就要陷入更深的债务困境. 我们无法承担更重的债务, 所以我们将不得不削减教育预算。”</string>
+    <string name="fallacies_examples_5_6">“我与那女人没有性关系。”</string>
+    <string name="fallacies_examples_5_7">“同性婚姻合法后，学校图书馆会被要求收藏同性文学；小学生会被讲同性童话，甚至被给予直接提倡同性恋的手册。”</string>
+    <string name="fallacies_examples_5_8">“为什么参议员要解释他支出的不均衡？毕竟,是参议员们做了远比这糟糕的事。”</string>
+    <string name="fallacies_examples_5_9">“如果我们将大麻合法化，更多人将开始吸食霹雳可卡因和海洛因，那么我们就将不得不把它们也合法化。”</string>
+    <string name="fallacies_examples_5_10">“这个伊拉克政权拥有并生产生化武器。它正在寻求核武器。”</string>
+    <string name="fallacies_examples_5_11">“他说谎是由于他被魔鬼占据。”</string>
+
+    <!--fallacies 6-->
+    <string name="fallacies_titles_6_1">诉诸人身</string>
+    <string name="fallacies_titles_6_2">转移举证责任</string>
+    <string name="fallacies_titles_6_3">布佛式论证</string>
+    <string name="fallacies_titles_6_4">起源谬误</string>
+    <string name="fallacies_titles_6_5">罪恶关联</string>
+    <string name="fallacies_titles_6_6">稻草人论证</string>
+
+    <string name="fallacies_descs_6_1">通过对人而非他们的断语发出无关的攻击来绕开命题。</string>
+    <string name="fallacies_descs_6_2">我无需证明我的主张——你得证明它是错的。</string>
+    <string name="fallacies_descs_6_3">仅因为拥护者们对他们自己断语的兴趣而说明一条断语不可信。</string>
+    <string name="fallacies_descs_6_4">攻击某个主张的诱因或起源，而不是其本身。</string>
+    <string name="fallacies_descs_6_5">通过将一个想法或断语与一个不受欢迎的人或团体关联来使人们不相信它。</string>
+    <string name="fallacies_descs_6_6">为你对手的声明创造一个歪曲或简化的版本，并反对这个版本。</string>
+
+    <string name="fallacies_examples_6_1">“任何说我们应该建造世贸中心遗址清真寺人都是仇美的自由主义者。”</string>
+    <string name="fallacies_examples_6_2">“我认为长期的太阳周期是导致全球变暖的原因。让我看到我是错的。”</string>
+    <string name="fallacies_examples_6_3">“一个关于手机对健康带来的风险的研究有手机公司参与所以这研究不可信。”</string>
+    <string name="fallacies_examples_6_4">“当然，主流自由党媒体不会说贝拉克·奥巴马是一名穆斯林。”</string>
+    <string name="fallacies_examples_6_5">“哦，你想要放松反恐法，就像恐怖分子们想让我们做的那样。你是说你支持恐怖主义咯？”</string>
+    <string name="fallacies_examples_6_6">“你说以色列应该停止在约旦河西岸建造定居地这种违反协定的行为，所以你是说以色列无权做一个国家？”</string>
+
+    <string name="title_activity_about">关于</string>
+    <string name="action_settings">设置</string>
+    <string name="creator">由 LukeStoneHm 创建\n2015</string>
+    <string name="about_more">一个简单但美观，以悦目的方式展现世界上的各种逻辑谬误的应用。\n\n此应用是开源项目，在 GPL 2 许可证授权下发布。\n\n你可以自由地在 GitHub 上浏览源代码。\n\nhttps://github.com/LukeStonehm/LogicalDefence/</string>
+
+    <string name="share">分享一个谬误</string>
+    <string name="from">\n\n分享自应用 Logical Defence</string>
+
+    <string name="action_language">语言</string>
+    <string name="language_dialog_title">选择语言</string>
+
+    <string name="locale_name_en">English (UK)</string>
+    <string name="locale_name_en_rUS">English (US)</string>
+    <string name="locale_name_de">Deutsch</string>
+    <string name="locale_name_es">Español</string>
+    <string name="locale_name_fr">Français</string>
+    <string name="locale_name_it">Italiano</string>
+    <string name="locale_name_pt">Português</string>
+    <string name="locale_name_pl">Polski</string>
+    <string name="locale_name_eo">Esperanto</string>
+    <string name="locale_name_zh_rCN">简体中文</string>
+</resources>
