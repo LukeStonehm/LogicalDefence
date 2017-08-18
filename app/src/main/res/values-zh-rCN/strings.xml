@@ -216,7 +216,7 @@
     <string name="action_language">语言</string>
     <string name="language_dialog_title">选择语言</string>
 
-    <string name="locale_name_en">English</string>
+    <string name="locale_name_en">English (UK)</string>
     <string name="locale_name_en_rUS">English (US)</string>
     <string name="locale_name_de">Deutsch</string>
     <string name="locale_name_es">Español</string>
