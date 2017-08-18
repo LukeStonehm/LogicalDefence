@@ -216,13 +216,14 @@
     <string name="action_language">Language</string>
     <string name="language_dialog_title">Choose language</string>
 
-    <string name="locale_name_en">English</string>
+    <string name="locale_name_en">English (UK)</string>
     <string name="locale_name_en_rUS">English (US)</string>
-    <string name="locale_name_de">German</string>
-    <string name="locale_name_es">Spanish</string>
-    <string name="locale_name_fr">French</string>
-    <string name="locale_name_it">Italian</string>
-    <string name="locale_name_pt">Portuguese</string>
-    <string name="locale_name_pl">Polish</string>
+    <string name="locale_name_de">Deutsch</string>
+    <string name="locale_name_es">Español</string>
+    <string name="locale_name_fr">Français</string>
+    <string name="locale_name_it">Italiano</string>
+    <string name="locale_name_pt">Português</string>
+    <string name="locale_name_pl">Polski</string>
     <string name="locale_name_eo">Esperanto</string>
+    <string name="locale_name_zh_rCN">简体中文</string>
 </resources>
