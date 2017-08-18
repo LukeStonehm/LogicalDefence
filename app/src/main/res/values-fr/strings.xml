@@ -185,13 +185,14 @@
     <string name="share">Diffuser de la logique pure</string>
     <string name="action_language">Langue</string>
     <string name="language_dialog_title">Choisissez votre langue</string>
-    <string name="locale_name_de">German</string>
     <string name="locale_name_en">English</string>
     <string name="locale_name_en_rUS">English (US)</string>
-    <string name="locale_name_es">Spanish</string>
+    <string name="locale_name_de">Deutsch</string>
+    <string name="locale_name_es">Español</string>
     <string name="locale_name_fr">Français</string>
-    <string name="locale_name_it">Italian</string>
-    <string name="locale_name_pt">Portuguese</string>
-    <string name="locale_name_pl">Polonais</string>
-    <string name="locale_name_eo">Espéranto</string>
+    <string name="locale_name_it">Italiano</string>
+    <string name="locale_name_pt">Português</string>
+    <string name="locale_name_pl">Polski</string>
+    <string name="locale_name_eo">Esperanto</string>
+    <string name="locale_name_zh_rCN">简体中文</string>
 </resources>
