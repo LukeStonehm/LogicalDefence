@@ -213,7 +213,7 @@
     <string name="share">Teile einen Fehlschluss</string>
     <string name="action_language">Sprache</string>
     <string name="language_dialog_title">Sprache wählen</string>
-    <string name="locale_name_en">English</string>
+    <string name="locale_name_en">English (UK)</string>
     <string name="locale_name_en_rUS">English (US)</string>
     <string name="locale_name_de">Deutsch</string>
     <string name="locale_name_es">Español</string>
