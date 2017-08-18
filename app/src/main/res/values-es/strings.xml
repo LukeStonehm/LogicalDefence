@@ -193,7 +193,7 @@
     <string name="share">Comparte una falacia</string>
     <string name="action_language">Idioma</string>
     <string name="language_dialog_title">Elige un idioma</string>
-    <string name="locale_name_en">English</string>
+    <string name="locale_name_en">English (UK)</string>
     <string name="locale_name_en_rUS">English (US)</string>
     <string name="locale_name_de">Deutsch</string>
     <string name="locale_name_es">Español</string>
