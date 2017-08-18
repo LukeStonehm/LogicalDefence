@@ -185,7 +185,7 @@
     <string name="share">Diffuser de la logique pure</string>
     <string name="action_language">Langue</string>
     <string name="language_dialog_title">Choisissez votre langue</string>
-    <string name="locale_name_en">English</string>
+    <string name="locale_name_en">English (UK)</string>
     <string name="locale_name_en_rUS">English (US)</string>
     <string name="locale_name_de">Deutsch</string>
     <string name="locale_name_es">Español</string>
