@@ -213,7 +213,7 @@
     <string name="share">Condividi una fallacia</string>
     <string name="action_language">Lingua</string>
     <string name="language_dialog_title">Scegli una lingua</string>
-    <string name="locale_name_en">English</string>
+    <string name="locale_name_en">English (UK)</string>
     <string name="locale_name_en_rUS">English (US)</string>
     <string name="locale_name_de">Deutsch</string>
     <string name="locale_name_es">Español</string>
