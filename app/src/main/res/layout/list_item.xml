@@ -21,10 +21,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/fallacy_title"
         android:background="@android:color/white"
-        android:paddingBottom="@dimen/item_margin"
         android:paddingLeft="@dimen/nav_drawer_item_padding"
+        android:paddingTop="@dimen/item_margin"
         android:paddingRight="@dimen/nav_drawer_item_padding"
-        android:paddingTop="@dimen/item_margin">
+        android:paddingBottom="@dimen/item_margin">
 
         <TextView
             android:id="@+id/fallacy_desc"
@@ -41,10 +41,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/fallacy_desc_wrapper"
         android:background="@android:color/white"
-        android:paddingBottom="@dimen/item_margin"
         android:paddingLeft="@dimen/nav_drawer_item_padding"
+        android:paddingTop="@dimen/item_margin"
         android:paddingRight="@dimen/nav_drawer_item_padding"
-        android:paddingTop="@dimen/item_margin">
+        android:paddingBottom="@dimen/item_margin">
 
         <TextView
             android:id="@+id/fallacy_example"

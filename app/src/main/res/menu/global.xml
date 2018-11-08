@@ -2,12 +2,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/action_about"
-        android:title="@string/action_about"
         android:orderInCategory="100"
+        android:title="@string/action_about"
         app:showAsAction="never" />
     <item
         android:id="@+id/action_language"
-        android:title="@string/action_language"
         android:orderInCategory="101"
+        android:title="@string/action_language"
         app:showAsAction="never" />
 </menu>

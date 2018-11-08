@@ -31,7 +31,7 @@
     <string name="fallacies_descs_1_1">Begründung mit der Erkenntnis eines \'Experten\', einer \'Studie\' oder sonst einer größeren Gruppe (etwa \'Wissenschaftler\').</string>
     <string name="fallacies_descs_1_2">Argumentum Ad Verecundiam (lat. für \'Beweis durch Ehrfurcht\'): Etwas soll wahr sein, weil es ein \'Experte\' sagt.</string>
     <string name="fallacies_descs_1_3">Es wird behauptet, dass etwas wahr ist, weil es immer so gemacht wird.</string>
-    <string name="fallacies_descs_1_4">Etwas ist wahr, weil es nicht als falsch bewiesen wurde (oder anders herum).</string>
+    <string name="fallacies_descs_1_4">Etwas ist wahr, weil es nicht als falsch bewiesen wurde (oder andersherum).</string>
     <string name="fallacies_descs_1_5">Weil etwas schwer vorstellbar ist, wird angenommen, dass es nicht wahr sein kann.</string>
     <string name="fallacies_descs_1_6">Es wird angenommen, dass, weil jemand reich ist, oder weil etwas teuer ist, sich der Wahrheitsgehalt einer Aussage ändert.</string>
     <string name="fallacies_descs_1_7">Etwas soll besser sein, nur weil es neu ist.</string>
@@ -45,9 +45,9 @@
     <string name="fallacies_examples_1_4">\'Niemand hat mir Gott beweisen können, also gibt es keinen Gott.\'</string>
     <string name="fallacies_examples_1_5">\'Das Auge ist eine unvorstellbar komplexe biochemische Maschine: Wie, außer durch Schöpfung, könnte etwas derartiges entstehen?\'</string>
     <string name="fallacies_examples_1_6">\'Wenn der Preis höher ist, muss auch der Wert höher sein.\'</string>
-    <string name="fallacies_examples_1_7">\'Wow! Das neue Betriebssystem wird meinen Computer besser und schneller machen...\'</string>
+    <string name="fallacies_examples_1_7">\'Wow! Das neue Betriebssystem wird meinen Computer besser und schneller machen…\'</string>
     <string name="fallacies_examples_1_8">\'Milch ist essenziell für gesunde Knochen.\'</string>
-    <string name="fallacies_examples_1_9">\'Es gibt Milliarden von Galaxien mit Milliarden von Sternen... Irgendwo muss es intelligentes Leben geben.\'</string>
+    <string name="fallacies_examples_1_9">\'Es gibt Milliarden von Galaxien mit Milliarden von Sternen… Irgendwo muss es intelligentes Leben geben.\'</string>
     <string name="fallacies_examples_1_10">\'Es gab immer eine Regierung. Eine Gesellschaft ohne Regierung kann es also nicht geben.\'</string>
 
     <!--fallacies 2-->
@@ -134,7 +134,7 @@
     <string name="fallacies_descs_4_2">Die Konklusion folgt aus der Prämisse, die wiederum aus der Konklusion folgt.</string>
     <string name="fallacies_descs_4_3">Es wird behauptet, dass zwei zeitlich zusammenhängende Ereignisse eine Ursache-Wirkung-Beziehung haben. Auch bekannt als \'Scheinkorrelation\'.</string>
     <string name="fallacies_descs_4_4">Es gibt nicht nur diese Erklärung, also ist es falsch, anzunehmen, dass diese die Ursache ist.</string>
-    <string name="fallacies_descs_4_5">Es wird behauptet, dass ein Ereigniss ein anderes ausgelöst hat, obwohl ein anderes auch vorstellbar ist.</string>
+    <string name="fallacies_descs_4_5">Es wird behauptet, dass ein Ereignis ein anderes ausgelöst hat, obwohl ein anderes auch vorstellbar ist.</string>
     <string name="fallacies_descs_4_6">Weil ein bestimmtes Ereignis auf ein anderes folgt, soll das erste auch die Ursache für das zweite sein.</string>
     <string name="fallacies_descs_4_7">Weil etwas falsch ist, kann es durch weitere falsche Schritte wieder richtig werden.</string>
 
@@ -162,7 +162,7 @@
     <string name="fallacies_descs_5_1">Es wird versucht, eine lieb gewordene Ansicht zu schützen, indem immer wieder das Argument hinterfragt und Gegenargumente ausgeblendet werden.</string>
     <string name="fallacies_descs_5_2">Andere Faktoren, die das Argument begründen, werden nicht erwähnt, so dass nur die Schlussfolgerung die Behauptung stützt.</string>
     <string name="fallacies_descs_5_3">Von einem unrepräsentativen Beispiel wird verallgemeinert, um das Argument zu stützen.</string>
-    <string name="fallacies_descs_5_4">Nur nach Fakten suchen, die die These stützen, anstatt auch die anderen Fakten zu prüfen.</string>
+    <string name="fallacies_descs_5_4">Nur nach Fakten suchen, die These stützen, anstatt auch die anderen Fakten zu prüfen.</string>
     <string name="fallacies_descs_5_5">Es wird der falsche Eindruck erweckt, dass es nur zwei Alternativen gibt.</string>
     <string name="fallacies_descs_5_6">Eine unverblümte Lüge wird als wahr dargestellt.</string>
     <string name="fallacies_descs_5_7">Etwas wird dadurch wahrer, dass es mit mehr Details dargestellt wird.</string>
@@ -171,7 +171,7 @@
     <string name="fallacies_descs_5_10">Es wird absichtlich schlecht für die gegnerische Position argumentiert.</string>
     <string name="fallacies_descs_5_11">Es wird eine Behauptung gemacht, die nicht widerlegt werden kann.</string>
 
-    <string name="fallacies_examples_5_1">\'Aber abgesehen von besserer Infrastruktur, Medizin, Bildung, Wasseranschluss, öffentlicher Gesundheit, Straßen, einem Trinkwassersystem und öffentlicher Ordnung... Was haben die Römer je für uns getan?\'</string>
+    <string name="fallacies_examples_5_1">\'Aber abgesehen von besserer Infrastruktur, Medizin, Bildung, Wasseranschluss, öffentlicher Gesundheit, Straßen, einem Trinkwassersystem und öffentlicher Ordnung… Was haben die Römer je für uns getan?\'</string>
     <string name="fallacies_examples_5_2">\'Alle illegalen Drogen sind schädlich – darum sind sie ja auch illegal.\'</string>
     <string name="fallacies_examples_5_3">\'Unsere Webseite hat herausgefunden, das 90% der Internetnutzer gegen Privatsphäre sind.\'</string>
     <string name="fallacies_examples_5_4">\'Es ist klar: Der 11. September ist eine Verschwörung der amerikanischen Regierung, um die Kriege im Irak und Afganistan zu rechtfertigen.\'</string>

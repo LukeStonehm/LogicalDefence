@@ -45,7 +45,7 @@
     <string name="fallacies_examples_1_4">\'Ninguém me provou que Deus existe. Então eu sei que Deus não existe.\'</string>
     <string name="fallacies_examples_1_5">\'O olho é uma incrivelmente complexa máquina biomecânica com milhares de partes interligadas. Como isso poderia existir sem um planejamento inteligente?\'</string>
     <string name="fallacies_examples_1_6">\'Se custa mais caro, deve ser melhor.\'</string>
-    <string name="fallacies_examples_1_7">\'Incrível! A última versão desse sistema operacional vai fazer meu computador ficar mais rápido e melhor...\'</string>
+    <string name="fallacies_examples_1_7">\'Incrível! A última versão desse sistema operacional vai fazer meu computador ficar mais rápido e melhor…\'</string>
     <string name="fallacies_examples_1_8">\'Leite é essencial para ossos saudáveis.\'</string>
     <string name="fallacies_examples_1_9">\'Existem bilhões de galaxias com bilhões de estrelas no universo, então deve exister outro planeta com vida nele.\'</string>
     <string name="fallacies_examples_1_10">\'O governo sempre existiu, portanto a sociedade não pode viver sem governo.\'</string>
@@ -171,13 +171,13 @@
     <string name="fallacies_descs_5_10">Falhar intencionalmente para usar informação relevante e significativa que conta contra a conclusão de alguém.</string>
     <string name="fallacies_descs_5_11">Oferecer uma declaração que não pode ser provada falsa, porque não existe como verificar se ela é falsa ou não.</string>
 
-    <string name="fallacies_examples_5_1">\'Além de melhor saneamento, medicamentos, educação, irrigação, saúde pública, estradas, um sistema de água corrente e ordem pública... O que os Romanos fizeram por nós?\'</string>
+    <string name="fallacies_examples_5_1">\'Além de melhor saneamento, medicamentos, educação, irrigação, saúde pública, estradas, um sistema de água corrente e ordem pública… O que os Romanos fizeram por nós?\'</string>
     <string name="fallacies_examples_5_2">\'Todas as drogas ilícitas são nocivas - é por isso que elas são ilegais.\'</string>
     <string name="fallacies_examples_5_3">\'A pesquisa do nosso site verificou que 90% dos usuários de internet são contra as leis de pirataria online.\'</string>
     <string name="fallacies_examples_5_4">\'É óbvio – 9/11 foi uma conspiração liderada pelo governo americano para justificar a guerra no Iraque e Afeganistão. Nenhum avião atingiu o Pentágono. A queda das Torres Gêmeas foi uma demolição controlada… etc.\'</string>
     <string name="fallacies_examples_5_5">\'Teremos que cortar o orçamento da educação ou entraremos mais fundo em dívidas. Não podemos arcar com mais dívidas , então teremos que cortar o orçamento da educação.\'</string>
     <string name="fallacies_examples_5_6">\'Eu não tive relações sexuais com aquela mulher.\'</string>
-    <string name="fallacies_examples_5_7">\'Após legalizar o casamento gay, bibliotecas das escolas foram solicitadas a disponibilizar literatura homoafetiva; crianças de escola primária receberam contos infantis homossexuais e até manuais de defesa da homosexualidade.\'</string>
+    <string name="fallacies_examples_5_7">\'Após legalizar o casamento gay, bibliotecas das escolas foram solicitadas a disponibilizar literatura homoafetiva; crianças de escola primária receberam contos infantis homossexuais e até manuais de defesa da homossexualidade.\'</string>
     <string name="fallacies_examples_5_8">\'Por que deveria o senador pagar seus gastos irregulares? Afinal, outros senadores fizeram coisas muito piores.\'</string>
     <string name="fallacies_examples_5_9">\'Se legalizarmos a maconha, mais pessoas vão começar a usar crack e heroína, então teremos que legaizar esses também.\'</string>
     <string name="fallacies_examples_5_10">\'O regime iraquiano possui e produz armas químicas e biológicas. E está buscando ter armas nucleares.\'</string>
