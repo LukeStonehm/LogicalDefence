@@ -1,7 +1,6 @@
 package za.co.lukestonehm.logicaldefence;
 
 import android.app.Activity;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.graphics.Color;
@@ -22,7 +21,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -30,7 +28,6 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
-
 
 public class MainActivity extends AppCompatActivity
         implements NavCallback {
@@ -65,7 +62,7 @@ public class MainActivity extends AppCompatActivity
         mCallbacks = this;
         appPrefs = new AppPreferences(this);
 
-        mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+        mDrawerLayout = findViewById(R.id.drawer_layout);
         mDrawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.START);
         locales = getResources().getStringArray(R.array.supported_locales);
         languages = getResources().getStringArray(R.array.locale_names);
@@ -75,7 +72,7 @@ public class MainActivity extends AppCompatActivity
         //load sections after locale setup
         sections = getResources().getStringArray(R.array.sections);
 
-        Toolbar mActionBar = (Toolbar) findViewById(R.id.action_bar);
+        Toolbar mActionBar = findViewById(R.id.action_bar);
         setSupportActionBar(mActionBar);
 
         mDrawerToggle = new ActionBarDrawerToggle(
@@ -103,14 +100,11 @@ public class MainActivity extends AppCompatActivity
 
         mDrawerToggle.syncState();
 
-        mDrawerListView = (ListView) findViewById(R.id.lv);
-        mDrawerListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                unsetDrawerItemSelected((TextView) parent.getChildAt(mCurrentSelectedPosition));
-                setDrawerItemSelected((TextView) view);
-                selectItem(position);
-            }
+        mDrawerListView = findViewById(R.id.lv);
+        mDrawerListView.setOnItemClickListener((parent, view, position, id) -> {
+            unsetDrawerItemSelected((TextView) parent.getChildAt(mCurrentSelectedPosition));
+            setDrawerItemSelected((TextView) view);
+            selectItem(position);
         });
 
         mDrawerListView.setAdapter(new ArrayAdapter<>(
@@ -204,14 +198,11 @@ public class MainActivity extends AppCompatActivity
             //Create Alert dialog to choose language from
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
             builder.setTitle(R.string.language_dialog_title);
-            builder.setItems(languages, new DialogInterface.OnClickListener() {
-                @Override
-                public void onClick(DialogInterface dialog, int which) {
-                    setLocale(which);
-                    Intent refresh = new Intent(getApplicationContext(), MainActivity.class);
-                    startActivity(refresh);
-                    finish();
-                }
+            builder.setItems(languages, (dialog, which) -> {
+                setLocale(which);
+                Intent refresh = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(refresh);
+                finish();
             });
             builder.show();
 
@@ -274,7 +265,7 @@ public class MainActivity extends AppCompatActivity
 
             List<Fallacy> fallacies = generateFallacyList(titles, descs, examples);
 
-            RecyclerView mRecyclerView = (RecyclerView) v.findViewById(R.id.sec_rv);
+            RecyclerView mRecyclerView = v.findViewById(R.id.sec_rv);
             mRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
             FallacyListAdapter fla = new FallacyListAdapter(getActivity(), fallacies);
             mRecyclerView.setAdapter(fla);
@@ -303,5 +294,4 @@ public class MainActivity extends AppCompatActivity
             return list;
         }
     }
-
 }

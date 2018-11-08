@@ -28,9 +28,9 @@ public class FallacyListAdapter extends RecyclerView.Adapter<FallacyListAdapter.
 
             v.setOnLongClickListener(this);
 
-            title = (TextView) v.findViewById(R.id.fallacy_title);
-            desc = (TextView) v.findViewById(R.id.fallacy_desc);
-            example = (TextView) v.findViewById(R.id.fallacy_example);
+            title = v.findViewById(R.id.fallacy_title);
+            desc = v.findViewById(R.id.fallacy_desc);
+            example = v.findViewById(R.id.fallacy_example);
         }
 
         public void bindFallacy(Fallacy fallacy, Context context) {
