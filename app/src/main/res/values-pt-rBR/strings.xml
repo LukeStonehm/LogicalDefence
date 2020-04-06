@@ -1,226 +1,226 @@
 <?xml version="1.0" encoding="utf-8"?>
-+<resources>
-+
-+    <string name="app_name">Defesa Lógica</string>
-+    <string name="navigation_drawer_open">Abrir compartimento de navegação</string>
-+    <string name="navigation_drawer_close">Fechar compartimento de navegação</string>
-+    <string name="action_about">Sobre</string>
-+    <string name="catlbl">Categorias</string>
-+    <string name="subTitle">A bela lista de falácias lógicas</string>
-+
-+    <!--sections-->
-+    <string name="section_1">Recorrer à mente</string>
-+    <string name="section_2">Recorrer às emoções</string>
-+    <string name="section_3">Dedução errônea</string>
-+    <string name="section_4">Distorcendo causa e efeito</string>
-+    <string name="section_5">Manipulando Conteúdo</string>
-+    <string name="section_6">Atacando</string>
-+
-+    <!--fallacies 1-->
-+    <string name="fallacies_titles_1_1">Recorrer à Autoridade Anônima</string>
-+    <string name="fallacies_titles_1_2">Recorrer à Autoridade</string>
-+    <string name="fallacies_titles_1_3">Recorrer ao senso comum</string>
-+    <string name="fallacies_titles_1_4">Recorrer à Ignorância</string>
-+    <string name="fallacies_titles_1_5">Recorrer à Incredulidade</string>
-+    <string name="fallacies_titles_1_6">Recorrer ao Dinheiro</string>
-+    <string name="fallacies_titles_1_7">Recorrer à Novidade</string>
-+    <string name="fallacies_titles_1_8">Recorrer à Crença Popular</string>
-+    <string name="fallacies_titles_1_9">Recorrer à Probabilidade</string>
-+    <string name="fallacies_titles_1_10">Recorrer à Tradição</string>
-+
-+    <string name="fallacies_descs_1_1">Utilizar evidência de um \'expert\' ou \'estudo\' ou grupo generalizado (como \'cientistas\') desconhecido para afirmar que algo é verdadeiro.</string>
-+    <string name="fallacies_descs_1_2">Afirmar que algo é verdade porque um  \'expert\(pessoa com autoridade)' diz ser.</string>
-+    <string name="fallacies_descs_1_3">Afirmar que algo é verdade porque é praticado de forma geral.</string>
-+    <string name="fallacies_descs_1_4">Uma afirmação é verdadeira simplesmente porque ela não foi provada falsa (ou falsa porque ela não foi provada verdadeira).</string>
-+    <string name="fallacies_descs_1_5">Se a afirmação soa inacreditável, ela não deve ser verdadeira.</string>
-+    <string name="fallacies_descs_1_6">Supor que, se alguém é rico ou algo é caro, então isso afeta a verdade da afirmação.</string>
-+    <string name="fallacies_descs_1_7">Supor que algo é melhor porque é novo ou recente.</string>
-+    <string name="fallacies_descs_1_8">Afirmar que algo é verdade porque a maioria das pessoas acredita nisso.</string>
-+    <string name="fallacies_descs_1_9">Assumir que, porque algo pode acontecer, isso vai inevitavelmente acontecer.</string>
-+    <string name="fallacies_descs_1_10">Afirmar que algo é verdade porque(aparentemente) tem sempre sido assim.</string>
-+
-+    <string name="fallacies_examples_1_1">\'Dizem que leva 7 anos para digerir chiclete.\'</string>
-+    <string name="fallacies_examples_1_2">\'Mais de 4000 notáveis cientistas e engenheiros discutem sobre o aquecimento global.\'</string>
-+    <string name="fallacies_examples_1_3">\'Esse banco tem alguns problemas com corrupção, mas não tem nada acontecendo aqui que não aconteça em todos os outros bancos.\'</string>
-+    <string name="fallacies_examples_1_4">\'Ninguém me provou que Deus existe. Então eu sei que Deus não existe.\'</string>
-+    <string name="fallacies_examples_1_5">\'O olho é uma incrivelmente complexa máquina biomecânica com milhares de partes interligadas. Como isso poderia existir sem um planejamento inteligente?\'</string>
-+    <string name="fallacies_examples_1_6">\'Se custa mais caro, deve ser melhor.\'</string>
-+    <string name="fallacies_examples_1_7">\'Incrível! A última versão desse sistema operacional vai fazer meu computador ficar mais rápido e melhor...\'</string>
-+    <string name="fallacies_examples_1_8">\'Leite é essencial para ossos saudáveis.\'</string>
-+    <string name="fallacies_examples_1_9">\'Existem bilhões de galaxias com bilhões de estrelas no universo, então deve exister outro planeta com vida nele.\'</string>
-+    <string name="fallacies_examples_1_10">\'O governo sempre existiu, portanto a sociedade não pode viver sem governo.\'</string>
-+
-+    <!--fallacies 2-->
-+    <string name="fallacies_titles_2_1">Recorrer às Consequências de uma Crença</string>
-+    <string name="fallacies_titles_2_2">Recorrer ao Medo</string>
-+    <string name="fallacies_titles_2_3">Recorrer à Adulação</string>
-+    <string name="fallacies_titles_2_4">Recorrer à Natureza</string>
-+    <string name="fallacies_titles_2_5">Recorrer à Piedade</string>
-+    <string name="fallacies_titles_2_6">Recorrer ao Ridículo</string>
-+    <string name="fallacies_titles_2_7">Recorrer ao Ódio</string>
-+    <string name="fallacies_titles_2_8">Recorrer ao Otimismo</string>
-+
-+    <string name="fallacies_descs_2_1">Argumentar uma crença é falsa porque ela implica algo que você prefere não acreditar.</string>
-+    <string name="fallacies_descs_2_2">Um argumento é construído para aumentar o medo e o preconceito ao lado oposto.</string>
-+    <string name="fallacies_descs_2_3">Usar um elogio irrelevante para introduzir uma afirmação infundada que é aceita junto com o elogio.</string>
-+    <string name="fallacies_descs_2_4">Fazer sua afirmação parecer mais verdadeira elaborando uma comparação com o \'bom\' mundo natural.</string>
-+    <string name="fallacies_descs_2_5">Tentar induzir piedade para influenciar oponentes.</string>
-+    <string name="fallacies_descs_2_6">Apresentar o argumento do oponente de modo que o faça parecer absurdo.</string>
-+    <string name="fallacies_descs_2_7">Rejeitar uma afirmação apelando ao preconceito pessoal contra o argumentador.</string>
-+    <string name="fallacies_descs_2_8">Sugerir que uma afirmação é verdadeira ou falsa apenas porque você espera fortemente que seja.</string>
-+
-+    <string name="fallacies_examples_2_1">\'Não pode ser o Senador naquele vídeo de sexo. Se fosse o Senador, ele estaria mentindo sobre não conhecer ela, e ele não é o tipo de homem que mentiria.\'</string>
-+    <string name="fallacies_examples_2_2">\'Antes que você perceba, haverá mais mesquistas do que igrejas.\'</string>
-+    <string name="fallacies_examples_2_3">\'Leitores inteligentes e sofisticados com certeza reconhecerão uma falácia como essa quando a lerem.\'</string>
-+    <string name="fallacies_examples_2_4">\'Claro que homossexualidade não é natural. Você não vê animais do mesmo sexo copulando.\'</string>
-+    <string name="fallacies_examples_2_5">\'O ex-ditador está velho e doente. É errado fazer ele ser julgado por esses supostos crimes.\'</string>
-+    <string name="fallacies_examples_2_6">\'Fé em Deus é como acreditar no Papai Noel e na Fada Madrinha.\'</string>
-+    <string name="fallacies_examples_2_7">\'Você não odeia aqueles atores ricos de Hollywood que vão na TV para fazer propaganda política de esquerda?\'</string>
-+    <string name="fallacies_examples_2_8">\'O Presidente não mentiria. Ele é nosso líder e um cidadão exemplar.\'</string>
-+
-+    <!--fallacies 3-->
-+    <string name="fallacies_titles_3_1">Evidência Anedótica</string>
-+    <string name="fallacies_titles_3_2">Composição</string>
-+    <string name="fallacies_titles_3_3">Divisão</string>
-+    <string name="fallacies_titles_3_4">Construir Falácia</string>
-+    <string name="fallacies_titles_3_5">Falácia de Jogador</string>
-+    <string name="fallacies_titles_3_6">Generalização Indevida</string>
-+    <string name="fallacies_titles_3_7">Conclusões Precipitadas</string>
-+    <string name="fallacies_titles_3_8">Ponto Intermediário</string>
-+    <string name="fallacies_titles_3_9">Falácia Perfeccionista</string>
-+    <string name="fallacies_titles_3_10">Falácia Relativista</string>
-+    <string name="fallacies_titles_3_11">Centrar a Atenção</string>
-+    <string name="fallacies_titles_3_12">Generalização Excludente</string>
-+    <string name="fallacies_titles_3_13">Termo Médio do Silogismo Não-Distribuído</string>
-+
-+    <string name="fallacies_descs_3_1">Descartar evidência obtida a partir de pesquisa sistemática ou de testes em favor de algumas histórias pessoais.</string>
-+    <string name="fallacies_descs_3_2">Assumir que características ou crenças de alguns de um grupo se aplica ao grupo inteiro.</string>
-+    <string name="fallacies_descs_3_3">Assumir que características ou crenças de um grupo automaticamente se aplica à qualquer membro indivudual.</string>
-+    <string name="fallacies_descs_3_4">Assumir que algo que é bem projetado ou visualmente agradável é mais válido ou melhor.</string>
-+    <string name="fallacies_descs_3_5">Assumir que um histórico de resultados independentes vai afetar resultados futuros.</string>
-+    <string name="fallacies_descs_3_6">Elaborar uma conclusão geral a partir de uma pequena amostra.</string>
-+    <string name="fallacies_descs_3_7">Elaborar uma conclusão rápida sem considerar provas relevantes (e facilmente disponíveis).</string>
-+    <string name="fallacies_descs_3_8">Assumir que porque dois argumentos opostos tem mérito, a resposta deve estar em algum lugar entre eles.</string>
-+    <string name="fallacies_descs_3_9">Assumir que a única opção seja o êxito absoluto, e então rejeitando qualquer coisa que não funciona de forma totalmente perfeita.</string>
-+    <string name="fallacies_descs_3_10">Rejeitar uma afirmação devido a uma crença de que a verdade é relativa para cad pessoa ou grupo.</string>
-+    <string name="fallacies_descs_3_11">Assumir que a observação de uma pequena amostra  se aplica a um grupo inteiro.</string>
-+    <string name="fallacies_descs_3_12">Aplicar uma regra geral de forma precipitada ou modo abrangente demais.</string>
-+    <string name="fallacies_descs_3_13">Assumir que se duas coisas compartilham de uma propriedade, isso as torna a mesma coisa.</string>
-+
-+    <string name="fallacies_examples_3_1">\'Eu vou continuar fumando. Meu avô fumava 40 cigarros por dia e morreu com 90 anos.\'</string>
-+    <string name="fallacies_examples_3_2">\'Ataques terroristas recentes foram feitos por grupos Islâmicos, portanto todos os terroristas são muçulmanos.\'</string>
-+    <string name="fallacies_examples_3_3">\'Muitos conservadores querem banir o casamento gay, não acreditam no aqucimento e negam a teoria evolucionista, portanto todos os conservadores são homofóbicos, antiecológicos e criacionistas.\'</string>
-+    <string name="fallacies_examples_3_4">\'Elementary OS é a mais bem projetada e a mais bem apresentada distribuição do Linux, portanto é claramente superior.\'</string>
-+    <string name="fallacies_examples_3_5">\'Joguei uma moeda 10 vezes seguidas e ela caiu cara todas as vezes, portanto a próxima jogada é mais provável que caia coroa.\'</string>
-+    <string name="fallacies_examples_3_6">\'Acabei de ser fechado no trânsito por uma motorista mulher. Mulheres não sabem dirigir.\'</string>
-+    <string name="fallacies_examples_3_7">\'Ela quer anticoncepcional no plano da saúde dela? Que vadia!\'</string>
-+    <string name="fallacies_examples_3_8">\'Bati na traseira do seu carro, mas eu não acho que devo pagar pelo estrago. Você acha que devo pagar por todo estrago. Um compromisso justo seria dividir a conta pela metade.\'</string>
-+    <string name="fallacies_examples_3_9">\'Para que fazer todas essas campanhas contra dirigir bêbado? As pessoas vão continuar a beber e dirigirde qualquer forma.\'</string>
-+    <string name="fallacies_examples_3_10">\'Isso talvez seja verdade para você, mas não é verdade para mim.\'</string>
-+    <string name="fallacies_examples_3_11">\'Esse grande fabricante de sapatos emprega crianças em ateliês clandestinos. Portanto todas as companhias de sapatos são cruéis empregadoras de crianças escravas!\'</string>
-+    <string name="fallacies_examples_3_12">\'Aqueles jovens fizeram motim porque lhes faltaram pais moralmente responsáveis.\'</string>
-+    <string name="fallacies_examples_3_13">\'Uma teoria pode significar uma ideia não provada. Cientistas usam o termo \'A Teoria da Evolução\', portanto a evolução é uma ideia não provada.\'</string>
-+
-+    <!--fallacies 4-->
-+    <string name="fallacies_titles_4_1">Afirmar o Consequente</string>
-+    <string name="fallacies_titles_4_2">Lógica Circular</string>
-+    <string name="fallacies_titles_4_3">Cum Hoc Ergo Propter Hoc</string>
-+    <string name="fallacies_titles_4_4">Negar o Antecedente</string>
-+    <string name="fallacies_titles_4_5">Ignorar uma Causa Comum</string>
-+    <string name="fallacies_titles_4_6">Post Hoc Ergo Propter Hoc</string>
-+    <string name="fallacies_titles_4_7">Dois Erros Fazem um Certo</string>
-+
-+    <string name="fallacies_descs_4_1">Assumir que existe apenas uma explicação para a observação que você está fazendo.</string>
-+    <string name="fallacies_descs_4_2">Uma conclusão é resultante de premissas baseadas na conclusão.</string>
-+    <string name="fallacies_descs_4_3">Declarar que dois eventos que ocorrem juntos devem ter uma relação de causa e efeito. Também conhecido como \'Confundir Causa com Correlação\'</string>
-+    <string name="fallacies_descs_4_4">Não existe apenas uma explicação para um resultado, então é falso assumir a causa baseado no efeito.</string>
-+    <string name="fallacies_descs_4_5">Declarar que um evento deve ter causado outro quando um terceiro evento (despercebido) é provavelmente a causa.</string>
-+    <string name="fallacies_descs_4_6">Declarar que, porque um evento ocorre após outro, o primeiro é a causa do segundo.</string>
-+    <string name="fallacies_descs_4_7">Assumir que se um erro é cometido, outro erro vai anulá-lo.</string>
-+
-+    <string name="fallacies_examples_4_1">\'Casamento muitas vezes resulta em nascimento de crianças, então essa é a única razão pela qual ele existe.\'</string>
-+    <string name="fallacies_examples_4_2">\'Direito de privacidade só importa para aqueles que tem algo a esconder. Você deve ter algo a esconder se você é a favor dos direitos de privacidade.\'</string>
-+    <string name="fallacies_examples_4_3">\'Adolescentes em gangues escutam música rap com temas violentos. Música rap inspira violência em adolescentes.\'</string>
-+    <string name="fallacies_examples_4_4">\'Se você conquista um diploma, você vai conseguir um bom emprego. Se você não conquista um diploma, você não vai conseguir um bom emprego.\'</string>
-+    <string name="fallacies_examples_4_5">\'Tivemos a revolução sexual dos anos 60, e agora as pessoas estão morrendo de AIDS.\'</string>
-+    <string name="fallacies_examples_4_6">\'Desde a eleição do Presidente, mais do que nunca, as pessoas estão desempregadas, portanto o Presidente prejudicou a economia.\'</string>
-+    <string name="fallacies_examples_4_7">\'Claro - as condições desta prisão são cruéis e desumanas, mas estes prisioneiros são criminosos!\'</string>
-+
-+    <!--fallacies 5-->
-+    <string name="fallacies_titles_5_1">Resgate Ad Hoc</string>
-+    <string name="fallacies_titles_5_2">Petição de princípio</string>
-+    <string name="fallacies_titles_5_3">Generalização Tendenciosa</string>
-+    <string name="fallacies_titles_5_4">Desvio da Confirmação</string>
-+    <string name="fallacies_titles_5_5">Falso Dilema</string>
-+    <string name="fallacies_titles_5_6">Mentir</string>
-+    <string name="fallacies_titles_5_7">Vivacidade Enganosa</string>
-+    <string name="fallacies_titles_5_8">Enganar</string>
-+    <string name="fallacies_titles_5_9">Caminho Perigoso</string>
-+    <string name="fallacies_titles_5_10">Suprimir Evidência</string>
-+    <string name="fallacies_titles_5_11">Infalseabilidade</string>
-+
-+    <string name="fallacies_descs_5_1">Tentar salvar uma crença querida revisando repetidamente o argumento para justificar os problemas.</string>
-+    <string name="fallacies_descs_5_2">Esconder outros fatores contribuintes e apoiando a suposta verdade na sua declaração, sem nenhuma evidência além da conclusão da sua própria declaração.</string>
-+    <string name="fallacies_descs_5_3">Generalizar de uma amostra não-representativa para aumentar a força do seu argumento.</string>
-+    <string name="fallacies_descs_5_4">Procurar apenas por evidências que apoiem o seu argumento, enquanto ignora evidências contrárias.</string>
-+    <string name="fallacies_descs_5_5">Apresentar somente duas opções opostas, enquanto esconde outras alternativas.</string>
-+    <string name="fallacies_descs_5_6">Uma mentira repetida conscientemente como um fato.</string>
-+    <string name="fallacies_descs_5_7">Descrever uma ocorrência em detalhes vívidos, mesmo se é uma ocorrência rara, para convencer alguém.</string>
-+    <string name="fallacies_descs_5_8">Introduzir material irrelevante ao argumento para distrair e conduzir a uma conclusão diferente.</string>
-+    <string name="fallacies_descs_5_9">Assumir que um primeiro passo relativamente pequeno vai inevitavelmente conduzir a uma corrente de eventos (negativos) relacionados.</string>
-+    <string name="fallacies_descs_5_10">Falhar intencionalmente para usar informação relevante e significativa que conta contra a conclusão de alguém.</string>
-+    <string name="fallacies_descs_5_11">Oferecer uma declaração que não pode ser provada falsa, porque não existe como verificar se ela é falsa ou não.</string>
-+
-+    <string name="fallacies_examples_5_1">\'Além de melhor saneamento, medicamentos, educação, irrigação, saúde pública, estradas, um sistema de água corrente e ordem pública... O que os Romanos fizeram por nós?\'</string>
-+    <string name="fallacies_examples_5_2">\'Todas as drogas ilícitas são nocivas - é por isso que elas são ilegais.\'</string>
-+    <string name="fallacies_examples_5_3">\'A pesquisa do nosso site verificou que 90% dos usuários de internet são contra as leis de pirataria online.\'</string>
-+    <string name="fallacies_examples_5_4">\'É óbvio – 9/11 foi uma conspiração liderada pelo governo americano para justificar a guerra no Iraque e Afeganistão. Nenhum avião atingiu o Pentágono. A queda das Torres Gêmeas foi uma demolição controlada… etc.\'</string>
-+    <string name="fallacies_examples_5_5">\'Teremos que cortar o orçamento da educação ou entraremos mais fundo em dívidas. Não podemos arcar com mais dívidas , então teremos que cortar o orçamento da educação.\'</string>
-+    <string name="fallacies_examples_5_6">\'Eu não tive relações sexuais com aquela mulher.\'</string>
-+    <string name="fallacies_examples_5_7">\'Após legalizar o casamento gay, bibliotecas das escolas foram solicitadas a disponibilizar literatura homoafetiva; crianças de escola primária receberam contos infantis homossexuais e até manuais de defesa da homosexualidade.\'</string>
-+    <string name="fallacies_examples_5_8">\'Por que deveria o senador pagar seus gastos irregulares? Afinal, outros senadores fizeram coisas muito piores.\'</string>
-+    <string name="fallacies_examples_5_9">\'Se legalizarmos a maconha, mais pessoas vão começar a usar crack e heroína, então teremos que legaizar esses também.\'</string>
-+    <string name="fallacies_examples_5_10">\'O regime iraquiano possui e produz armas químicas e biológicas. E está buscando ter armas nucleares.\'</string>
-+    <string name="fallacies_examples_5_11">\'Ele mente, porque está possuído por demônios.\'</string>
-+
-+    <!--fallacies 6-->
-+    <string name="fallacies_titles_6_1">Ad Hominem</string>
-+    <string name="fallacies_titles_6_2">Encargo da Prova</string>
-+    <string name="fallacies_titles_6_3">Circunstancial Ad Hominem</string>
-+    <string name="fallacies_titles_6_4">Falácia Genética</string>
-+    <string name="fallacies_titles_6_5">Culpa por Associação</string>
-+    <string name="fallacies_titles_6_6">Espantalho</string>
-+
-+    <string name="fallacies_descs_6_1">Contornar o argumento lançando um ataque irrelevante na pessoa, e não em sua declaração.</string>
-+    <string name="fallacies_descs_6_2">Eu não preciso provar minha declaração – é você que deve provar que ela é falsa.</string>
-+    <string name="fallacies_descs_6_3">Afirmar que uma declaração não é confiável apenas porque os defensores de uma ideia tem interesse nela.</string>
-+    <string name="fallacies_descs_6_4">Atacar a causa ou origem de uma declaração, e não o seu conteúdo.</string>
-+    <string name="fallacies_descs_6_5">Difamar uma ideia ou declaração associando-a com uma pessoa ou grupo indesejável.</string>
-+    <string name="fallacies_descs_6_6">Criar uma caricatura distorcida ou simplificada do argumento de seu oponente, e da discussão contra ele.</string>
-+
-+    <string name="fallacies_examples_6_1">\'Qualquer pessoa que diga que deveríamos construir uma Mesquita do Marco Zero de Manhattan é um atipatriota e esquerdista.\'</string>
-+    <string name="fallacies_examples_6_2">\'Afirmo que os ciclos solares de longo prazo são a causa do aquecimento global. Mostre que estou errado.\'</string>
-+    <string name="fallacies_examples_6_3">\'Um estudo dos riscos à saúde dos telefones celulares envolveu operadoras de telefonia, portanto o estudo não éconfiável.\'</string>
-+    <string name="fallacies_examples_6_4">\'Claro, os meios de comunicação esquerdistas dominantes não vão dizer que Barack Obama é muçulmano.\'</string>
-+    <string name="fallacies_examples_6_5">\'Ah você quer relaxar as leis antiterrorismo exatamente como os terroristas querem que façamos. Você está dizendo que apoia o terrorismo?\'</string>
-+    <string name="fallacies_examples_6_6">\'Você diz que Israel deveria parar de construir colônias na Cisjordânia violando o tratado, então você está dizendo que Israel não tem direito de ser uma nação?\'</string>
-+
-+    <string name="title_activity_about">Sobre</string>
-+    <string name="action_settings">Configurações</string>
-+    <string name="creator">Criado por LukeStoneHm\n2015</string>
-+    <string name="about_more">Um aplicativo simples que apresenta as falácias da lógica mais comuns de uma maneira visualmente agradável.\n\nÉ um projeto de software livre licensiado sob a licença GPL 2.\n\nSinta-se livre para navegar no código fonte que está hospedado no GitHub.\n\nhttps://github.com/LukeStonehm/LogicalDefence/</string>
-+
-+    <string name="share">Compartilhar uma falácia</string>
-+    <string name="from">\n\nCompartilhado através do aplicativo Defesa Lógica</string>
-+
-+    <string name="action_language">Idioma</string>
-+    <string name="language_dialog_title">Escolha o Idioma</string>
-+
-+    <string name="locale_name_en">English</string>
-+    <string name="locale_name_en_rUS">English (US)</string>
-+    <string name="locale_name_de">Alemão</string>
-+    <string name="locale_name_es">Espanhol</string>
-+    <string name="locale_name_fr">Francês</string>
-+    <string name="locale_name_it">Italiano</string>
-+    <string name="locale_name_pt">Português</string>
-+</resources>
+<resources>
+
+    <string name="app_name">Defesa Lógica</string>
+    <string name="navigation_drawer_open">Abrir compartimento de navegação</string>
+    <string name="navigation_drawer_close">Fechar compartimento de navegação</string>
+    <string name="action_about">Sobre</string>
+    <string name="catlbl">Categorias</string>
+    <string name="subTitle">A bela lista de falácias lógicas</string>
+
+    <!--sections-->
+    <string name="section_1">Recorrer à mente</string>
+    <string name="section_2">Recorrer às emoções</string>
+    <string name="section_3">Dedução errônea</string>
+    <string name="section_4">Distorcendo causa e efeito</string>
+    <string name="section_5">Manipulando Conteúdo</string>
+    <string name="section_6">Atacando</string>
+
+    <!--fallacies 1-->
+    <string name="fallacies_titles_1_1">Recorrer à Autoridade Anônima</string>
+    <string name="fallacies_titles_1_2">Recorrer à Autoridade</string>
+    <string name="fallacies_titles_1_3">Recorrer ao senso comum</string>
+    <string name="fallacies_titles_1_4">Recorrer à Ignorância</string>
+    <string name="fallacies_titles_1_5">Recorrer à Incredulidade</string>
+    <string name="fallacies_titles_1_6">Recorrer ao Dinheiro</string>
+    <string name="fallacies_titles_1_7">Recorrer à Novidade</string>
+    <string name="fallacies_titles_1_8">Recorrer à Crença Popular</string>
+    <string name="fallacies_titles_1_9">Recorrer à Probabilidade</string>
+    <string name="fallacies_titles_1_10">Recorrer à Tradição</string>
+
+    <string name="fallacies_descs_1_1">Utilizar evidência de um \'expert\' ou \'estudo\' ou grupo generalizado (como \'cientistas\') desconhecido para afirmar que algo é verdadeiro.</string>
+    <string name="fallacies_descs_1_2">Afirmar que algo é verdade porque um  \'expert(pessoa com autoridade)\' diz ser.</string>
+    <string name="fallacies_descs_1_3">Afirmar que algo é verdade porque é praticado de forma geral.</string>
+    <string name="fallacies_descs_1_4">Uma afirmação é verdadeira simplesmente porque ela não foi provada falsa (ou falsa porque ela não foi provada verdadeira).</string>
+    <string name="fallacies_descs_1_5">Se a afirmação soa inacreditável, ela não deve ser verdadeira.</string>
+    <string name="fallacies_descs_1_6">Supor que, se alguém é rico ou algo é caro, então isso afeta a verdade da afirmação.</string>
+    <string name="fallacies_descs_1_7">Supor que algo é melhor porque é novo ou recente.</string>
+    <string name="fallacies_descs_1_8">Afirmar que algo é verdade porque a maioria das pessoas acredita nisso.</string>
+    <string name="fallacies_descs_1_9">Assumir que, porque algo pode acontecer, isso vai inevitavelmente acontecer.</string>
+    <string name="fallacies_descs_1_10">Afirmar que algo é verdade porque(aparentemente) tem sempre sido assim.</string>
+
+    <string name="fallacies_examples_1_1">\'Dizem que leva 7 anos para digerir chiclete.\'</string>
+    <string name="fallacies_examples_1_2">\'Mais de 4000 notáveis cientistas e engenheiros discutem sobre o aquecimento global.\'</string>
+    <string name="fallacies_examples_1_3">\'Esse banco tem alguns problemas com corrupção, mas não tem nada acontecendo aqui que não aconteça em todos os outros bancos.\'</string>
+    <string name="fallacies_examples_1_4">\'Ninguém me provou que Deus existe. Então eu sei que Deus não existe.\'</string>
+    <string name="fallacies_examples_1_5">\'O olho é uma incrivelmente complexa máquina biomecânica com milhares de partes interligadas. Como isso poderia existir sem um planejamento inteligente?\'</string>
+    <string name="fallacies_examples_1_6">\'Se custa mais caro, deve ser melhor.\'</string>
+    <string name="fallacies_examples_1_7">\'Incrível! A última versão desse sistema operacional vai fazer meu computador ficar mais rápido e melhor...\'</string>
+    <string name="fallacies_examples_1_8">\'Leite é essencial para ossos saudáveis.\'</string>
+    <string name="fallacies_examples_1_9">\'Existem bilhões de galaxias com bilhões de estrelas no universo, então deve exister outro planeta com vida nele.\'</string>
+    <string name="fallacies_examples_1_10">\'O governo sempre existiu, portanto a sociedade não pode viver sem governo.\'</string>
+
+    <!--fallacies 2-->
+    <string name="fallacies_titles_2_1">Recorrer às Consequências de uma Crença</string>
+    <string name="fallacies_titles_2_2">Recorrer ao Medo</string>
+    <string name="fallacies_titles_2_3">Recorrer à Adulação</string>
+    <string name="fallacies_titles_2_4">Recorrer à Natureza</string>
+    <string name="fallacies_titles_2_5">Recorrer à Piedade</string>
+    <string name="fallacies_titles_2_6">Recorrer ao Ridículo</string>
+    <string name="fallacies_titles_2_7">Recorrer ao Ódio</string>
+    <string name="fallacies_titles_2_8">Recorrer ao Otimismo</string>
+
+    <string name="fallacies_descs_2_1">Argumentar uma crença é falsa porque ela implica algo que você prefere não acreditar.</string>
+    <string name="fallacies_descs_2_2">Um argumento é construído para aumentar o medo e o preconceito ao lado oposto.</string>
+    <string name="fallacies_descs_2_3">Usar um elogio irrelevante para introduzir uma afirmação infundada que é aceita junto com o elogio.</string>
+    <string name="fallacies_descs_2_4">Fazer sua afirmação parecer mais verdadeira elaborando uma comparação com o \'bom\' mundo natural.</string>
+    <string name="fallacies_descs_2_5">Tentar induzir piedade para influenciar oponentes.</string>
+    <string name="fallacies_descs_2_6">Apresentar o argumento do oponente de modo que o faça parecer absurdo.</string>
+    <string name="fallacies_descs_2_7">Rejeitar uma afirmação apelando ao preconceito pessoal contra o argumentador.</string>
+    <string name="fallacies_descs_2_8">Sugerir que uma afirmação é verdadeira ou falsa apenas porque você espera fortemente que seja.</string>
+
+    <string name="fallacies_examples_2_1">\'Não pode ser o Senador naquele vídeo de sexo. Se fosse o Senador, ele estaria mentindo sobre não conhecer ela, e ele não é o tipo de homem que mentiria.\'</string>
+    <string name="fallacies_examples_2_2">\'Antes que você perceba, haverá mais mesquistas do que igrejas.\'</string>
+    <string name="fallacies_examples_2_3">\'Leitores inteligentes e sofisticados com certeza reconhecerão uma falácia como essa quando a lerem.\'</string>
+    <string name="fallacies_examples_2_4">\'Claro que homossexualidade não é natural. Você não vê animais do mesmo sexo copulando.\'</string>
+    <string name="fallacies_examples_2_5">\'O ex-ditador está velho e doente. É errado fazer ele ser julgado por esses supostos crimes.\'</string>
+    <string name="fallacies_examples_2_6">\'Fé em Deus é como acreditar no Papai Noel e na Fada Madrinha.\'</string>
+    <string name="fallacies_examples_2_7">\'Você não odeia aqueles atores ricos de Hollywood que vão na TV para fazer propaganda política de esquerda?\'</string>
+    <string name="fallacies_examples_2_8">\'O Presidente não mentiria. Ele é nosso líder e um cidadão exemplar.\'</string>
+
+    <!--fallacies 3-->
+    <string name="fallacies_titles_3_1">Evidência Anedótica</string>
+    <string name="fallacies_titles_3_2">Composição</string>
+    <string name="fallacies_titles_3_3">Divisão</string>
+    <string name="fallacies_titles_3_4">Construir Falácia</string>
+    <string name="fallacies_titles_3_5">Falácia de Jogador</string>
+    <string name="fallacies_titles_3_6">Generalização Indevida</string>
+    <string name="fallacies_titles_3_7">Conclusões Precipitadas</string>
+    <string name="fallacies_titles_3_8">Ponto Intermediário</string>
+    <string name="fallacies_titles_3_9">Falácia Perfeccionista</string>
+    <string name="fallacies_titles_3_10">Falácia Relativista</string>
+    <string name="fallacies_titles_3_11">Centrar a Atenção</string>
+    <string name="fallacies_titles_3_12">Generalização Excludente</string>
+    <string name="fallacies_titles_3_13">Termo Médio do Silogismo Não-Distribuído</string>
+
+    <string name="fallacies_descs_3_1">Descartar evidência obtida a partir de pesquisa sistemática ou de testes em favor de algumas histórias pessoais.</string>
+    <string name="fallacies_descs_3_2">Assumir que características ou crenças de alguns de um grupo se aplica ao grupo inteiro.</string>
+    <string name="fallacies_descs_3_3">Assumir que características ou crenças de um grupo automaticamente se aplica à qualquer membro indivudual.</string>
+    <string name="fallacies_descs_3_4">Assumir que algo que é bem projetado ou visualmente agradável é mais válido ou melhor.</string>
+    <string name="fallacies_descs_3_5">Assumir que um histórico de resultados independentes vai afetar resultados futuros.</string>
+    <string name="fallacies_descs_3_6">Elaborar uma conclusão geral a partir de uma pequena amostra.</string>
+    <string name="fallacies_descs_3_7">Elaborar uma conclusão rápida sem considerar provas relevantes (e facilmente disponíveis).</string>
+    <string name="fallacies_descs_3_8">Assumir que porque dois argumentos opostos tem mérito, a resposta deve estar em algum lugar entre eles.</string>
+    <string name="fallacies_descs_3_9">Assumir que a única opção seja o êxito absoluto, e então rejeitando qualquer coisa que não funciona de forma totalmente perfeita.</string>
+    <string name="fallacies_descs_3_10">Rejeitar uma afirmação devido a uma crença de que a verdade é relativa para cad pessoa ou grupo.</string>
+    <string name="fallacies_descs_3_11">Assumir que a observação de uma pequena amostra  se aplica a um grupo inteiro.</string>
+    <string name="fallacies_descs_3_12">Aplicar uma regra geral de forma precipitada ou modo abrangente demais.</string>
+    <string name="fallacies_descs_3_13">Assumir que se duas coisas compartilham de uma propriedade, isso as torna a mesma coisa.</string>
+
+    <string name="fallacies_examples_3_1">\'Eu vou continuar fumando. Meu avô fumava 40 cigarros por dia e morreu com 90 anos.\'</string>
+    <string name="fallacies_examples_3_2">\'Ataques terroristas recentes foram feitos por grupos Islâmicos, portanto todos os terroristas são muçulmanos.\'</string>
+    <string name="fallacies_examples_3_3">\'Muitos conservadores querem banir o casamento gay, não acreditam no aqucimento e negam a teoria evolucionista, portanto todos os conservadores são homofóbicos, antiecológicos e criacionistas.\'</string>
+    <string name="fallacies_examples_3_4">\'Elementary OS é a mais bem projetada e a mais bem apresentada distribuição do Linux, portanto é claramente superior.\'</string>
+    <string name="fallacies_examples_3_5">\'Joguei uma moeda 10 vezes seguidas e ela caiu cara todas as vezes, portanto a próxima jogada é mais provável que caia coroa.\'</string>
+    <string name="fallacies_examples_3_6">\'Acabei de ser fechado no trânsito por uma motorista mulher. Mulheres não sabem dirigir.\'</string>
+    <string name="fallacies_examples_3_7">\'Ela quer anticoncepcional no plano da saúde dela? Que vadia!\'</string>
+    <string name="fallacies_examples_3_8">\'Bati na traseira do seu carro, mas eu não acho que devo pagar pelo estrago. Você acha que devo pagar por todo estrago. Um compromisso justo seria dividir a conta pela metade.\'</string>
+    <string name="fallacies_examples_3_9">\'Para que fazer todas essas campanhas contra dirigir bêbado? As pessoas vão continuar a beber e dirigirde qualquer forma.\'</string>
+    <string name="fallacies_examples_3_10">\'Isso talvez seja verdade para você, mas não é verdade para mim.\'</string>
+    <string name="fallacies_examples_3_11">\'Esse grande fabricante de sapatos emprega crianças em ateliês clandestinos. Portanto todas as companhias de sapatos são cruéis empregadoras de crianças escravas!\'</string>
+    <string name="fallacies_examples_3_12">\'Aqueles jovens fizeram motim porque lhes faltaram pais moralmente responsáveis.\'</string>
+    <string name="fallacies_examples_3_13">\'Uma teoria pode significar uma ideia não provada. Cientistas usam o termo \'A Teoria da Evolução\', portanto a evolução é uma ideia não provada.\'</string>
+
+    <!--fallacies 4-->
+    <string name="fallacies_titles_4_1">Afirmar o Consequente</string>
+    <string name="fallacies_titles_4_2">Lógica Circular</string>
+    <string name="fallacies_titles_4_3">Cum Hoc Ergo Propter Hoc</string>
+    <string name="fallacies_titles_4_4">Negar o Antecedente</string>
+    <string name="fallacies_titles_4_5">Ignorar uma Causa Comum</string>
+    <string name="fallacies_titles_4_6">Post Hoc Ergo Propter Hoc</string>
+    <string name="fallacies_titles_4_7">Dois Erros Fazem um Certo</string>
+
+    <string name="fallacies_descs_4_1">Assumir que existe apenas uma explicação para a observação que você está fazendo.</string>
+    <string name="fallacies_descs_4_2">Uma conclusão é resultante de premissas baseadas na conclusão.</string>
+    <string name="fallacies_descs_4_3">Declarar que dois eventos que ocorrem juntos devem ter uma relação de causa e efeito. Também conhecido como \'Confundir Causa com Correlação\'</string>
+    <string name="fallacies_descs_4_4">Não existe apenas uma explicação para um resultado, então é falso assumir a causa baseado no efeito.</string>
+    <string name="fallacies_descs_4_5">Declarar que um evento deve ter causado outro quando um terceiro evento (despercebido) é provavelmente a causa.</string>
+    <string name="fallacies_descs_4_6">Declarar que, porque um evento ocorre após outro, o primeiro é a causa do segundo.</string>
+    <string name="fallacies_descs_4_7">Assumir que se um erro é cometido, outro erro vai anulá-lo.</string>
+
+    <string name="fallacies_examples_4_1">\'Casamento muitas vezes resulta em nascimento de crianças, então essa é a única razão pela qual ele existe.\'</string>
+    <string name="fallacies_examples_4_2">\'Direito de privacidade só importa para aqueles que tem algo a esconder. Você deve ter algo a esconder se você é a favor dos direitos de privacidade.\'</string>
+    <string name="fallacies_examples_4_3">\'Adolescentes em gangues escutam música rap com temas violentos. Música rap inspira violência em adolescentes.\'</string>
+    <string name="fallacies_examples_4_4">\'Se você conquista um diploma, você vai conseguir um bom emprego. Se você não conquista um diploma, você não vai conseguir um bom emprego.\'</string>
+    <string name="fallacies_examples_4_5">\'Tivemos a revolução sexual dos anos 60, e agora as pessoas estão morrendo de AIDS.\'</string>
+    <string name="fallacies_examples_4_6">\'Desde a eleição do Presidente, mais do que nunca, as pessoas estão desempregadas, portanto o Presidente prejudicou a economia.\'</string>
+    <string name="fallacies_examples_4_7">\'Claro - as condições desta prisão são cruéis e desumanas, mas estes prisioneiros são criminosos!\'</string>
+
+    <!--fallacies 5-->
+    <string name="fallacies_titles_5_1">Resgate Ad Hoc</string>
+    <string name="fallacies_titles_5_2">Petição de princípio</string>
+    <string name="fallacies_titles_5_3">Generalização Tendenciosa</string>
+    <string name="fallacies_titles_5_4">Desvio da Confirmação</string>
+    <string name="fallacies_titles_5_5">Falso Dilema</string>
+    <string name="fallacies_titles_5_6">Mentir</string>
+    <string name="fallacies_titles_5_7">Vivacidade Enganosa</string>
+    <string name="fallacies_titles_5_8">Enganar</string>
+    <string name="fallacies_titles_5_9">Caminho Perigoso</string>
+    <string name="fallacies_titles_5_10">Suprimir Evidência</string>
+    <string name="fallacies_titles_5_11">Infalseabilidade</string>
+
+    <string name="fallacies_descs_5_1">Tentar salvar uma crença querida revisando repetidamente o argumento para justificar os problemas.</string>
+    <string name="fallacies_descs_5_2">Esconder outros fatores contribuintes e apoiando a suposta verdade na sua declaração, sem nenhuma evidência além da conclusão da sua própria declaração.</string>
+    <string name="fallacies_descs_5_3">Generalizar de uma amostra não-representativa para aumentar a força do seu argumento.</string>
+    <string name="fallacies_descs_5_4">Procurar apenas por evidências que apoiem o seu argumento, enquanto ignora evidências contrárias.</string>
+    <string name="fallacies_descs_5_5">Apresentar somente duas opções opostas, enquanto esconde outras alternativas.</string>
+    <string name="fallacies_descs_5_6">Uma mentira repetida conscientemente como um fato.</string>
+    <string name="fallacies_descs_5_7">Descrever uma ocorrência em detalhes vívidos, mesmo se é uma ocorrência rara, para convencer alguém.</string>
+    <string name="fallacies_descs_5_8">Introduzir material irrelevante ao argumento para distrair e conduzir a uma conclusão diferente.</string>
+    <string name="fallacies_descs_5_9">Assumir que um primeiro passo relativamente pequeno vai inevitavelmente conduzir a uma corrente de eventos (negativos) relacionados.</string>
+    <string name="fallacies_descs_5_10">Falhar intencionalmente para usar informação relevante e significativa que conta contra a conclusão de alguém.</string>
+    <string name="fallacies_descs_5_11">Oferecer uma declaração que não pode ser provada falsa, porque não existe como verificar se ela é falsa ou não.</string>
+
+    <string name="fallacies_examples_5_1">\'Além de melhor saneamento, medicamentos, educação, irrigação, saúde pública, estradas, um sistema de água corrente e ordem pública... O que os Romanos fizeram por nós?\'</string>
+    <string name="fallacies_examples_5_2">\'Todas as drogas ilícitas são nocivas - é por isso que elas são ilegais.\'</string>
+    <string name="fallacies_examples_5_3">\'A pesquisa do nosso site verificou que 90% dos usuários de internet são contra as leis de pirataria online.\'</string>
+    <string name="fallacies_examples_5_4">\'É óbvio – 9/11 foi uma conspiração liderada pelo governo americano para justificar a guerra no Iraque e Afeganistão. Nenhum avião atingiu o Pentágono. A queda das Torres Gêmeas foi uma demolição controlada… etc.\'</string>
+    <string name="fallacies_examples_5_5">\'Teremos que cortar o orçamento da educação ou entraremos mais fundo em dívidas. Não podemos arcar com mais dívidas , então teremos que cortar o orçamento da educação.\'</string>
+    <string name="fallacies_examples_5_6">\'Eu não tive relações sexuais com aquela mulher.\'</string>
+    <string name="fallacies_examples_5_7">\'Após legalizar o casamento gay, bibliotecas das escolas foram solicitadas a disponibilizar literatura homoafetiva; crianças de escola primária receberam contos infantis homossexuais e até manuais de defesa da homosexualidade.\'</string>
+    <string name="fallacies_examples_5_8">\'Por que deveria o senador pagar seus gastos irregulares? Afinal, outros senadores fizeram coisas muito piores.\'</string>
+    <string name="fallacies_examples_5_9">\'Se legalizarmos a maconha, mais pessoas vão começar a usar crack e heroína, então teremos que legaizar esses também.\'</string>
+    <string name="fallacies_examples_5_10">\'O regime iraquiano possui e produz armas químicas e biológicas. E está buscando ter armas nucleares.\'</string>
+    <string name="fallacies_examples_5_11">\'Ele mente, porque está possuído por demônios.\'</string>
+
+    <!--fallacies 6-->
+    <string name="fallacies_titles_6_1">Ad Hominem</string>
+    <string name="fallacies_titles_6_2">Encargo da Prova</string>
+    <string name="fallacies_titles_6_3">Circunstancial Ad Hominem</string>
+    <string name="fallacies_titles_6_4">Falácia Genética</string>
+    <string name="fallacies_titles_6_5">Culpa por Associação</string>
+    <string name="fallacies_titles_6_6">Espantalho</string>
+
+    <string name="fallacies_descs_6_1">Contornar o argumento lançando um ataque irrelevante na pessoa, e não em sua declaração.</string>
+    <string name="fallacies_descs_6_2">Eu não preciso provar minha declaração – é você que deve provar que ela é falsa.</string>
+    <string name="fallacies_descs_6_3">Afirmar que uma declaração não é confiável apenas porque os defensores de uma ideia tem interesse nela.</string>
+    <string name="fallacies_descs_6_4">Atacar a causa ou origem de uma declaração, e não o seu conteúdo.</string>
+    <string name="fallacies_descs_6_5">Difamar uma ideia ou declaração associando-a com uma pessoa ou grupo indesejável.</string>
+    <string name="fallacies_descs_6_6">Criar uma caricatura distorcida ou simplificada do argumento de seu oponente, e da discussão contra ele.</string>
+
+    <string name="fallacies_examples_6_1">\'Qualquer pessoa que diga que deveríamos construir uma Mesquita do Marco Zero de Manhattan é um atipatriota e esquerdista.\'</string>
+    <string name="fallacies_examples_6_2">\'Afirmo que os ciclos solares de longo prazo são a causa do aquecimento global. Mostre que estou errado.\'</string>
+    <string name="fallacies_examples_6_3">\'Um estudo dos riscos à saúde dos telefones celulares envolveu operadoras de telefonia, portanto o estudo não éconfiável.\'</string>
+    <string name="fallacies_examples_6_4">\'Claro, os meios de comunicação esquerdistas dominantes não vão dizer que Barack Obama é muçulmano.\'</string>
+    <string name="fallacies_examples_6_5">\'Ah você quer relaxar as leis antiterrorismo exatamente como os terroristas querem que façamos. Você está dizendo que apoia o terrorismo?\'</string>
+    <string name="fallacies_examples_6_6">\'Você diz que Israel deveria parar de construir colônias na Cisjordânia violando o tratado, então você está dizendo que Israel não tem direito de ser uma nação?\'</string>
+
+    <string name="title_activity_about">Sobre</string>
+    <string name="action_settings">Configurações</string>
+    <string name="creator">Criado por LukeStoneHm\n2015</string>
+    <string name="about_more">Um aplicativo simples que apresenta as falácias da lógica mais comuns de uma maneira visualmente agradável.\n\nÉ um projeto de software livre licensiado sob a licença GPL 2.\n\nSinta-se livre para navegar no código fonte que está hospedado no GitHub.\n\nhttps://github.com/LukeStonehm/LogicalDefence/</string>
+
+    <string name="share">Compartilhar uma falácia</string>
+    <string name="from">\n\nCompartilhado através do aplicativo Defesa Lógica</string>
+
+    <string name="action_language">Idioma</string>
+    <string name="language_dialog_title">Escolha o Idioma</string>
+
+    <string name="locale_name_en">English</string>
+    <string name="locale_name_en_rUS">English (US)</string>
+    <string name="locale_name_de">Alemão</string>
+    <string name="locale_name_es">Espanhol</string>
+    <string name="locale_name_fr">Francês</string>
+    <string name="locale_name_it">Italiano</string>
+    <string name="locale_name_pt">Português</string>
+</resources>
