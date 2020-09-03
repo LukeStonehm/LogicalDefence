@@ -222,5 +222,5 @@
     <string name="locale_name_pt">Portuguese</string>
     <string name="locale_name_pl">Polish</string>
     <string name="locale_name_eo">Esperanto</string>
-    <string name="locale_name_eo">Russian</string>
+    <string name="locale_name_ru">Russian</string>
 </resources>
