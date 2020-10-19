@@ -232,6 +232,7 @@
         <item>pt</item>
         <item>pl</item>
         <item>eo</item>
+        <item>ru</item>
     </string-array>
 
     <string-array name="locale_names">
@@ -244,5 +245,6 @@
         <item>@string/locale_name_pt</item>
         <item>@string/locale_name_pl</item>
         <item>@string/locale_name_eo</item>
+        <item>@string/locale_name_ru</item>
     </string-array>
 </resources>
