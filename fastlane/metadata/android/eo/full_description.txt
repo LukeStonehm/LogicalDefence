@@ -1,0 +1,19 @@
+Preparu al batalo kontraŭ logikaj trompuloj de la mondo kun tiu ĉi bela aplikaĵo.
+
+Armu vin kaj komencu defendi vian menson kontraŭ la lingvaĵo de sofistoj de la mondo.
+
+Ili multas, ni malmultas, sed kun la aplikaĵo Logika Defendo ni posedas alian ilon en nia raciujo. Uzu tiun ĉi aplikaĵon por rapide antaŭvidi renkontatajn logikajn trompojn dum disputi kun malraciuloj. Elvoku ĉiujn, kiuj logike eraras kaj helpu igi la socion pli racionalisma.
+
+Sincero estas la plej grava virto, do estu ekstreme sincera kontraŭ tiuj, kiuj provas uzi la lingvon kiel rimedon por mensa misuzo. Neniam konsentu kun logikaj trompoj, ataku la atakanton kaj dissemu logikon kaj racion al ĉiuj, kiujn vi estimas.
+
+Bone, sufiĉo da parolaĉo. Tio ĉi estas aplikaĵo, kiu montras liston de logikaj trompoj, kiuj trudas menson de ĉiu raciisto.
+
+Ĉefaj ebloj:
+- maldekstra panelo kun kategorioj;
+- kunhavigi - frapetadu trompon por kunhavigi ĝin;
+- klara enhavo;
+- eblo por ŝanĝi lingvon.
+
+Tiu ĉi projekto estas plene malfermkoda (GNU v2), kaj ĝia fontkodo estas gastigata ĉe GitHub, do bonvole idigu ĝin :)
+
+Bonvolu enmeti viajn opiniojn kaj proponojn. Dankon por elŝuti!
