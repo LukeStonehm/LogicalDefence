@@ -5,7 +5,7 @@ android {
     buildToolsVersion '25.0.2'
 
     defaultConfig {
-        applicationId "za.co.lukestonehm.logicaldefence"
+        applicationId "za.co.lukestonehm.logicaldefence.old"
         minSdkVersion 16
         targetSdkVersion 33
         versionCode 22
