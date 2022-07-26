@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LogicalDefence.iml" filepath="$PROJECT_DIR$/LogicalDefence.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/LogicalDefence.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/LogicalDefence.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/LogicalDefence.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/LogicalDefence.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/LogicalDefence.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/LogicalDefence.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/LogicalDefence.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/LogicalDefence.app.unitTest.iml" />
     </modules>
   </component>
 </project>
