@@ -40,38 +40,42 @@ class MyApp extends StatelessWidget {
       theme: ThemeData.light().copyWith(
           primaryColor: Colors.green,
           colorScheme: const ColorScheme.light()
-              .copyWith(primary: Colors.green, secondary: Colors.white)
-          // colorScheme: const ColorScheme.light().copyWith(
-          //   primary: Colors.green,
-          //   secondary: Colors.white,
-          // ),
-          // primaryIconTheme: IconTheme.of(context).copyWith(color: Colors.white),
-          // iconTheme: IconTheme.of(context).copyWith(color: Colors.white),
-          // buttonTheme: ButtonThemeData(
-          //     colorScheme: const ColorScheme.dark(
-          //         primary: Colors.black, secondary: Colors.white),
-          //     shape: RoundedRectangleBorder(
-          //         side: const BorderSide(
-          //             width: 1, color: Color.fromRGBO(255, 255, 255, 0.2)),
-          //         borderRadius: BorderRadius.circular(4))),
-          // inputDecorationTheme: const InputDecorationTheme(
-          //     contentPadding: EdgeInsets.zero,
-          //     floatingLabelBehavior: FloatingLabelBehavior.never,
-          //     enabledBorder: UnderlineInputBorder(
-          //         borderSide: BorderSide(color: Colors.grey)),
-          //     focusedBorder: UnderlineInputBorder(
-          //         borderSide: BorderSide(color: Colors.white)),
-          //     focusColor: Colors.white,
-          //     labelStyle: TextStyle(color: Colors.grey)),
-          // textSelectionTheme:
-          //     const TextSelectionThemeData(cursorColor: Colors.white),
-          // textTheme: const TextTheme(subtitle1: TextStyle(color: Colors.white)),
-          // scaffoldBackgroundColor: const Color.fromRGBO(34, 37, 43, 1)
+              .copyWith(primary: Colors.green, secondary: Colors.white),
+          scaffoldBackgroundColor: Colors.white,
+          cardTheme: const CardTheme().copyWith(
+            color: Colors.green.shade100,
+            elevation: 0,
+            shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(4),
+                side: BorderSide(color: Colors.green.shade200, width: 2)),
           ),
+          appBarTheme: const AppBarTheme().copyWith(
+              elevation: 0,
+              backgroundColor: Colors.white,
+              iconTheme: const IconThemeData().copyWith(color: Colors.black)),
+          textTheme: const TextTheme().copyWith(
+              titleLarge:
+                  const TextStyle().copyWith(fontSize: 20, color: Colors.green),
+              bodyMedium: const TextStyle().copyWith(color: Colors.green))),
       darkTheme: ThemeData.dark().copyWith(
           primaryColor: Colors.green,
           colorScheme: const ColorScheme.dark()
-              .copyWith(primary: Colors.green, secondary: Colors.white)),
+              .copyWith(primary: Colors.green, secondary: Colors.white),
+          scaffoldBackgroundColor: Colors.transparent,
+          cardTheme: const CardTheme().copyWith(
+            // color: Colors.green.shade100,
+            elevation: 0,
+            shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(4),
+                side: const BorderSide(color: Colors.white, width: 2)),
+          ),
+          appBarTheme: const AppBarTheme().copyWith(
+            elevation: 0,
+          ),
+          textTheme: const TextTheme().copyWith(
+              titleLarge:
+                  const TextStyle().copyWith(fontSize: 20, color: Colors.white),
+              bodyMedium: const TextStyle().copyWith(color: Colors.white))),
     );
   }
 }

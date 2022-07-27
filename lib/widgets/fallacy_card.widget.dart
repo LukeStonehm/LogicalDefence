@@ -16,13 +16,9 @@ class FallacyCard extends StatelessWidget {
   static const _columnPadding = EdgeInsets.all(0);
   static const _cardPadding = EdgeInsets.all(8.0);
 
-  // text styles
-  static const _headerTextStyle = TextStyle(fontSize: 20);
-
   @override
   Widget build(BuildContext context) {
     return Card(
-      elevation: 0,
       child: Padding(
         padding: _columnPadding,
         child: Column(
@@ -32,16 +28,23 @@ class FallacyCard extends StatelessWidget {
               padding: _cardPadding,
               child: Text(
                 header,
-                style: _headerTextStyle,
+                style: Theme.of(context).textTheme.titleLarge,
               ),
             ),
             Padding(
               padding: _cardPadding,
-              child: Text(body),
+              child: Text(
+                body,
+                style: Theme.of(context).textTheme.bodyMedium,
+              ),
             ),
             Padding(
               padding: _cardPadding,
-              child: Text(example),
+              child: Text(example,
+                  style: Theme.of(context)
+                      .textTheme
+                      .bodyMedium
+                      ?.copyWith(fontStyle: FontStyle.italic)),
             )
           ],
         ),
