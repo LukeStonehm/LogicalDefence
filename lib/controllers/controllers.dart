@@ -1,0 +1,1 @@
+export 'category.controller.dart';

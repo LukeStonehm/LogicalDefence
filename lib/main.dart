@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:logical_defence/shared/app_translations.dart';
+import 'package:logical_defence/controllers/controllers.dart';
 
 import 'routes.dart';
+import 'shared/shared.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -14,6 +15,7 @@ void main() async {
   //init get stuff here
 
   //put get controllers here
+  Get.put<CategoryController>(CategoryController());
 
   runApp(MyApp(
     locale: Get.deviceLocale,
