@@ -30,40 +30,48 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-        title: 'Logical Defence',
-        themeMode: ThemeMode.dark,
-        translations: AppTranslations(),
-        locale: locale,
-        initialRoute: "/",
-        getPages: AppRoutes.routes,
-        // todo sort out theme
-        theme: ThemeData(
-            // colorScheme: const ColorScheme.dark(
-            //   primary: Colors.white,
-            //   secondary: Colors.white,
-            // ),
-            // primaryIconTheme: IconTheme.of(context).copyWith(color: Colors.white),
-            // iconTheme: IconTheme.of(context).copyWith(color: Colors.white),
-            // buttonTheme: ButtonThemeData(
-            //     colorScheme: const ColorScheme.dark(
-            //         primary: Colors.black, secondary: Colors.white),
-            //     shape: RoundedRectangleBorder(
-            //         side: const BorderSide(
-            //             width: 1, color: Color.fromRGBO(255, 255, 255, 0.2)),
-            //         borderRadius: BorderRadius.circular(4))),
-            // inputDecorationTheme: const InputDecorationTheme(
-            //     contentPadding: EdgeInsets.zero,
-            //     floatingLabelBehavior: FloatingLabelBehavior.never,
-            //     enabledBorder: UnderlineInputBorder(
-            //         borderSide: BorderSide(color: Colors.grey)),
-            //     focusedBorder: UnderlineInputBorder(
-            //         borderSide: BorderSide(color: Colors.white)),
-            //     focusColor: Colors.white,
-            //     labelStyle: TextStyle(color: Colors.grey)),
-            // textSelectionTheme:
-            //     const TextSelectionThemeData(cursorColor: Colors.white),
-            // textTheme: const TextTheme(subtitle1: TextStyle(color: Colors.white)),
-            // scaffoldBackgroundColor: const Color.fromRGBO(34, 37, 43, 1)
-            ));
+      title: 'Logical Defence',
+      translations: AppTranslations(),
+      locale: locale,
+      initialRoute: "/",
+      getPages: AppRoutes.routes,
+      // todo sort out theme
+      themeMode: ThemeMode.system,
+      theme: ThemeData.light().copyWith(
+          primaryColor: Colors.green,
+          colorScheme: const ColorScheme.light()
+              .copyWith(primary: Colors.green, secondary: Colors.white)
+          // colorScheme: const ColorScheme.light().copyWith(
+          //   primary: Colors.green,
+          //   secondary: Colors.white,
+          // ),
+          // primaryIconTheme: IconTheme.of(context).copyWith(color: Colors.white),
+          // iconTheme: IconTheme.of(context).copyWith(color: Colors.white),
+          // buttonTheme: ButtonThemeData(
+          //     colorScheme: const ColorScheme.dark(
+          //         primary: Colors.black, secondary: Colors.white),
+          //     shape: RoundedRectangleBorder(
+          //         side: const BorderSide(
+          //             width: 1, color: Color.fromRGBO(255, 255, 255, 0.2)),
+          //         borderRadius: BorderRadius.circular(4))),
+          // inputDecorationTheme: const InputDecorationTheme(
+          //     contentPadding: EdgeInsets.zero,
+          //     floatingLabelBehavior: FloatingLabelBehavior.never,
+          //     enabledBorder: UnderlineInputBorder(
+          //         borderSide: BorderSide(color: Colors.grey)),
+          //     focusedBorder: UnderlineInputBorder(
+          //         borderSide: BorderSide(color: Colors.white)),
+          //     focusColor: Colors.white,
+          //     labelStyle: TextStyle(color: Colors.grey)),
+          // textSelectionTheme:
+          //     const TextSelectionThemeData(cursorColor: Colors.white),
+          // textTheme: const TextTheme(subtitle1: TextStyle(color: Colors.white)),
+          // scaffoldBackgroundColor: const Color.fromRGBO(34, 37, 43, 1)
+          ),
+      darkTheme: ThemeData.dark().copyWith(
+          primaryColor: Colors.green,
+          colorScheme: const ColorScheme.dark()
+              .copyWith(primary: Colors.green, secondary: Colors.white)),
+    );
   }
 }
