@@ -35,7 +35,6 @@ class MyApp extends StatelessWidget {
       locale: locale,
       initialRoute: "/",
       getPages: AppRoutes.routes,
-      // todo sort out theme
       themeMode: ThemeMode.system,
       theme: ThemeData.light().copyWith(
           primaryColor: Colors.green,
@@ -61,9 +60,8 @@ class MyApp extends StatelessWidget {
           primaryColor: Colors.green,
           colorScheme: const ColorScheme.dark()
               .copyWith(primary: Colors.green, secondary: Colors.white),
-          scaffoldBackgroundColor: Colors.transparent,
+          scaffoldBackgroundColor: const Color.fromRGBO(18, 18, 18, 1),
           cardTheme: const CardTheme().copyWith(
-            // color: Colors.green.shade100,
             elevation: 0,
             shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(4),
