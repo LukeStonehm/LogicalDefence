@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
       locale: locale,
       initialRoute: "/",
       getPages: AppRoutes.routes,
-      themeMode: ThemeMode.system,
+      themeMode: ThemeMode.dark,
       theme: ThemeData.light().copyWith(
           primaryColor: Colors.deepOrange,
           colorScheme: const ColorScheme.light()

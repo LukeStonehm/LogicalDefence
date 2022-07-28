@@ -17,7 +17,11 @@ class HomePage extends StatelessWidget {
         title: Text(
           'app_name'.tr,
           style: Theme.of(context).appBarTheme.titleTextStyle,
+          overflow: TextOverflow.fade,
         ),
+        actions: [
+          IconButton(onPressed: (){}, icon: const Icon(Icons.more_vert))
+        ],
       ),
       drawer: Drawer(
         child: Obx(
@@ -87,7 +91,7 @@ Shared From Logical Defence Application
                 header: 'fallacies_titles_${selectedCategory}_$key'.tr,
                 body: 'fallacies_descs_${selectedCategory}_$key'.tr,
                 example: 'fallacies_examples_${selectedCategory}_$key'.tr,
-                number: key)))
+                number: "${int.parse(key) + 1}")))
         .values
         .toList();
   }
