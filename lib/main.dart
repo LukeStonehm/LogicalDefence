@@ -52,6 +52,8 @@ class MyApp extends StatelessWidget {
               backgroundColor: Colors.grey.shade300,
               iconTheme: const IconThemeData().copyWith(color: Colors.black)),
           textTheme: const TextTheme().copyWith(
+              headlineLarge: const TextStyle().copyWith(
+                  color: Colors.grey.shade800, fontWeight: FontWeight.bold),
               titleLarge: const TextStyle()
                   .copyWith(fontSize: 20, color: Colors.deepOrange),
               labelSmall:

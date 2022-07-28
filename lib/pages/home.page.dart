@@ -19,14 +19,24 @@ Using evidence from an unnamed 'expert' or 'study' or generalized group (like 's
 
 Shared From Logical Defence Application
          */
-        children: const [
-          FallacyCard(
+        children: [
+          Padding(
+            padding: const EdgeInsets.all(16.0).copyWith(right: 36),
+            child: FittedBox(
+              fit: BoxFit.fitWidth,
+              child: Text(
+                'Appeal to the mind',
+                style: Theme.of(context).textTheme.headlineLarge,
+              ),
+            ),
+          ),
+          const FallacyCard(
               header: 'Appeal to Anonymous Authority',
               body:
                   "Using evidence from an unnamed 'expert' or 'study' or generalized group (like 'scientists') to claim something is true.",
               example:
                   "'They say that it takes 7 years to digest chewing gum.'",
-          number: "01"),
+              number: "01"),
         ],
       ),
     );
