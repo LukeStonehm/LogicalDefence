@@ -7,7 +7,12 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        title: Text(
+          'Logical Defence',
+          style: Theme.of(context).appBarTheme.titleTextStyle,
+        ),
+      ),
       drawer: Text('test'),
       body: ListView(
         /*
@@ -21,7 +26,7 @@ Shared From Logical Defence Application
          */
         children: [
           Padding(
-            padding: const EdgeInsets.all(16.0).copyWith(right: 36),
+            padding: const EdgeInsets.all(16.0).copyWith(right: 80),
             child: FittedBox(
               fit: BoxFit.fitWidth,
               child: Text(

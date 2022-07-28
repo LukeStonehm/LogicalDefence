@@ -37,9 +37,9 @@ class MyApp extends StatelessWidget {
       getPages: AppRoutes.routes,
       themeMode: ThemeMode.system,
       theme: ThemeData.light().copyWith(
-          primaryColor: Colors.green,
+          primaryColor: Colors.deepOrange,
           colorScheme: const ColorScheme.light()
-              .copyWith(primary: Colors.green, secondary: Colors.white),
+              .copyWith(primary: Colors.deepOrange, secondary: Colors.grey),
           scaffoldBackgroundColor: Colors.grey.shade300,
           cardTheme: const CardTheme().copyWith(
             color: Colors.grey.shade100,
@@ -50,19 +50,24 @@ class MyApp extends StatelessWidget {
           appBarTheme: const AppBarTheme().copyWith(
               elevation: 0,
               backgroundColor: Colors.grey.shade300,
-              iconTheme: const IconThemeData().copyWith(color: Colors.black)),
+              iconTheme: const IconThemeData().copyWith(color: Colors.black),
+              titleTextStyle: const TextStyle().copyWith(
+                  color: Colors.grey.shade800,
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold)),
           textTheme: const TextTheme().copyWith(
               headlineLarge: const TextStyle().copyWith(
                   color: Colors.grey.shade800, fontWeight: FontWeight.bold),
               titleLarge: const TextStyle()
-                  .copyWith(fontSize: 20, color: Colors.deepOrange),
+                  .copyWith(fontSize: 24, color: Colors.deepOrange),
               labelSmall:
-                  const TextStyle().copyWith(color: Colors.grey.shade400),
-              bodyMedium: const TextStyle().copyWith(color: Colors.black))),
+                  const TextStyle().copyWith(color: Colors.grey.shade500),
+              bodyMedium: const TextStyle()
+                  .copyWith(color: Colors.black, fontSize: 16))),
       darkTheme: ThemeData.dark().copyWith(
-          primaryColor: Colors.green,
+          primaryColor: Colors.deepOrange,
           colorScheme: const ColorScheme.dark()
-              .copyWith(primary: Colors.green, secondary: Colors.white),
+              .copyWith(primary: Colors.deepOrange, secondary: Colors.white),
           scaffoldBackgroundColor: Colors.grey.shade900,
           cardTheme: const CardTheme().copyWith(
             elevation: 0,
@@ -73,10 +78,11 @@ class MyApp extends StatelessWidget {
               .copyWith(elevation: 0, backgroundColor: Colors.grey.shade900),
           textTheme: const TextTheme().copyWith(
               titleLarge: const TextStyle()
-                  .copyWith(fontSize: 20, color: Colors.deepOrange),
+                  .copyWith(fontSize: 24, color: Colors.deepOrange),
               labelSmall:
                   const TextStyle().copyWith(color: Colors.grey.shade400),
-              bodyMedium: const TextStyle().copyWith(color: Colors.white))),
+              bodyMedium: const TextStyle()
+                  .copyWith(color: Colors.white, fontSize: 16))),
     );
   }
 }
