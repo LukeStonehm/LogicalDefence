@@ -4,6 +4,6 @@ import 'pages/pages.dart';
 
 class AppRoutes {
   static final routes = [
-    GetPage(name: '/', page: () => const HomePage()),
+    GetPage(name: '/', page: () => HomePage()),
   ];
 }

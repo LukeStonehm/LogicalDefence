@@ -63,7 +63,12 @@ class MyApp extends StatelessWidget {
               labelSmall:
                   const TextStyle().copyWith(color: Colors.grey.shade500),
               bodyMedium: const TextStyle()
-                  .copyWith(color: Colors.black, fontSize: 16))),
+                  .copyWith(color: Colors.black, fontSize: 16)),
+          drawerTheme: DrawerTheme.of(context).copyWith(
+            backgroundColor: Colors.grey.shade300,
+          ),
+          listTileTheme: ListTileTheme.of(context)
+              .copyWith(textColor: Colors.grey.shade800)),
       darkTheme: ThemeData.dark().copyWith(
           primaryColor: Colors.deepOrange,
           colorScheme: const ColorScheme.dark()
