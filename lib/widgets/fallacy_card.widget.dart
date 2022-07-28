@@ -5,12 +5,13 @@ class FallacyCard extends StatelessWidget {
       {Key? key,
       required this.header,
       required this.body,
-      required this.example})
+      required this.example, required this.number})
       : super(key: key);
 
   final String header;
   final String body;
   final String example;
+  final String number;
 
   // padding
   static const _columnPadding = EdgeInsets.all(8.0);
@@ -28,10 +29,29 @@ class FallacyCard extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Padding(
-                padding: _cardPadding,
+                padding: _cardPadding.copyWith(
+                  top: 8,
+                  bottom: 0
+                ),
+                child: Text(number, style: Theme.of(context).textTheme.labelSmall,),
+              ),
+              Padding(
+                padding: _cardPadding.copyWith(
+                  top: 8,
+                  bottom: 0
+                ),
                 child: Text(
                   header,
                   style: Theme.of(context).textTheme.titleLarge,
+                ),
+              ),
+              Padding(
+                padding: _cardPadding.copyWith(
+                  top: 0,
+                  bottom: 0
+                ),
+                child: const Divider(
+                  thickness: 3,
                 ),
               ),
               Padding(
@@ -47,7 +67,7 @@ class FallacyCard extends StatelessWidget {
                     style: Theme.of(context)
                         .textTheme
                         .bodyMedium
-                        ?.copyWith(fontStyle: FontStyle.italic)),
+                        ?.copyWith(fontStyle: FontStyle.italic, fontWeight: FontWeight.bold)),
               )
             ],
           ),

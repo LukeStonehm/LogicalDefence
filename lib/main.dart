@@ -40,39 +40,40 @@ class MyApp extends StatelessWidget {
           primaryColor: Colors.green,
           colorScheme: const ColorScheme.light()
               .copyWith(primary: Colors.green, secondary: Colors.white),
-          scaffoldBackgroundColor: Colors.white,
+          scaffoldBackgroundColor: Colors.grey.shade300,
           cardTheme: const CardTheme().copyWith(
-            color: Colors.green.shade100,
+            color: Colors.grey.shade100,
             elevation: 0,
-            shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(4),
-                side: BorderSide(color: Colors.green.shade200, width: 2)),
+            shape:
+                RoundedRectangleBorder(borderRadius: BorderRadius.circular(4)),
           ),
           appBarTheme: const AppBarTheme().copyWith(
               elevation: 0,
-              backgroundColor: Colors.white,
+              backgroundColor: Colors.grey.shade300,
               iconTheme: const IconThemeData().copyWith(color: Colors.black)),
           textTheme: const TextTheme().copyWith(
-              titleLarge:
-                  const TextStyle().copyWith(fontSize: 20, color: Colors.green),
-              bodyMedium: const TextStyle().copyWith(color: Colors.green))),
+              titleLarge: const TextStyle()
+                  .copyWith(fontSize: 20, color: Colors.deepOrange),
+              labelSmall:
+                  const TextStyle().copyWith(color: Colors.grey.shade400),
+              bodyMedium: const TextStyle().copyWith(color: Colors.black))),
       darkTheme: ThemeData.dark().copyWith(
           primaryColor: Colors.green,
           colorScheme: const ColorScheme.dark()
               .copyWith(primary: Colors.green, secondary: Colors.white),
-          scaffoldBackgroundColor: const Color.fromRGBO(18, 18, 18, 1),
+          scaffoldBackgroundColor: Colors.grey.shade900,
           cardTheme: const CardTheme().copyWith(
             elevation: 0,
-            shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(4),
-                side: const BorderSide(color: Colors.white, width: 2)),
+            shape:
+                RoundedRectangleBorder(borderRadius: BorderRadius.circular(4)),
           ),
-          appBarTheme: const AppBarTheme().copyWith(
-            elevation: 0,
-          ),
+          appBarTheme: const AppBarTheme()
+              .copyWith(elevation: 0, backgroundColor: Colors.grey.shade900),
           textTheme: const TextTheme().copyWith(
-              titleLarge:
-                  const TextStyle().copyWith(fontSize: 20, color: Colors.white),
+              titleLarge: const TextStyle()
+                  .copyWith(fontSize: 20, color: Colors.deepOrange),
+              labelSmall:
+                  const TextStyle().copyWith(color: Colors.grey.shade400),
               bodyMedium: const TextStyle().copyWith(color: Colors.white))),
     );
   }

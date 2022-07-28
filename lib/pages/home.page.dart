@@ -25,48 +25,8 @@ Shared From Logical Defence Application
               body:
                   "Using evidence from an unnamed 'expert' or 'study' or generalized group (like 'scientists') to claim something is true.",
               example:
-                  "'They say that it takes 7 years to digest chewing gum.'"),
-          FallacyCard(
-              header: 'Appeal to Anonymous Authority',
-              body:
-                  "Using evidence from an unnamed 'expert' or 'study' or generalized group (like 'scientists') to claim something is true.",
-              example:
-                  "'They say that it takes 7 years to digest chewing gum.'"),
-          FallacyCard(
-              header: 'Appeal to Anonymous Authority',
-              body:
-                  "Using evidence from an unnamed 'expert' or 'study' or generalized group (like 'scientists') to claim something is true.",
-              example:
-                  "'They say that it takes 7 years to digest chewing gum.'"),
-          FallacyCard(
-              header: 'Appeal to Anonymous Authority',
-              body:
-                  "Using evidence from an unnamed 'expert' or 'study' or generalized group (like 'scientists') to claim something is true.",
-              example:
-                  "'They say that it takes 7 years to digest chewing gum.'"),
-          FallacyCard(
-              header: 'Appeal to Anonymous Authority',
-              body:
-                  "Using evidence from an unnamed 'expert' or 'study' or generalized group (like 'scientists') to claim something is true.",
-              example:
-                  "'They say that it takes 7 years to digest chewing gum.'"),
-          FallacyCard(
-              header: 'Appeal to Anonymous Authority',
-              body:
-                  "Using evidence from an unnamed 'expert' or 'study' or generalized group (like 'scientists') to claim something is true.",
-              example:
-                  "'They say that it takes 7 years to digest chewing gum.'"),FallacyCard(
-              header: 'Appeal to Anonymous Authority',
-              body:
-                  "Using evidence from an unnamed 'expert' or 'study' or generalized group (like 'scientists') to claim something is true.",
-              example:
-                  "'They say that it takes 7 years to digest chewing gum.'"),
-          FallacyCard(
-              header: 'Appeal to Anonymous Authority',
-              body:
-                  "Using evidence from an unnamed 'expert' or 'study' or generalized group (like 'scientists') to claim something is true.",
-              example:
-                  "'They say that it takes 7 years to digest chewing gum.'"),
+                  "'They say that it takes 7 years to digest chewing gum.'",
+          number: "01"),
         ],
       ),
     );
