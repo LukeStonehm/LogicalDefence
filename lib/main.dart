@@ -21,7 +21,7 @@ void main() async {
   Get.put<LanguageController>(LanguageController());
 
   runApp(MyApp(
-    locale: Locale('de', 'DE'), //todo change back
+    locale: Get.deviceLocale, //todo change back
   ));
 }
 

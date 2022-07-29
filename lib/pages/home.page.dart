@@ -47,12 +47,18 @@ class HomePage extends StatelessWidget {
                       padding: const EdgeInsets.only(top: 8.0, bottom: 8),
                       child: Text(
                         'app_name'.tr,
-                        style: Theme.of(context).textTheme.headlineMedium,
+                        style: Theme.of(context)
+                            .textTheme
+                            .headlineMedium
+                            ?.copyWith(fontSize: 28),
                       ),
                     ),
                     Text(
                       'subtitle'.tr,
-                      style: Theme.of(context).textTheme.headlineSmall,
+                      style: Theme.of(context)
+                          .textTheme
+                          .headlineSmall
+                          ?.copyWith(fontSize: 20),
                     ),
                   ],
                 ),
