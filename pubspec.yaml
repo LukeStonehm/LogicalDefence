@@ -48,10 +48,20 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
-  flutter_launcher_name: ^0.0.1
+#  flutter_launcher_name: ^0.0.1
+  flutter_launcher_icons_maker: ^0.10.2
 
 flutter_launcher_name:
   name: "Logical Defence"
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  windows: true
+  web: true
+  macos: true
+  linux: true
+  image_path: "assets/app-icon.png"
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
