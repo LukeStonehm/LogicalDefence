@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_share/flutter_share.dart';
 import 'package:get/get.dart';
 import 'package:logical_defence/controllers/controllers.dart';
 import 'package:logical_defence/widgets/widgets.dart';
@@ -99,10 +100,15 @@ class HomePage extends StatelessWidget {
         .map((key, value) => MapEntry(
             key,
             FallacyCard(
-                header: 'fallacies_titles_${selectedCategory}_$key'.tr,
-                body: 'fallacies_descs_${selectedCategory}_$key'.tr,
-                example: 'fallacies_examples_${selectedCategory}_$key'.tr,
-                number: "${int.parse(key) + 1}")))
+              header: 'fallacies_titles_${selectedCategory}_$key'.tr,
+              body: 'fallacies_descs_${selectedCategory}_$key'.tr,
+              example: 'fallacies_examples_${selectedCategory}_$key'.tr,
+              number: "${int.parse(key) + 1}",
+              onLongPressed: () => _shareFallacy(
+                  'fallacies_titles_${selectedCategory}_$key'.tr,
+                  'fallacies_descs_${selectedCategory}_$key'.tr,
+                  'fallacies_examples_${selectedCategory}_$key'.tr),
+            )))
         .values
         .toList();
   }
@@ -234,5 +240,13 @@ class HomePage extends StatelessWidget {
         ],
       ),
     ));
+  }
+
+  _shareFallacy(String title, String desc, String example) async {
+    final shareString = "$title\n\n$desc\n\n$example${'from'.tr}";
+    await FlutterShare.share(title: 'share'.tr,
+      chooserTitle: 'share'.tr,
+      text: shareString
+    );
   }
 }
