@@ -102,4 +102,5 @@ doc/api/
 .flutter-plugins
 .flutter-plugins-dependencies
 
-
+# ignore built android app bundles & apks
+*/app/*/*.aab
