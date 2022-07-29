@@ -19,25 +19,43 @@ void main() async {
   //put Get controllers here
   Get.put<CategoryController>(CategoryController());
   Get.put<LanguageController>(LanguageController());
+  Get.put<ThemeController>(ThemeController());
 
   final getBox = GetStorage();
 
+  Locale? locale = Get.deviceLocale;
+  ThemeMode theme = ThemeMode.system;
+
   if (getBox.hasData('selected_language')) {
     final localeSplit = (getBox.read('selected_language') as String).split('_');
-    runApp(MyApp(
-      locale: Locale(localeSplit[0], localeSplit[1]),
-    ));
-  } else {
-    runApp(MyApp(
-      locale: Get.deviceLocale,
-    ));
+    locale = Locale(localeSplit[0], localeSplit[1]);
   }
+
+  if (getBox.hasData('selected_theme')) {
+    switch (getBox.read('selected_theme')) {
+      case 0:
+        break;
+      case 1:
+        theme = ThemeMode.light;
+        break;
+      case 2:
+        theme = ThemeMode.dark;
+        break;
+    }
+  }
+
+  runApp(MyApp(
+    locale: locale,
+    theme: theme,
+  ));
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key, required this.locale}) : super(key: key);
+  const MyApp({Key? key, required this.locale, required this.theme})
+      : super(key: key);
 
   final Locale? locale;
+  final ThemeMode theme;
 
   @override
   Widget build(BuildContext context) {
@@ -47,7 +65,7 @@ class MyApp extends StatelessWidget {
       locale: locale,
       initialRoute: "/",
       getPages: AppRoutes.routes,
-      themeMode: ThemeMode.system,
+      themeMode: theme,
       theme: ThemeData.light().copyWith(
           primaryColor: Colors.deepOrange,
           colorScheme: const ColorScheme.light()

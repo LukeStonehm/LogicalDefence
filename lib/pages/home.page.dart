@@ -10,6 +10,7 @@ class HomePage extends StatelessWidget {
 
   final CategoryController _categoryController = Get.find();
   final LanguageController _languageController = Get.find();
+  final ThemeController _themeController = Get.find();
 
   @override
   Widget build(BuildContext context) {
@@ -137,6 +138,7 @@ class HomePage extends StatelessWidget {
         _showLanguageBottomSheet(context);
         break;
       case 'action_theme':
+        _showThemeBottomSheet(context);
         break;
       case 'action_about':
         Get.toNamed('/about');
@@ -152,6 +154,7 @@ class HomePage extends StatelessWidget {
               topLeft: Radius.circular(4), topRight: Radius.circular(4))),
       child: ListView(
         shrinkWrap: true,
+        padding: const EdgeInsets.only(top: 16, bottom: 16),
         children: [
           Padding(
             padding: const EdgeInsets.only(
@@ -180,6 +183,51 @@ class HomePage extends StatelessWidget {
                     ),
                     onTap: () => _languageController.changeLocale(key),
                     title: Text('locale_name_$key'.tr),
+                  )))
+              .values
+              .toList(),
+        ],
+      ),
+    ));
+  }
+
+  void _showThemeBottomSheet(BuildContext context) {
+    Get.bottomSheet(Container(
+      decoration: BoxDecoration(
+          color: Theme.of(context).scaffoldBackgroundColor,
+          borderRadius: const BorderRadius.only(
+              topLeft: Radius.circular(4), topRight: Radius.circular(4))),
+      child: ListView(
+        padding: const EdgeInsets.only(top: 16, bottom: 16),
+        shrinkWrap: true,
+        children: [
+          Padding(
+            padding: const EdgeInsets.only(
+                left: 16.0, right: 16.0, top: 16.0, bottom: 8),
+            child: Text(
+              'action_theme'.tr,
+              style: Theme.of(context)
+                  .textTheme
+                  .headlineLarge
+                  ?.copyWith(fontSize: 24, fontWeight: FontWeight.normal),
+            ),
+          ),
+          ...ThemeController.themes
+              .map((key, value) => MapEntry(
+                  key,
+                  ListTile(
+                    leading: Obx(
+                      () => Radio(
+                        activeColor: Colors.deepOrange,
+                        value: key,
+                        groupValue: _themeController.selectedTheme.value,
+                        onChanged: (value) {
+                          _themeController.changeTheme(value as int);
+                        },
+                      ),
+                    ),
+                    onTap: () => _themeController.changeTheme(key),
+                    title: Text('theme_name_$key'.tr),
                   )))
               .values
               .toList(),
