@@ -20,9 +20,18 @@ void main() async {
   Get.put<CategoryController>(CategoryController());
   Get.put<LanguageController>(LanguageController());
 
-  runApp(MyApp(
-    locale: Get.deviceLocale, //todo change back
-  ));
+  final getBox = GetStorage();
+
+  if (getBox.hasData('selected_language')) {
+    final localeSplit = (getBox.read('selected_language') as String).split('_');
+    runApp(MyApp(
+      locale: Locale(localeSplit[0], localeSplit[1]),
+    ));
+  } else {
+    runApp(MyApp(
+      locale: Get.deviceLocale,
+    ));
+  }
 }
 
 class MyApp extends StatelessWidget {

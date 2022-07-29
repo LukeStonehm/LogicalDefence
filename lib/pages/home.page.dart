@@ -9,6 +9,7 @@ class HomePage extends StatelessWidget {
   HomePage({Key? key}) : super(key: key);
 
   final CategoryController _categoryController = Get.find();
+  final LanguageController _languageController = Get.find();
 
   @override
   Widget build(BuildContext context) {
@@ -22,7 +23,8 @@ class HomePage extends StatelessWidget {
         actions: [
           PopupMenuButton(
               tooltip: 'action_settings'.tr,
-              onSelected: (value) => _onSettingsPressed(value as String),
+              onSelected: (value) =>
+                  _onSettingsPressed(context, value as String),
               itemBuilder: (BuildContext popupMenuContext) {
                 return {'action_language', 'action_theme', 'action_about'}
                     .map((String choice) {
@@ -129,10 +131,10 @@ class HomePage extends StatelessWidget {
     _categoryController.selectedCategory.value = category;
   }
 
-  void _onSettingsPressed(String setting) {
-    print(setting);
+  void _onSettingsPressed(BuildContext context, String setting) {
     switch (setting) {
       case 'action_language':
+        _showLanguageBottomSheet(context);
         break;
       case 'action_theme':
         break;
@@ -140,5 +142,49 @@ class HomePage extends StatelessWidget {
         Get.toNamed('/about');
         break;
     }
+  }
+
+  void _showLanguageBottomSheet(BuildContext context) {
+    Get.bottomSheet(Container(
+      decoration: BoxDecoration(
+          color: Theme.of(context).scaffoldBackgroundColor,
+          borderRadius: const BorderRadius.only(
+              topLeft: Radius.circular(4), topRight: Radius.circular(4))),
+      child: ListView(
+        shrinkWrap: true,
+        children: [
+          Padding(
+            padding: const EdgeInsets.only(
+                left: 16.0, right: 16.0, top: 16.0, bottom: 8),
+            child: Text(
+              'language_dialog_title'.tr,
+              style: Theme.of(context)
+                  .textTheme
+                  .headlineLarge
+                  ?.copyWith(fontSize: 24, fontWeight: FontWeight.normal),
+            ),
+          ),
+          ...FallacyDataStructure.localeStructure['locales']!['names']!
+              .map((key, value) => MapEntry(
+                  key,
+                  ListTile(
+                    leading: Obx(
+                      () => Radio(
+                        activeColor: Colors.deepOrange,
+                        value: key,
+                        groupValue: _languageController.selectedLocale.value,
+                        onChanged: (value) {
+                          _languageController.changeLocale(value as String);
+                        },
+                      ),
+                    ),
+                    onTap: () => _languageController.changeLocale(key),
+                    title: Text('locale_name_$key'.tr),
+                  )))
+              .values
+              .toList(),
+        ],
+      ),
+    ));
   }
 }

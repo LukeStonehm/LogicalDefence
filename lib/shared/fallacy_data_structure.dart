@@ -1,7 +1,7 @@
 class FallacyDataStructure {
   static const Map<String, Map<String, Map<String, bool>>> localeStructure = {
-    "locale": {
-      "name": {
+    "locales": {
+      "names": {
         "en_GB": true,
         "en_US": true,
         "de_DE": true,
