@@ -1,0 +1,22 @@
+Przygotuj się do bitwy przeciw sofizmom tego świata przy użyciu tej pięknej aplikacji.
+
+Uzbrój się i zacznij chronić swój umysł przed językiem używanym przeciw Tobie przez krętaczy tego świata.
+
+Ich jest wielu, nas jest mniej, ale aplikacja Logiczna Obrona jest podręcznym przewodnikiem w naszym świecie racjonalności.
+Użyj tej aplikacji, aby szybko podejrzeć logiczne sofizmaty podczas konfrontacji z nieracjonalnym.
+Wyzwij wszystkich gwałcicieli logiki i pomóż zbudować bardziej racjonalne społeczeństwo.
+
+Szczerość jest najważniejszą cnotą, więc bądźmy szczerzy aż do bólu przeciw tym, którzy próbują używać języka jako środka psychicznego nadużycia. Nigdy nie akceptuj logicznych sofizmatów, atakuj krętacza i szerz logikę i rozsądek tym, których szanujesz.
+
+Już koniec dyrdymałów. To apka wyświetla listę logicznych sofizmatów, które niepokoją umysł każdego racjonalisty.
+
+Główne funkcje:
+
+- Wysuwany pasek kategorii.
+- Opcja dzielenia się -> Naciśnij i przytrzymaj sofizmat, aby się nim podzielić.
+- Przejrzysta zawartość.
+- Możliwość wyboru języka.
+
+Ten projekt w pełni otwartoźródłowy (GNU v2), a kod źródłowy jest hostowany na GitHubie, więc w każdej chwili możesz stworzyć swoje własne odgałęzienie :)
+
+Możesz śmiało zostawić komentarz/sugestię. Dziękujemy za pobranie!
