@@ -20,7 +20,18 @@ class HomePage extends StatelessWidget {
           overflow: TextOverflow.fade,
         ),
         actions: [
-          IconButton(onPressed: (){}, icon: const Icon(Icons.more_vert))
+          PopupMenuButton(
+              tooltip: 'action_settings'.tr,
+              onSelected: (value) => _onSettingsPressed(value as String),
+              itemBuilder: (BuildContext popupMenuContext) {
+                return {'action_language', 'action_theme', 'action_about'}
+                    .map((String choice) {
+                  return PopupMenuItem(
+                    value: choice,
+                    child: Text(choice.tr),
+                  );
+                }).toList();
+              }),
         ],
       ),
       drawer: Drawer(
@@ -55,15 +66,6 @@ class HomePage extends StatelessWidget {
       body: Obx(
         () => ListView(
           padding: const EdgeInsets.only(bottom: 16),
-          /*
-          Appeal to Anonymous Authority
-
-Using evidence from an unnamed 'expert' or 'study' or generalized group (like 'scientists') to claim something is true.
-
-'They say that it takes 7 years to digest chewing gum.'
-
-Shared From Logical Defence Application
-           */
           children: [
             Padding(
               padding: const EdgeInsets.all(16.0).copyWith(right: 80),
@@ -119,5 +121,18 @@ Shared From Logical Defence Application
 
   void _onCategoryPressed(String category) {
     _categoryController.selectedCategory.value = category;
+  }
+
+  void _onSettingsPressed(String setting) {
+    print(setting);
+    switch (setting) {
+      case 'action_language':
+        break;
+      case 'action_theme':
+        break;
+      case 'action_about':
+        Get.toNamed('/about');
+        break;
+    }
   }
 }

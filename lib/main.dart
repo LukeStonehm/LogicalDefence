@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
+import 'package:get_storage/get_storage.dart';
 import 'package:logical_defence/controllers/controllers.dart';
 
 import 'routes.dart';
@@ -12,13 +13,15 @@ void main() async {
   SystemChrome.setSystemUIOverlayStyle(
       const SystemUiOverlayStyle(statusBarColor: Colors.transparent));
 
-  //init get stuff here
+  //init Get stuff here
+  await GetStorage.init();
 
-  //put get controllers here
+  //put Get controllers here
   Get.put<CategoryController>(CategoryController());
+  Get.put<LanguageController>(LanguageController());
 
   runApp(MyApp(
-    locale: Get.deviceLocale,
+    locale: Locale('de', 'DE'), //todo change back
   ));
 }
 
@@ -35,7 +38,7 @@ class MyApp extends StatelessWidget {
       locale: locale,
       initialRoute: "/",
       getPages: AppRoutes.routes,
-      themeMode: ThemeMode.dark,
+      themeMode: ThemeMode.system,
       theme: ThemeData.light().copyWith(
           primaryColor: Colors.deepOrange,
           colorScheme: const ColorScheme.light()
@@ -47,6 +50,12 @@ class MyApp extends StatelessWidget {
             shape:
                 RoundedRectangleBorder(borderRadius: BorderRadius.circular(4)),
           ),
+          popupMenuTheme: PopupMenuTheme.of(context).copyWith(
+              color: Colors.grey.shade300,
+              textStyle: TextStyle(
+                  color: Colors.grey.shade800,
+                  fontWeight: FontWeight.w600,
+                  fontSize: 16)),
           appBarTheme: const AppBarTheme().copyWith(
               elevation: 0,
               backgroundColor: Colors.grey.shade300,
@@ -69,6 +78,8 @@ class MyApp extends StatelessWidget {
           ),
           listTileTheme: ListTileTheme.of(context)
               .copyWith(textColor: Colors.grey.shade800)),
+
+      // dark theme
       darkTheme: ThemeData.dark().copyWith(
           primaryColor: Colors.deepOrange,
           colorScheme: const ColorScheme.dark()

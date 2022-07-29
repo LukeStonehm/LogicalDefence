@@ -2,14 +2,16 @@ class FallacyDataStructure {
   static const Map<String, Map<String, Map<String, bool>>> localeStructure = {
     "locale": {
       "name": {
-        "de": true,
-        "en": true,
-        "es": true,
-        "fr": true,
-        "it": true,
-        "pt": true,
-        "pl": true,
-        "eo": true
+        "en_GB": true,
+        "en_US": true,
+        "de_DE": true,
+        "eo_EO": true,
+        "es_ES": true,
+        "fr_FR": true,
+        "it_IT": true,
+        "pl_PL": true,
+        "pt_PT": true,
+        "pt_BR": true
       }
     }
   };
