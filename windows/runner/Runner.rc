@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "za.co.lukestonehm.logicaldefence" "\0"
-            VALUE "FileDescription", "logical_defence" "\0"
+            VALUE "FileDescription", "Logical Defence" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "logical_defence" "\0"
+            VALUE "InternalName", "Logical Defence" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2022 za.co.lukestonehm.logicaldefence. All rights reserved." "\0"
             VALUE "OriginalFilename", "logical_defence.exe" "\0"
-            VALUE "ProductName", "logical_defence" "\0"
+            VALUE "ProductName", "Logical Defence" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END
