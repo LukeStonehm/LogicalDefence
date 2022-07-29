@@ -1,5 +1,9 @@
 import 'package:get/get.dart';
 
+/*
+  Translated to Castilian Spanish by Ismael Ferreras Morezuelas (swyterzone+logicaldefence@gmail.com)
+ */
+
 class AppTranslations extends Translations {
   @override
   Map<String, Map<String, String>> get keys => {
@@ -20,11 +24,9 @@ class AppTranslations extends Translations {
           "from": "\n\nShared From Logical Defence Application",
           "action_language": "Language",
           "language_dialog_title": "Choose language",
-
           "theme_name_0": "System",
           "theme_name_1": "Light",
           "theme_name_2": "Dark",
-
           "locale_name_en_GB": "English",
           "locale_name_en_US": "English (US)",
           "locale_name_de_DE": "German",
@@ -35,7 +37,6 @@ class AppTranslations extends Translations {
           "locale_name_pl_PL": "Polish",
           "locale_name_eo_EO": "Esperanto",
           "locale_name_pt_BR": "Portuguese (Brazil)",
-
           "sections_0": "Appeal to the Mind",
           "sections_1": "Appeal to the Emotions",
           "sections_2": "Faulty Deduction",

@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="za.co.lukestonehm.logicaldefence.logical_defence">
+    package="za.co.lukestonehm.logicaldefence">
    <application
-        android:label="logical_defence"
+        android:label="@string/app_name"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

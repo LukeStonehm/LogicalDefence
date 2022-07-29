@@ -1,4 +1,4 @@
-package za.co.lukestonehm.logicaldefence.logical_defence
+package za.co.lukestonehm.logicaldefence
 
 import io.flutter.embedding.android.FlutterActivity
 
