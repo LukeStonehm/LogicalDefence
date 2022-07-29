@@ -1,0 +1,27 @@
+Difesa Logica (Logical Defence)
+
+Preparati a combattere contro i sofisti con quest'app meravigliosa.
+
+Rinforzati ed inizia a difendere la tua mente dal linguaggio usato contro di te dai sofisti in giro per il mondo.
+
+Loro sono molti, noi siamo pochi, ma con l'app Logical Defence, abbiamo un'altro strumento dalla parte della nostra razionalità.
+
+Usa questa app per trovare rapidamente le fallacie logiche che incontriamo quando dibattiamo contro l'irrazionale.
+
+Richiama coloro che non ragionano logicamente e aiuta a costruire una società più razionale.
+L'onestà è la prima virtù, quindi dovremmo essere dolorosamente onesti contro quelli che cercano di usare il linguaggio come una forma di abuso mentale. Non accettare mai una fallacia logica, attacca l'attaccante e diffondi la logica e la ragione a coloro che ami.
+
+Ok, basta farneticare. Questa app mostra una lista delle fallacie logiche che infestano tutte le menti dei razionalisti.
+
+Alcune delle funzionalità:
+
+- Menù a sinistra contenente le categorie.
+- Condivisione -> Tieni premuta una fallacia per condividerla.
+- Schermata delle informazioni carina.
+- Selezione della lingua.
+
+Questo è un progetto completamente libero (GNU v2), ed il codice sorgente si trova su GitHub, quindi sentiti libero di esplorare :)
+
+GitHub: https://github.com/LukeStonehm/LogicalDefence
+
+Per favore, lasciaci commenti o suggerimenti. Grazie per aver scelto la logica!

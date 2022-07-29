@@ -1,0 +1,27 @@
+Logische Selbstverteidigung
+
+Stähle dich, um deinen Verstand gegen die Sprache der Sophisten zu verteidigen.
+
+Mit dieser wunderschönen App kannst du dich auf den Kampf gegen die Sophisten dieser Welt vorbereiten.
+
+Denn Dummschwätzer (Sophisten) gibt es viele - von uns nur wenige. Jetzt haben wir ein weiteres Werkzeug der Vernuft.
+
+Mit der App kann man schnell Fehlschlüsse (Sophismen) nachschauen und irrationale Argumente einer Person entlarven. Hilf so eine rationalere Gesellschaft zu entwickeln.  
+
+Ehrlichkeit ist die erste Tugend, also sei streng mit denen, die dich mit ihrer Rhetorik zu verwirren versuchen. 
+Akzeptiere niemals einen Fehlschluss: Verteidige dich gegen Sophisten und teile Vernuft, sowie Klarheit mit deinen Verbündeten.
+
+Genug Gelaber: Diese App zeigt übersichtlich die schlimmsten und bekanntesten Fehlschlüsse an.
+
+
+Einige Funktionen:
+- Linksseitiges Menü mit Kategorien.
+- Share Funktion -> Teile einen Fehlschluss mit einem langen Fingerdruck.
+- Hübscher Infotext.
+- Einfache Sprachenauswahl.
+
+
+Diese App ist freie Software (GNU v2) und der Quellcode ist auf GitHub verfügbar. Du kannst das Projekt gerne forken :)
+GitHub Repository: https://github.com/LukeStonehm/LogicalDefence
+
+Kommentare und Hinweise sind gerne gesehen. Danke für den Download!
