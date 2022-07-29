@@ -1,0 +1,1 @@
+export 'fallacy_card.widget.dart';
