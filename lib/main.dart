@@ -108,24 +108,35 @@ class MyApp extends StatelessWidget {
 
       // dark theme
       darkTheme: ThemeData.dark().copyWith(
-          primaryColor: Colors.deepOrange,
-          colorScheme: const ColorScheme.dark()
-              .copyWith(primary: Colors.deepOrange, secondary: Colors.white),
-          scaffoldBackgroundColor: Colors.grey.shade900,
-          cardTheme: const CardTheme().copyWith(
-            elevation: 0,
-            shape:
-                RoundedRectangleBorder(borderRadius: BorderRadius.circular(4)),
-          ),
-          appBarTheme: const AppBarTheme()
-              .copyWith(elevation: 0, backgroundColor: Colors.grey.shade900),
-          textTheme: const TextTheme().copyWith(
-              titleLarge: const TextStyle()
-                  .copyWith(fontSize: 24, color: Colors.deepOrange),
-              labelSmall:
-                  const TextStyle().copyWith(color: Colors.grey.shade400),
-              bodyMedium: const TextStyle()
-                  .copyWith(color: Colors.white, fontSize: 16))),
+        primaryColor: Colors.deepOrange,
+        colorScheme: const ColorScheme.dark()
+            .copyWith(primary: Colors.deepOrange, secondary: Colors.white),
+        scaffoldBackgroundColor: Colors.grey.shade900,
+        cardTheme: const CardTheme().copyWith(
+          elevation: 0,
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(4)),
+        ),
+        popupMenuTheme: PopupMenuTheme.of(context).copyWith(
+            color: Colors.grey.shade800,
+            textStyle: TextStyle(
+                color: Colors.grey.shade50,
+                fontWeight: FontWeight.normal,
+                fontSize: 16)),
+        appBarTheme: const AppBarTheme()
+            .copyWith(elevation: 0, backgroundColor: Colors.grey.shade900),
+        textTheme: const TextTheme().copyWith(
+            headlineLarge: const TextStyle()
+                .copyWith(color: Colors.white, fontWeight: FontWeight.bold),
+            titleLarge: const TextStyle()
+                .copyWith(fontSize: 24, color: Colors.deepOrange),
+            labelSmall: const TextStyle().copyWith(color: Colors.grey.shade400),
+            bodyMedium:
+                const TextStyle().copyWith(color: Colors.white, fontSize: 16),
+            titleMedium: Theme.of(context)
+                .textTheme
+                .titleMedium
+                ?.copyWith(color: Colors.white)),
+      ),
     );
   }
 }
