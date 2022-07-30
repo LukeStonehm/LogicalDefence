@@ -5,7 +5,7 @@
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "An open source Android app that displays a list of the logical fallacies that haunt every rationalists world",
+    "description": "An open source app that displays a list of the logical fallacies that haunt every rationalists world",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

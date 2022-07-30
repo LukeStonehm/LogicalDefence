@@ -1,5 +1,5 @@
 name: logical_defence
-description: An open source Android app that displays a list of the logical fallacies that haunt every rationalists world
+description: An open source app that displays a list of the logical fallacies that haunt every rationalists world
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
