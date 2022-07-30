@@ -11,7 +11,8 @@ class FallacyDataStructure {
         "it_IT": true,
         "pl_PL": true,
         "pt_PT": true,
-        "pt_BR": true
+        "pt_BR": true,
+        "ru_RU": true
       }
     }
   };
