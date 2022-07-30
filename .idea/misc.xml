@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="android/app/src/main/res/drawable-v21/launch_background.xml" value="0.163" />
+        <entry key="android/app/src/main/res/drawable/launch_background.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
