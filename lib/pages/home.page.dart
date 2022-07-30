@@ -54,7 +54,7 @@ class HomePage extends StatelessWidget {
                         style: Theme.of(context)
                             .textTheme
                             .headlineMedium
-                            ?.copyWith(fontSize: 28),
+                            ?.copyWith(fontSize: 28, color: Colors.white),
                       ),
                     ),
                     Text(
@@ -62,7 +62,7 @@ class HomePage extends StatelessWidget {
                       style: Theme.of(context)
                           .textTheme
                           .headlineSmall
-                          ?.copyWith(fontSize: 20),
+                          ?.copyWith(fontSize: 20, color: Colors.white),
                     ),
                   ],
                 ),
@@ -73,22 +73,29 @@ class HomePage extends StatelessWidget {
           ),
         ),
       ),
-      body: Obx(
-        () => ListView(
-          padding: const EdgeInsets.only(bottom: 16),
-          children: [
-            Padding(
-              padding: const EdgeInsets.all(16.0).copyWith(right: 80),
-              child: FittedBox(
-                fit: BoxFit.fitWidth,
-                child: Text(
-                  'sections_${_categoryController.selectedCategory.value}'.tr,
-                  style: Theme.of(context).textTheme.headlineLarge,
+      body: Align(
+        alignment: Alignment.topCenter,
+        child: SizedBox(
+          width: 1000,
+          child: Obx(
+            () => ListView(
+              padding: const EdgeInsets.only(bottom: 16),
+              children: [
+                Padding(
+                  padding: const EdgeInsets.all(16.0).copyWith(right: 80),
+                  child: FittedBox(
+                    fit: BoxFit.fitWidth,
+                    child: Text(
+                      'sections_${_categoryController.selectedCategory.value}'
+                          .tr,
+                      style: Theme.of(context).textTheme.headlineLarge,
+                    ),
+                  ),
                 ),
-              ),
+                ..._renderCards(_categoryController.selectedCategory.value)
+              ],
             ),
-            ..._renderCards(_categoryController.selectedCategory.value)
-          ],
+          ),
         ),
       ),
     );
@@ -233,7 +240,8 @@ class HomePage extends StatelessWidget {
                       ),
                     ),
                     onTap: () => _themeController.changeTheme(key),
-                    title: Text('theme_name_$key'.tr),
+                    title: Text('theme_name_$key'.tr,
+                        style: Theme.of(context).textTheme.titleMedium),
                   )))
               .values
               .toList(),
@@ -244,9 +252,7 @@ class HomePage extends StatelessWidget {
 
   _shareFallacy(String title, String desc, String example) async {
     final shareString = "$title\n\n$desc\n\n$example${'from'.tr}";
-    await FlutterShare.share(title: 'share'.tr,
-      chooserTitle: 'share'.tr,
-      text: shareString
-    );
+    await FlutterShare.share(
+        title: 'share'.tr, chooserTitle: 'share'.tr, text: shareString);
   }
 }
