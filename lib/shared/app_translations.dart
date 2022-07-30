@@ -39,6 +39,7 @@ class AppTranslations extends Translations {
           "locale_name_eo_EO": "Esperanto",
           "locale_name_pt_BR": "Portuguese (Brazil)",
           "locale_name_ru_RU": "Russian",
+          "locale_name_nl_NL": "Dutch",
           "sections_0": "Appeal to the Mind",
           "sections_1": "Appeal to the Emotions",
           "sections_2": "Faulty Deduction",
@@ -352,6 +353,7 @@ class AppTranslations extends Translations {
           "locale_name_eo_EO": "Esperanto",
           "locale_name_pt_BR": "Portuguese (Brazil)",
           "locale_name_ru_RU": "Russian",
+          "locale_name_nl_NL": "Dutch",
 
           // sections
           "sections_0": "Appeal to the Mind",
@@ -666,6 +668,7 @@ class AppTranslations extends Translations {
           "locale_name_eo_EO": "Esperanto",
           "locale_name_pt_BR": "Portugiesisch (Brasilien)",
           "locale_name_ru_RU": "Russisch",
+          "locale_name_nl_NL": "Niederländisch",
           "sections_0": "Pseudologik",
           "sections_1": "Emotionale Argumente",
           "sections_2": "Fehlerhafte Deduktion",
@@ -975,6 +978,7 @@ class AppTranslations extends Translations {
           "locale_name_eo_EO": "Esperanto",
           "locale_name_pt_BR": "Portugala (Brazilo)",
           "locale_name_ru_RU": "Rusa",
+          "locale_name_nl_NL": "Nederlanda",
           "sections_0": "Revoko al opinio",
           "sections_1": "Revoko al emocio",
           "sections_2": "Erara dedukto",
@@ -1285,6 +1289,7 @@ class AppTranslations extends Translations {
           "locale_name_eo_EO": "Esperanto",
           "locale_name_pt_BR": "Portugués (Brasil)",
           "locale_name_ru_RU": "Ruso",
+          "locale_name_nl_NL": "Holandés",
           "sections_0": "Apelando a la mente",
           "sections_1": "Apelando a las emociones",
           "sections_2": "Deduciendo falsamente",
@@ -1600,6 +1605,7 @@ class AppTranslations extends Translations {
           "locale_name_eo_EO": "Espéranto",
           "locale_name_pt_BR": "Portugais (Brésil)",
           "locale_name_ru_RU": "Russe",
+          "locale_name_nl_NL": "Néerlandais",
           "fallacies_descs_0_0":
               "Avancer un argument en s'appuyant sur les preuves d'un « expert » sans nom, d'une « étude » ou d'un groupe généralisé (par ex. « les scientifiques »).",
           "fallacies_descs_0_9":
@@ -1913,6 +1919,7 @@ class AppTranslations extends Translations {
           "locale_name_eo_EO": "Esperanto",
           "locale_name_pt_BR": "Portoghese (Brasile)",
           "locale_name_ru_RU": "Russo",
+          "locale_name_nl_NL": "Olandese",
           "sections_0": "Ricorso alla Mente",
           "sections_1": "Ricorso alle Emozioni",
           "sections_2": "Deduzione Errata",
@@ -2224,6 +2231,7 @@ class AppTranslations extends Translations {
           "locale_name_eo_EO": "Esperanto",
           "locale_name_pt_BR": "Portugalski (Brazylia)",
           "locale_name_ru_RU": "Rosyjski",
+          "locale_name_nl_NL": "Holenderski",
           "sections_0": "Odwoływanie do opinii",
           "sections_1": "Odwołanie do emocji",
           "sections_2": "Błędna dedukcja",
@@ -2535,6 +2543,7 @@ class AppTranslations extends Translations {
           "locale_name_eo_EO": "Esperanto",
           "locale_name_pt_BR": "Português (Brasil)",
           "locale_name_ru_RU": "Russo",
+          "locale_name_nl_NL": "Holandês",
           "sections_0": "Recorrer à mente",
           "sections_1": "Recorrer às emoções",
           "sections_2": "Dedução errônea",
@@ -2844,6 +2853,7 @@ class AppTranslations extends Translations {
           "locale_name_pt_PT": "Português",
           "locale_name_pt_BR": "Português (Brasil)",
           "locale_name_ru_RU": "Russo",
+          "locale_name_nl_NL": "Holandês",
           "sections_0": "Recorrer à mente",
           "sections_1": "Recorrer às emoções",
           "sections_2": "Dedução errônea",
@@ -3155,6 +3165,7 @@ class AppTranslations extends Translations {
           "locale_name_eo_EO": "Эсперанто",
           "locale_name_pt_BR": "Португальский (Бразилия)",
           "locale_name_ru_RU": "Русский",
+          "locale_name_nl_NL": "Голландский",
           "sections_0": "Аппеляция к разуму",
           "sections_1": "Аппеляция к эмоциям",
           "sections_2": "Ошибочные выводы",
@@ -3435,6 +3446,322 @@ class AppTranslations extends Translations {
               "'А, вы собираетесь ослабить антитеррористические законы, именно так, как этого хотят террористы. Неужели вы говорите, что поддерживаете терроризм?'",
           "fallacies_examples_5_5":
               "'Вы утверждаете, что Израиль должен прекратить строить поселения на западном берегу, нарушая условия перемирия, поэтому вы утверждаете, что у Израиля нет прав быть отдельной национальностью?'"
+        },
+        "nl_NL": {
+          "app_name": "Logical Defense",
+          "navigation_drawer_open": "Navigatie openen",
+          "navigation_drawer_close": "Navigatie sluiten",
+          "action_about": "Over",
+          "action_theme": "Thema",
+          "category_label": "Categorieën",
+          "subtitle": "De prachtige lijst van drogredenen",
+          "title_activity_about": "Over deze app",
+          "action_settings": "Instellingen",
+          "creator": "Created by LukeStoneHm\n2015",
+          "about_more":
+              "Een eenvoudige maar prachtige applicatie die je de drogredenen van de wereld voorlegt, op een hele fijne manier.\n\nDeze applicaties is een open source project en valt onder de GPL2 licentie.\n\nVoel je vrij om de broncode te onderzoeken, te vinden op\nGitHub.\n\nhttps://github.com/LukeStonehm/LogicalDefence/",
+          "from": "\n\nShared From Logical Defence Application",
+          "share": "Deel een drogreden",
+          "action_language": "Taal",
+          "language_dialog_title": "Kies een taal",
+          "theme_name_0": "Systeem",
+          "theme_name_1": "Licht",
+          "theme_name_2": "Donker",
+          "locale_name_de_DE": "Duits",
+          "locale_name_en_GB": "Engels",
+          "locale_name_en_US": "Engels (US)",
+          "locale_name_es_ES": "Spaans",
+          "locale_name_fr_FR": "Frans",
+          "locale_name_it_IT": "Italiaans",
+          "locale_name_pt_PT": "Portugees",
+          "locale_name_pl_PL": "Pools",
+          "locale_name_eo_EO": "Esperanto",
+          "locale_name_pt_BR": "Portugees (Brazilië)",
+          "locale_name_ru_RU": "Russisch",
+          "locale_name_nl_NL": "Nederlands",
+          "sections_0": "Appelleren aan het verstand",
+          "sections_1": "Appelleren aan emotie",
+          "sections_2": "Foute gevolgstrekking",
+          "sections_3": "Verdraaide oorzaak &gevolg",
+          "sections_4": "Manipuleren van de inhoud",
+          "sections_5": "In de aanval",
+          "fallacies_titles_0_0": "Appelleren aan veronderstelde autoriteit",
+          "fallacies_titles_0_1": "Appelleren aan autoriteit",
+          "fallacies_titles_0_2": "Appelleren aan algemeen gebruik",
+          "fallacies_titles_0_3": "Appelleren aan onwetendheid",
+          "fallacies_titles_0_4": "Appelleren aan ongeloofwaardigheid",
+          "fallacies_titles_0_5": "Appelleren aan geld",
+          "fallacies_titles_0_6": "Appelleren aan nieuwigheid",
+          "fallacies_titles_0_7": "Appelleren aan volksgeloof",
+          "fallacies_titles_0_8": "Appelleren aan waarschijnlijkheid",
+          "fallacies_titles_0_9": "Appelleren aan traditie",
+          "fallacies_descs_0_0":
+              "Bewijs gebruiken van een naamloze 'expert' of 'onderzoek' of een gegeneraliseerde groep (zoals 'wetenschappers') om te beweren dat iets waar is..",
+          "fallacies_descs_0_1":
+              "Beweren dat iets waar is omdat (een person die de autoriteit heeft) expert het zegt.",
+          "fallacies_descs_0_2":
+              "Beweren dat iets waar is omdat het een algemeen gebruik is.",
+          "fallacies_descs_0_3":
+              "Een bewering is waar omdat het niet onbewezen is (of onwaar omdat het niet bewezen is).",
+          "fallacies_descs_0_4":
+              "Omdat een bewering ongelooflijk is, kan het niet waar zijn.",
+          "fallacies_descs_0_5":
+              "Veronderstellen dat als iemand rijk is, of dat iets duur is, het invloed heeft op de waarheid van de bewering.",
+          "fallacies_descs_0_6":
+              "Aannemen dat iets beter is omdat het nieuw of nieuwer is.",
+          "fallacies_descs_0_7":
+              "Beweren dat iets waar is omdat de meerderheid van de mensen het gelooft.",
+          "fallacies_descs_0_8":
+              "Veronderstellen dat iets gaat gebeuren omdat het kan gebeuren.",
+          "fallacies_descs_0_9":
+              "Beweren dat iets waar is omdat het (blijkbaar) altijd zo geweest is.",
+          "fallacies_examples_0_0":
+              "'Men zegt dat het 7 jaar duurt voordat kauwgum verteerd is.'",
+          "fallacies_examples_0_1":
+              "'Meer dan 4000 vooraanstaande wetenschappers en ingenieurs betwisten de opwarming van de aarde.'",
+          "fallacies_examples_0_2":
+              "'Deze bank heft problemen met corruptive, maar er gebeurt niets dat niet bij andere banken gebeurt.'",
+          "fallacies_examples_0_3":
+              "'Niemand heft aan mij bewezen dat God bestaat. Dus weet ik dat er geen God is.'",
+          "fallacies_examples_0_4":
+              "'Het oog is een ongelofelijk complex biomechanisch apparaat met duizenden samenvallende onderdelen. Hoe kan dat bestaan zonder een intelligente ontwerper?'",
+          "fallacies_examples_0_5": "'Als het meer kost moet het beter zijn.'",
+          "fallacies_examples_0_6":
+              "'De nieuwste versie van dit besturingssysteem gaat mijn computer beter en sneller maken..'",
+          "fallacies_examples_0_7": "'Melk is onmisbaar voor gezonde botten.'",
+          "fallacies_examples_0_8":
+              "'In het universum zijn miljarden melkwegstelsels met miljarden sterren in het universum. Er moet dus op een andere planneet intelligent leven zijn.'",
+          "fallacies_examples_0_9":
+              "'De overheid heeft altijd bestaan, daarom kan de samenleving niet zonder.'",
+          "fallacies_titles_1_0": "Appelleren aan gevolgen",
+          "fallacies_titles_1_1": "Appelleren aan angst",
+          "fallacies_titles_1_2": "Appelleren aan vleierij",
+          "fallacies_titles_1_3": "Appelleren aan natuur",
+          "fallacies_titles_1_4": "Appelleren aan medelijden",
+          "fallacies_titles_1_5": "Appelleren aan spot",
+          "fallacies_titles_1_6": "Appelleren aan wrok",
+          "fallacies_titles_1_7": "Appelleren aan ijdele Hoop",
+          "fallacies_descs_1_0":
+              "Beweren dat een overtuiging onwaar is omdat het iets impliceert dat je liever niet gelooft.",
+          "fallacies_descs_1_1":
+              "Een argument dat gemaakt wordt door angst en vooroordelen naar de andere partij te bevorderen.",
+          "fallacies_descs_1_2":
+              "Een irrelevant compliment gebruiken om een ongefundeerde bewering aan te prijzen, die samen met het compliment geaccepteerd wordt.",
+          "fallacies_descs_1_3":
+              "Je bewering meer waar laten lijken door een vergelijking te trekken met de goede natuur.",
+          "fallacies_descs_1_4":
+              "Medelijden introduceren om je tegenstanders op andere gedachten proberen te brengen.",
+          "fallacies_descs_1_5":
+              "Het argument van je tegenstander zo presenteren dat het absurd lijkt.",
+          "fallacies_descs_1_6":
+              "Een bewering afwijzen door te appelleren aan het vooroordeel tegen diegene.",
+          "fallacies_descs_1_7":
+              "Suggereren dat een bewering waar of onwaar is omdat je hoopt dat het zo is.",
+          "fallacies_examples_1_0":
+              "'Het kan niet waar zijn dat de burgemeester seks heeft met jonge jongens. Als dat zo zou zijn, zou hij liegen als hij zegt ze niet te kennen, en hij is niet iemand die zou liegen '",
+          "fallacies_examples_1_1":
+              "'Voordat je het weet zullen er meer moskeeën dan kerken zijn.'",
+          "fallacies_examples_1_2":
+              "'Intelligente en doordachte lezers zullen een drogreden als deze herkennen wanneer ze er een lezen.'",
+          "fallacies_examples_1_3":
+              "'Homoseksualiteit is onnatuurlijk. Dieren van hetzelfde geslacht hebben toch ook geen seks met elkaar?'",
+          "fallacies_examples_1_4":
+              "'De oud-dictator is een oude, stervende man. Het is verkeerd om hem te berechten voor de daden waarvan hij verdacht wordt.'",
+          "fallacies_examples_1_5":
+              "'Geloven in God is als het geloven in Sinterklaas en Piet.'",
+          "fallacies_examples_1_6":
+              "'Vind jij het ook zo vervelend dat de NOS zoveel zendtijd krijgt terwijl ze hun linkse politieke agenda laten zien?'",
+          "fallacies_examples_1_7":
+              "'Een politieagent zou nooit liegen, hij is een beëdigd en een professional.'",
+          "fallacies_titles_2_0": "Anekdotisch bewijs",
+          "fallacies_titles_2_1": "Veralgemenen",
+          "fallacies_titles_2_2": "Eenheid",
+          "fallacies_titles_2_3": "Ontwerp bedrog",
+          "fallacies_titles_2_4": "Gokkersmisvatting",
+          "fallacies_titles_2_5": "Snelle gerenalisatie",
+          "fallacies_titles_2_6": "Overhaaste conclusie",
+          "fallacies_titles_2_7": "Vals compromis",
+          "fallacies_titles_2_8": "Dawling van het perfectionisme",
+          "fallacies_titles_2_9": "Dwaling van het relativeren",
+          "fallacies_titles_2_10": "Generalisering",
+          "fallacies_titles_2_11": "Brede generalisatie",
+          "fallacies_titles_2_12": "Het onverdeelde midden",
+          "fallacies_descs_2_0":
+              "Empirisch bewijs afwijzen ten behoeve van eigen ervaringen.",
+          "fallacies_descs_2_1":
+              "Aannemen dat eigenschappen of overtuigingen van sommigen toepasbaar zijn op de hele groep.",
+          "fallacies_descs_2_2":
+              "Aannemen dat dat eigenschappen of overtuigingen van een automatisch toepasbaar zijn op een individu.",
+          "fallacies_descs_2_3":
+              "Aannemen dat als iets mooi ontworpen of goed vormgegeven is, het per definitie beter of juist is.",
+          "fallacies_descs_2_4":
+              "Aannemen dat onafhankelijke gebeurtenissen in het verleden invloed hebben op gebeurtenissen in de toekomst.",
+          "fallacies_descs_2_5":
+              "Een brede conclusie trekken op basis van een klein voorbeeld.",
+          "fallacies_descs_2_6":
+              "Snel een conclusie trekken zonder daarvoor eerlijk en relevant bewijs voor te hebben overwogen..",
+          "fallacies_descs_2_7":
+              "Aannemen dat het antwoord in het midden ligt omdat twee tegenovergestelde argumenten het overwegen evenwaardig zijn.",
+          "fallacies_descs_2_8":
+              "Aannemen dat de optie die voor handen is succes garandeert, en alles afwijzen dat niet perfect zal werken.",
+          "fallacies_descs_2_9":
+              "Een bewering afwijzen omdat het een geloof of overtuiging is die alleen relevant is voor een persoon of groep.",
+          "fallacies_descs_2_10":
+              "Aannemen dat een observatie van een klein aantal, geldt voor een groot aantal.",
+          "fallacies_descs_2_11": "Een algemene regel te breed toepassen.",
+          "fallacies_descs_2_12":
+              "Omdat twee dingen dezelfde eigenschappen hebben, aannnemen dat ze hetzelfde zijn.",
+          "fallacies_examples_2_0":
+              "'Ik stop niet met roken, mijn opa leeft nog steeds en heeft zijn hele leven lang gerookt.'",
+          "fallacies_examples_2_1":
+              "'Recente terroristische aanslagen zijn door moslims gepleegd, daarom zijn alle terroristen moslim.'",
+          "fallacies_examples_2_2":
+              "'Veel Gereformeerden zijn tegen het homohuwelijk, evolutie en abortus. Daarom zijn alle Gereformeerden homofoben, creationisten en pro-life..'",
+          "fallacies_examples_2_3":
+              "'De iPhone X is een mooi ontworpen en mooist ogende telefoon, daarom is het de beste telefoon.'",
+          "fallacies_examples_2_4":
+              "'Ik heb al 9 keer ingezet op rood, en het balletje altijd is op zwart gekomen. De volgende keer dat ik inzet moet het balletje zeker weten op rood landen.'",
+          "fallacies_examples_2_5":
+              "'Een vrouw heeft mijn auto geschampt tijdens het inparkeren, vrouwen kunnen echt niet rijden.'",
+          "fallacies_examples_2_6":
+              "'Ze vind het erg dat de Pil uit het pakket is? Wat een slet!'",
+          "fallacies_examples_2_7":
+              "'Ik ben achterop je auto gereden, maar vind dat ik het hoef te betalen, jij vindt dat wel? Eerlijk zou zijn als we allebei de helft zouden betalen.'",
+          "fallacies_examples_2_8":
+              "'De afbeeldingen op sigarettenpakjes werken niet, mensen blijven toch wel roken.'",
+          "fallacies_examples_2_9":
+              "'Dat kan voor jou wel waar zijn, maar voor mij niet.'",
+          "fallacies_examples_2_10":
+              "'Apple laat mensen in werken voor lage logen in China. Dat zullen de andere grote bedrijven dan ook wel doen.'",
+          "fallacies_examples_2_11":
+              "'Voetbalwedstrijden lopen steeds vaker uit de hand, omdat de supporters geen idee hebben van verantwoordelijkheid.'",
+          "fallacies_examples_2_12":
+              "'Een theorie is een onbewezen idee. De natuurwetenschap gebruikt de term Evolutietheorie, dus de evolutie is een onbewezen idee.'",
+          "fallacies_titles_3_0": "Gevolg bevestigen",
+          "fallacies_titles_3_1": "Cirkelredenering",
+          "fallacies_titles_3_2": "Cum Hoc Ergo Propter Hoc",
+          "fallacies_titles_3_3": "Oorzaak ontkennen",
+          "fallacies_titles_3_4": "Negeren van een agemene oorzaak",
+          "fallacies_titles_3_5": "Post Hoc Ergo Propter Hoc",
+          "fallacies_titles_3_6": "Twee fouten maken een goed",
+          "fallacies_titles_3_7": "Wie zwijgt stemt toe",
+          "fallacies_descs_3_0":
+              "Een conclusie trekken op basis van het gevolg van de conclusie.",
+          "fallacies_descs_3_1":
+              "Een bewering wordt afgeleid van de veronderstellingen gebaseerd op de bewering.",
+          "fallacies_descs_3_2":
+              "Een aanname doen van een gesuggereerd oorzakelijk verband dat in werkelijkheid niet zo hoeft te zijn.",
+          "fallacies_descs_3_3":
+              "Omdat er niet een enkele duiding gegeven kan worden aan een uitkomst, het oorzaak en gevolg in diskrediet brengen.",
+          "fallacies_descs_3_4":
+              "Beweren dat het ene veroorzaakt moet zijn door het andere terwijl een derde (onbekende) gebeurtenis waarschijnlijk de oorzaak is.",
+          "fallacies_descs_3_5":
+              "Aaannemen dat iets een gevolg is omdat het  gebeurt na het voorgaande. Ook wel de verwarring van Correlatie en Causaliteit genoemd.",
+          "fallacies_descs_3_6":
+              "Omdat iets slechts is gebeurd, aannemen dat een andere slechte gebeurtenis het weer goed maakt.",
+          "fallacies_descs_3_7":
+              "Een stelling innemen die wordt afgeleid uit het feit dat iemand zwijgt.",
+          "fallacies_examples_3_0":
+              "'Als ik alle kritiek op Rita Verdonk lees, dan kan ik alleen maar concluderen dat zij de zaak Hirsi Ali niet goed heeft aangepakt.'",
+          "fallacies_examples_3_1":
+              "'De sleepwet is er voor degene die iets op hun kerfstok hebben. Je moet wat op je kerfstok hebben als je tegen de wet bent.'",
+          "fallacies_examples_3_2":
+              "'Er worden steeds meer gewelddadige videogames gespeeld, daarom is er steeds meer geweld '",
+          "fallacies_examples_3_3":
+              "'Als je een diploma hebt krijg je werk. Als je geen diploma krijg krijg je geen werk.'",
+          "fallacies_examples_3_4":
+              "'Videogames zijn geweldadig, daardoor is er steeds meer geweld.'",
+          "fallacies_examples_3_5":
+              "'De zon komt altijd op nadat de haan gekraaid heeft, dus de zon komt op doordát de haan kraait.'",
+          "fallacies_examples_3_6":
+              "'Een ontoerekeningsvatbare crimineel geen TBS geven is niet goed voor hem, maar hij is crimineel!'",
+          "fallacies_examples_3_7":
+              "'Op het moment dat ik hem vroeg of hij het gestolen had, gaf hij geen antwoord. Hij heeft het dus gestolen.'",
+          "fallacies_titles_4_0": "Ad Hoc redding",
+          "fallacies_titles_4_1": "Petitio principii",
+          "fallacies_titles_4_2": "Vooringenomen generalisatie",
+          "fallacies_titles_4_3": "Bevestiging van de generalisatie",
+          "fallacies_titles_4_4": "Vals dilemma",
+          "fallacies_titles_4_5": "Leugen",
+          "fallacies_titles_4_6": "Misleidende levendigheid",
+          "fallacies_titles_4_7": "Rode haring",
+          "fallacies_titles_4_8": "Glijdende schaal",
+          "fallacies_titles_4_9": "Omzeilen van bewijslast",
+          "fallacies_titles_4_10": "Falsifieerbaarheid",
+          "fallacies_descs_4_0":
+              "Het steeds opnieuw herzien van een argument om problemen te verklaren.",
+          "fallacies_descs_4_1":
+              "Geen nieuwe argumenten introduceren maar de conclusie van je bewering gebruiken als bewijs voor je bewering.",
+          "fallacies_descs_4_2":
+              "Het generaliseren van een niet-representatief onderdeel om zo het argument versterken.",
+          "fallacies_descs_4_3":
+              "Alleen het bewijs dat je bewering ondersteunt gebruiken en het tegensprekende bewijs (bewust of onbewust) negeren.",
+          "fallacies_descs_4_4":
+              "Twee tegenovergestelde opties neerleggen en negeren dat er ook een derde mogelijkheid is.",
+          "fallacies_descs_4_5":
+              "Een overduidelijke onwaarheid formuleren als een feit.",
+          "fallacies_descs_4_6":
+              "Een zeldzame gebeurtenis beschrijven van een gebeurtenis in groot detail, om zo iemand te overtuigen dat het waar is.",
+          "fallacies_descs_4_7":
+              "Irrelevante toevoegingen aan het argumenten  maken zodat de aandacht afgeleid wordt zodat er een andere conclusies getrokken kan worden.",
+          "fallacies_descs_4_8":
+              "Aannemen dat een beslissing leidt tot de oorzaak van gerelateerde (negatieve) gevolgen.",
+          "fallacies_descs_4_9":
+              "Met opzet relevante en significante informatie onthouden zodat het bijdraagt aan de eigen conclusie.",
+          "fallacies_descs_4_10":
+              "Iets pretenderen waarvan het niet mogelijk is om te bewijzen of deze waar of onwaar is.",
+          "fallacies_examples_4_0":
+              "'Maar doet Rijkswaterstaat nou nog meer naar het onderhoud van de dijken, veiligheid op de waterwegen, onderzoek en kustwacht?'",
+          "fallacies_examples_4_1":
+              "'Alle drugs zijn schadelijk, daarom zijn ze illegaal.'",
+          "fallacies_examples_4_2":
+              "'Uit de dagelijkse poll van Stempunt.nl blijkt dat 90% van de Nederlanders voor abortus is.'",
+          "fallacies_examples_4_3":
+              "'De Mariniers hadden bij het invallen bij de Treinkaping een vooroordeel over Molukkers, dus hebben ze sneller geschoten. '",
+          "fallacies_examples_4_4":
+              "'We moeten bezuinigen op de zorg, anders wordt de staatsschuld te groot. We kunnen het ons niet veroorloven dat de staatsschuld groter wordt, dus moeten we bezuinigen in de zorg. '",
+          "fallacies_examples_4_5":
+              "'Er waren nog nooit zoveel mensen aanwezig bij de inauguratie van een president.'",
+          "fallacies_examples_4_6":
+              "'Ik geef niet aan het Rode Kruis, want tijdens de oorlog, dat de bommen op Rotterdam en de Joden op straat bespuwd werden, heeft het Rode Kruis in Nederland niets gedaan om de de mensen bij te staan tijdens de Jodenvervolging.'",
+          "fallacies_examples_4_7":
+              "'Waarom zou een minister ontslagen moeten worden over een paar niet ingeleverde bonnetjes? Er zijn ministers die wel ergere dingen gedaan hebben.'",
+          "fallacies_examples_4_8":
+              "'IAls we wiet gaan legaliseren zullen meer mensen cocaine en heroine gaan gebruiken. Dan moeten we die ook legaliseren.'",
+          "fallacies_examples_4_9":
+              "'Irak heeft nucleaire technologie in handen. Ze maken chemische en biologische wapens, ze willen ook nucleaire wapens maken.'",
+          "fallacies_examples_4_10":
+              "'Hij is zo blij omdat hij de Geest van God ontvangen heeft.'",
+          "fallacies_titles_5_0": "Op de persoon",
+          "fallacies_titles_5_1": "Bewijslast",
+          "fallacies_titles_5_2": "Oorzakelijk Ad Hominem",
+          "fallacies_titles_5_3": "Ontstaansmisvatting",
+          "fallacies_titles_5_4": "Schuld door assosiatie",
+          "fallacies_titles_5_5": "Stropopredenering",
+          "fallacies_descs_5_0":
+              "Aan een argument voorbijgaan door een irrelevante aanval te openen op de persoon in plaats van op hun bewering.",
+          "fallacies_descs_5_1":
+              "Verwachten dat de bewijslast van de bewering door de ander geleverd wordt.",
+          "fallacies_descs_5_2":
+              "Zeggen dat een bewering niet geloofwaardig is omdat de pleiter een belang heeft bij de bewering.",
+          "fallacies_descs_5_3":
+              "De aanval openen op de grond of oorzaak van een bewering in plaats van op de inhoud.",
+          "fallacies_descs_5_4":
+              "Een idee of bewering in diskrediet brengen door het te associëren met een persoon of groep.",
+          "fallacies_descs_5_5":
+              "Door een verdraaide of eenvoudige karikatuur van een argument te maken een tegenbewering maken.",
+          "fallacies_examples_5_0":
+              "'Iedereen die tegen het koningshuis is, hecht geen waarde aan ons koninkrijk.'",
+          "fallacies_examples_5_1":
+              "'De opwarming van de aarde is ook in het verleden gebeurd, en heeft te maken met de cyclus van de natuur. Bewijs me eens het tegendeel.'",
+          "fallacies_examples_5_2":
+              "'Dat veel mensen geen problemen hebben met het betalen van belasting is onder andere onderzocht door de Belastingdienst. Het onderzoek is dus niet betrouwbaar.'",
+          "fallacies_examples_5_3":
+              "'Natuurlijk gaat de NOS niet gaat zeggen dat Trump goede ideeën heeft, daar zijn ze te links voor.'",
+          "fallacies_examples_5_4":
+              "'Dus jij vindt dat we niet strenger moeten controleren op vliegvelden zoals de terroristen willen? Ben je soms een voorstander van terrorisme? ?'",
+          "fallacies_examples_5_5":
+              "'Je zegt dat de Verenigde Staten geen muur moet bouwen om Mexicanen buiten het land te houden. Dus eigenlijk zeg je dat de VS zijn eigen land niet mag beschermen?'"
         }
       };
 }
