@@ -19,3 +19,4 @@ GNU GPL2+
 
 ## Attributes
 Brain icon was found on Icon Finder - https://www.iconfinder.com/icons/190293/brain_games_icon (could not find the author's website)
+2022 Version 2 UI / UX Designed by Siané Power - view her portfolio [here](www.behance.net/sianepower)
