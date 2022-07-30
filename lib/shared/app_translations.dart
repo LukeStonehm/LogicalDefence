@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 /*
   Translated to Castilian Spanish by Ismael Ferreras Morezuelas (swyterzone+logicaldefence@gmail.com)
   Translated to Russian by https://github.com/Sad-Scientist
+  Translated to Dutch by https://github.com/jaldabaoth7
  */
 
 class AppTranslations extends Translations {
