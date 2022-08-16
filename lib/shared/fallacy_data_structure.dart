@@ -13,7 +13,7 @@ class FallacyDataStructure {
         "pt_PT": true,
         "pt_BR": true,
         "ru_RU": true,
-        "nl_NL": true,
+        "nl": true,
       }
     }
   };
