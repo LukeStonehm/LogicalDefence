@@ -40,7 +40,7 @@ class AppTranslations extends Translations {
           "locale_name_eo_EO": "Esperanto",
           "locale_name_pt_BR": "Portuguese (Brazil)",
           "locale_name_ru_RU": "Russian",
-          "locale_name_nl_NL": "Dutch",
+          "locale_name_nl": "Dutch",
           "sections_0": "Appeal to the Mind",
           "sections_1": "Appeal to the Emotions",
           "sections_2": "Faulty Deduction",
@@ -89,7 +89,7 @@ class AppTranslations extends Translations {
               "'The eye is an incredibly complex biomechanical machine with thousands of interlocking parts. How could that exist without an intelligent designer?'",
           "fallacies_examples_0_5": "'If it costs more, it must be better.'",
           "fallacies_examples_0_6":
-              "'Awesome! The latest version of this operating system is going to make my computer faster and better..'",
+              "'Awesome! The latest version of this operating system is going to make my computer faster and better.'",
           "fallacies_examples_0_7": "'Milk is essential for healthy bones.'",
           "fallacies_examples_0_8":
               "'There are billions of galaxies with billions of stars in the universe, so there must be another planet with intelligent life on it.'",
@@ -267,7 +267,7 @@ class AppTranslations extends Translations {
           "fallacies_descs_4_10":
               "Offering a claim that cannot be proven false, because there is no way to check if it is false or not.",
           "fallacies_examples_4_0":
-              "'But apart from better sanitation, medicine, education, irrigation, public health, roads, a freshwater system and public order.. What have the Romans done for us?'",
+              "'But apart from better sanitation, medicine, education, irrigation, public health, roads, a freshwater system and public order… What have the Romans done for us?'",
           "fallacies_examples_4_1":
               "'All illegal drugs are harmful - that's why they're illegal.'",
           "fallacies_examples_4_2":
@@ -354,7 +354,7 @@ class AppTranslations extends Translations {
           "locale_name_eo_EO": "Esperanto",
           "locale_name_pt_BR": "Portuguese (Brazil)",
           "locale_name_ru_RU": "Russian",
-          "locale_name_nl_NL": "Dutch",
+          "locale_name_nl": "Dutch",
 
           // sections
           "sections_0": "Appeal to the Mind",
@@ -407,7 +407,7 @@ class AppTranslations extends Translations {
               "'The eye is an incredibly complex biomechanical machine with thousands of interlocking parts. How could that exist without an intelligent designer?'",
           "fallacies_examples_0_5": "'If it costs more, it must be better.'",
           "fallacies_examples_0_6":
-              "'Awesome! The latest version of this operating system is going to make my computer faster and better..'",
+              "'Awesome! The latest version of this operating system is going to make my computer faster and better.'",
           "fallacies_examples_0_7": "'Milk is essential for healthy bones.'",
           "fallacies_examples_0_8":
               "'There are billions of galaxies with billions of stars in the universe, so there must be another planet with intelligent life on it.'",
@@ -585,7 +585,7 @@ class AppTranslations extends Translations {
           "fallacies_descs_4_10":
               "Offering a claim that cannot be proven false, because there is no way to check if it is false or not.",
           "fallacies_examples_4_0":
-              "'But apart from better sanitation, medicine, education, irrigation, public health, roads, a freshwater system and public order.. What have the Romans done for us?'",
+              "'But apart from better sanitation, medicine, education, irrigation, public health, roads, a freshwater system and public order… What have the Romans done for us?'",
           "fallacies_examples_4_1":
               "'All illegal drugs are harmful - that's why they're illegal.'",
           "fallacies_examples_4_2":
@@ -669,7 +669,7 @@ class AppTranslations extends Translations {
           "locale_name_eo_EO": "Esperanto",
           "locale_name_pt_BR": "Portugiesisch (Brasilien)",
           "locale_name_ru_RU": "Russisch",
-          "locale_name_nl_NL": "Niederländisch",
+          "locale_name_nl": "Niederländisch",
           "sections_0": "Pseudologik",
           "sections_1": "Emotionale Argumente",
           "sections_2": "Fehlerhafte Deduktion",
@@ -717,11 +717,11 @@ class AppTranslations extends Translations {
           "fallacies_examples_0_5":
               "'Wenn der Preis höher ist, muss auch der Wert höher sein.'",
           "fallacies_examples_0_6":
-              "'Wow! Das neue Betriebssystem wird meinen Computer besser und schneller machen...'",
+              "'Wow! Das neue Betriebssystem wird meinen Computer besser und schneller machen…'",
           "fallacies_examples_0_7":
               "'Milch ist essenziell für gesunde Knochen.'",
           "fallacies_examples_0_8":
-              "'Es gibt Milliarden von Galaxien mit Milliarden von Sternen... Irgendwo muss es intelligentes Leben geben.'",
+              "'Es gibt Milliarden von Galaxien mit Milliarden von Sternen… Irgendwo muss es intelligentes Leben geben.'",
           "fallacies_examples_0_9":
               "'Es gab immer eine Regierung. Eine Gesellschaft ohne Regierung kann es also nicht geben.'",
           "fallacies_titles_1_0": "Begründung durch Konsequenzen",
@@ -753,7 +753,7 @@ class AppTranslations extends Translations {
           "fallacies_examples_1_1":
               "'Noch bevor du dich wundern kannst, gibt es mehr Moscheen als Kirchen.'",
           "fallacies_examples_1_2":
-              "'Einem gebildeten Leser (wie Sie einer sind), würde ein solcher Fehlschluss bestimmt auffallen. '",
+              "'Einem gebildeten Leser (wie Sie einer sind), würde ein solcher Fehlschluss bestimmt auffallen.'",
           "fallacies_examples_1_3":
               "'Homosexualität ist unnatürlich. Tiere machen so etwas ja auch nicht.'",
           "fallacies_examples_1_4":
@@ -826,7 +826,7 @@ class AppTranslations extends Translations {
           "fallacies_examples_2_10":
               "'Diese große Schuhmarke produziert in Kinderarbeit. Also sind alle großen Schuhmarken die Ausbeuter von kleinen Kindern.'",
           "fallacies_examples_2_11":
-              "'Die jungen Männer haben einen Aufstand gemacht, weil sie nicht erzogen wurden. '",
+              "'Die jungen Männer haben einen Aufstand gemacht, weil sie nicht erzogen wurden.'",
           "fallacies_examples_2_12":
               "'Eine Theorie muss nicht belegt sein. Es heißt Evolutionstheorie. Also ist die Evolutionstheorie noch gar nicht belegt.'",
           "fallacies_titles_3_0": "Petitio Principii",
@@ -897,7 +897,7 @@ class AppTranslations extends Translations {
           "fallacies_descs_4_10":
               "Es wird eine Behauptung gemacht, die nicht widerlegt werden kann.",
           "fallacies_examples_4_0":
-              "'Aber abgesehen von besserer Infrastruktur, Medizin, Bildung, Wasseranschluss, öffentlicher Gesundheit, Straßen, einem Trinkwassersystem und öffentlicher Ordnung... Was haben die Römer je für uns getan?'",
+              "'Aber abgesehen von besserer Infrastruktur, Medizin, Bildung, Wasseranschluss, öffentlicher Gesundheit, Straßen, einem Trinkwassersystem und öffentlicher Ordnung… Was haben die Römer je für uns getan?'",
           "fallacies_examples_4_1":
               "'Alle illegalen Drogen sind schädlich – darum sind sie ja auch illegal.'",
           "fallacies_examples_4_2":
@@ -979,7 +979,7 @@ class AppTranslations extends Translations {
           "locale_name_eo_EO": "Esperanto",
           "locale_name_pt_BR": "Portugala (Brazilo)",
           "locale_name_ru_RU": "Rusa",
-          "locale_name_nl_NL": "Nederlanda",
+          "locale_name_nl": "Nederlanda",
           "sections_0": "Revoko al opinio",
           "sections_1": "Revoko al emocio",
           "sections_2": "Erara dedukto",
@@ -1290,7 +1290,7 @@ class AppTranslations extends Translations {
           "locale_name_eo_EO": "Esperanto",
           "locale_name_pt_BR": "Portugués (Brasil)",
           "locale_name_ru_RU": "Ruso",
-          "locale_name_nl_NL": "Holandés",
+          "locale_name_nl": "Holandés",
           "sections_0": "Apelando a la mente",
           "sections_1": "Apelando a las emociones",
           "sections_2": "Deduciendo falsamente",
@@ -1606,7 +1606,7 @@ class AppTranslations extends Translations {
           "locale_name_eo_EO": "Espéranto",
           "locale_name_pt_BR": "Portugais (Brésil)",
           "locale_name_ru_RU": "Russe",
-          "locale_name_nl_NL": "Néerlandais",
+          "locale_name_nl": "Néerlandais",
           "fallacies_descs_0_0":
               "Avancer un argument en s'appuyant sur les preuves d'un « expert » sans nom, d'une « étude » ou d'un groupe généralisé (par ex. « les scientifiques »).",
           "fallacies_descs_0_9":
@@ -1614,7 +1614,7 @@ class AppTranslations extends Translations {
           "fallacies_descs_0_1":
               "Prétendre que quelque chose est vrai parce qu'un « expert » (une entité ayant une autorité sur le sujet en question) dit que ça l'est.",
           "fallacies_descs_0_2":
-              "Prétendre qu'une chose (situation, acte...) est normale parce qu'elle est couramment pratiquée.",
+              "Prétendre qu'une chose (situation, acte…) est normale parce qu'elle est couramment pratiquée.",
           "fallacies_descs_0_3":
               "Une affirmation est considérée comme vraie simplement parce qu'elle n'a pas été prouvée comme fausse (ou fausse parce qu'elle n'a pas été prouvée comme étant vraie).",
           "fallacies_descs_0_4":
@@ -1920,7 +1920,7 @@ class AppTranslations extends Translations {
           "locale_name_eo_EO": "Esperanto",
           "locale_name_pt_BR": "Portoghese (Brasile)",
           "locale_name_ru_RU": "Russo",
-          "locale_name_nl_NL": "Olandese",
+          "locale_name_nl": "Olandese",
           "sections_0": "Ricorso alla Mente",
           "sections_1": "Ricorso alle Emozioni",
           "sections_2": "Deduzione Errata",
@@ -2149,7 +2149,7 @@ class AppTranslations extends Translations {
           "fallacies_descs_4_10":
               "Offrire un'asserzione che non può essere dimostrata falsa, perché non c'è modo di sapere se è vera o falsa.",
           "fallacies_examples_4_0":
-              "'A parte condizioni sanitarie migliori, medicine, educazione, irrigazione, salute pubblica, strade, acquedotti e l'ordine pubblico... Che altro hanno fatto i Romani per noi?'",
+              "'A parte condizioni sanitarie migliori, medicine, educazione, irrigazione, salute pubblica, strade, acquedotti e l'ordine pubblico… Che altro hanno fatto i Romani per noi?'",
           "fallacies_examples_4_1":
               "'Tutte le droghe illegali sono dannose: è per questo che sono illegali.'",
           "fallacies_examples_4_2":
@@ -2232,7 +2232,7 @@ class AppTranslations extends Translations {
           "locale_name_eo_EO": "Esperanto",
           "locale_name_pt_BR": "Portugalski (Brazylia)",
           "locale_name_ru_RU": "Rosyjski",
-          "locale_name_nl_NL": "Holenderski",
+          "locale_name_nl": "Holenderski",
           "sections_0": "Odwoływanie do opinii",
           "sections_1": "Odwołanie do emocji",
           "sections_2": "Błędna dedukcja",
@@ -2544,7 +2544,7 @@ class AppTranslations extends Translations {
           "locale_name_eo_EO": "Esperanto",
           "locale_name_pt_BR": "Português (Brasil)",
           "locale_name_ru_RU": "Russo",
-          "locale_name_nl_NL": "Holandês",
+          "locale_name_nl": "Holandês",
           "sections_0": "Recorrer à mente",
           "sections_1": "Recorrer às emoções",
           "sections_2": "Dedução errônea",
@@ -2593,7 +2593,7 @@ class AppTranslations extends Translations {
               "'O olho é uma incrivelmente complexa máquina biomecânica com milhares de partes interligadas. Como isso poderia existir sem um planejamento inteligente?'",
           "fallacies_examples_0_5": "'Se custa mais caro, deve ser melhor.'",
           "fallacies_examples_0_6":
-              "'Incrível! A última versão desse sistema operacional vai fazer meu computador ficar mais rápido e melhor...'",
+              "'Incrível! A última versão desse sistema operacional vai fazer meu computador ficar mais rápido e melhor…'",
           "fallacies_examples_0_7": "'Leite é essencial para ossos saudáveis.'",
           "fallacies_examples_0_8":
               "'Existem bilhões de galaxias com bilhões de estrelas no universo, então deve exister outro planeta com vida nele.'",
@@ -2773,7 +2773,7 @@ class AppTranslations extends Translations {
           "fallacies_descs_4_10":
               "Oferecer uma declaração que não pode ser provada falsa, porque não existe como verificar se ela é falsa ou não.",
           "fallacies_examples_4_0":
-              "'Além de melhor saneamento, medicamentos, educação, irrigação, saúde pública, estradas, um sistema de água corrente e ordem pública... O que os Romanos fizeram por nós?'",
+              "'Além de melhor saneamento, medicamentos, educação, irrigação, saúde pública, estradas, um sistema de água corrente e ordem pública… O que os Romanos fizeram por nós?'",
           "fallacies_examples_4_1":
               "'Todas as drogas ilícitas são nocivas - é por isso que elas são ilegais.'",
           "fallacies_examples_4_2":
@@ -2854,7 +2854,7 @@ class AppTranslations extends Translations {
           "locale_name_pt_PT": "Português",
           "locale_name_pt_BR": "Português (Brasil)",
           "locale_name_ru_RU": "Russo",
-          "locale_name_nl_NL": "Holandês",
+          "locale_name_nl": "Holandês",
           "sections_0": "Recorrer à mente",
           "sections_1": "Recorrer às emoções",
           "sections_2": "Dedução errônea",
@@ -2903,7 +2903,7 @@ class AppTranslations extends Translations {
               "'O olho é uma incrivelmente complexa máquina biomecânica com milhares de partes interligadas. Como isso poderia existir sem um planejamento inteligente?'",
           "fallacies_examples_0_5": "'Se custa mais caro, deve ser melhor.'",
           "fallacies_examples_0_6":
-              "'Incrível! A última versão desse sistema operacional vai fazer meu computador ficar mais rápido e melhor...'",
+              "'Incrível! A última versão desse sistema operacional vai fazer meu computador ficar mais rápido e melhor…'",
           "fallacies_examples_0_7": "'Leite é essencial para ossos saudáveis.'",
           "fallacies_examples_0_8":
               "'Existem bilhões de galaxias com bilhões de estrelas no universo, então deve exister outro planeta com vida nele.'",
@@ -3083,7 +3083,7 @@ class AppTranslations extends Translations {
           "fallacies_descs_4_10":
               "Oferecer uma declaração que não pode ser provada falsa, porque não existe como verificar se ela é falsa ou não.",
           "fallacies_examples_4_0":
-              "'Além de melhor saneamento, medicamentos, educação, irrigação, saúde pública, estradas, um sistema de água corrente e ordem pública... O que os Romanos fizeram por nós?'",
+              "'Além de melhor saneamento, medicamentos, educação, irrigação, saúde pública, estradas, um sistema de água corrente e ordem pública… O que os Romanos fizeram por nós?'",
           "fallacies_examples_4_1":
               "'Todas as drogas ilícitas são nocivas - é por isso que elas são ilegais.'",
           "fallacies_examples_4_2":
@@ -3166,7 +3166,7 @@ class AppTranslations extends Translations {
           "locale_name_eo_EO": "Эсперанто",
           "locale_name_pt_BR": "Португальский (Бразилия)",
           "locale_name_ru_RU": "Русский",
-          "locale_name_nl_NL": "Голландский",
+          "locale_name_nl": "Голландский",
           "sections_0": "Аппеляция к разуму",
           "sections_1": "Аппеляция к эмоциям",
           "sections_2": "Ошибочные выводы",
@@ -3216,7 +3216,7 @@ class AppTranslations extends Translations {
           "fallacies_examples_0_5":
               "'Если это стоит дороже, должно быть, оно лучше.'",
           "fallacies_examples_0_6":
-              "'Круто! Последняя версия этой операционной системы обязательно сделает мой компьютер быстрее и лучше..'",
+              "'Круто! Последняя версия этой операционной системы обязательно сделает мой компьютер быстрее и лучше.'",
           "fallacies_examples_0_7": "'Молоко необходимо для здоровья костей.'",
           "fallacies_examples_0_8":
               "'Во вселенной существуют миллиарды галактик с миллиардами звёзд, поэтому там должна быть другая планета, на которой существует разумная форма жизни.'",
@@ -3396,13 +3396,13 @@ class AppTranslations extends Translations {
           "fallacies_descs_4_10":
               "Выдвинуть утверждение, ложность которого невозможно доказать за неимением возможности это проверить.",
           "fallacies_examples_4_0":
-              "'Но помимо улучшеничя санитарии, медицины, образования, орошения полей, здоровья общества, дорог, системы подачи питьевой воды и общественного порядка... Что сделали для нас римляне?'",
+              "'Но помимо улучшеничя санитарии, медицины, образования, орошения полей, здоровья общества, дорог, системы подачи питьевой воды и общественного порядка… Что сделали для нас римляне?'",
           "fallacies_examples_4_1":
               "'Все незаконные наркотики причиняют вред, поэтому они и незаконны.'",
           "fallacies_examples_4_2":
               "'Опрос на нашем сайте показал, что 90% интернет-пользователей выступают против законов о пиратстве в интернете.'",
           "fallacies_examples_4_3":
-              "'Очевидно, что 11 сентября - это заговор под руководством американского правительства, призванный оправдать войны в Ираке и Афганистане. Никакой самолёт не врезался в Пентагон. Разрушение Башен-Близнецов было контролируемым... и т.д.'",
+              "'Очевидно, что 11 сентября - это заговор под руководством американского правительства, призванный оправдать войны в Ираке и Афганистане. Никакой самолёт не врезался в Пентагон. Разрушение Башен-Близнецов было контролируемым… и т.д.'",
           "fallacies_examples_4_4":
               "'Нам придётся урезать бюджет на образование или залезть в большие долги. Мы не можем позволить себе долги, поэтому мы урежем бюджет на образование.'",
           "fallacies_examples_4_5":
@@ -3448,10 +3448,10 @@ class AppTranslations extends Translations {
           "fallacies_examples_5_5":
               "'Вы утверждаете, что Израиль должен прекратить строить поселения на западном берегу, нарушая условия перемирия, поэтому вы утверждаете, что у Израиля нет прав быть отдельной национальностью?'"
         },
-        "nl_NL": {
+        "nl": {
           "app_name": "Logical Defense",
-          "navigation_drawer_open": "Navigatie openen",
-          "navigation_drawer_close": "Navigatie sluiten",
+          "navigation_drawer_open": "Open navigatie",
+          "navigation_drawer_close": "Sluit navigatie",
           "action_about": "Over",
           "action_theme": "Thema",
           "category_label": "Categorieën",
@@ -3460,7 +3460,7 @@ class AppTranslations extends Translations {
           "action_settings": "Instellingen",
           "creator": "Created by LukeStoneHm\n2015",
           "about_more":
-              "Een eenvoudige maar prachtige applicatie die je de drogredenen van de wereld voorlegt, op een hele fijne manier.\n\nDeze applicaties is een open source project en valt onder de GPL2 licentie.\n\nVoel je vrij om de broncode te onderzoeken, te vinden op\nGitHub.\n\nhttps://github.com/LukeStonehm/LogicalDefence/",
+              "Een eenvoudige maar prachtige applicatie die de drogredenen van de wereld op een aangename manier presenteert.\n\nDeze applicatie is een opensourceproject en valt onder de GPL-2-licentie.\n\nVoel je vrij om de broncode te te bekijken, deze is te vinden op\nGitHub.\n\nhttps://github.com/LukeStonehm/LogicalDefence/",
           "from": "\n\nShared From Logical Defence Application",
           "share": "Deel een drogreden",
           "action_language": "Taal",
@@ -3470,7 +3470,7 @@ class AppTranslations extends Translations {
           "theme_name_2": "Donker",
           "locale_name_de_DE": "Duits",
           "locale_name_en_GB": "Engels",
-          "locale_name_en_US": "Engels (US)",
+          "locale_name_en_US": "Engels (VS)",
           "locale_name_es_ES": "Spaans",
           "locale_name_fr_FR": "Frans",
           "locale_name_it_IT": "Italiaans",
@@ -3479,11 +3479,11 @@ class AppTranslations extends Translations {
           "locale_name_eo_EO": "Esperanto",
           "locale_name_pt_BR": "Portugees (Brazilië)",
           "locale_name_ru_RU": "Russisch",
-          "locale_name_nl_NL": "Nederlands",
+          "locale_name_nl": "Nederlands",
           "sections_0": "Appelleren aan het verstand",
           "sections_1": "Appelleren aan emotie",
-          "sections_2": "Foute gevolgstrekking",
-          "sections_3": "Verdraaide oorzaak &gevolg",
+          "sections_2": "Foute gevolgtrekking",
+          "sections_3": "Verdraaide oorzaak en gevolg",
           "sections_4": "Manipuleren van de inhoud",
           "sections_5": "In de aanval",
           "fallacies_titles_0_0": "Appelleren aan veronderstelde autoriteit",
@@ -3497,9 +3497,9 @@ class AppTranslations extends Translations {
           "fallacies_titles_0_8": "Appelleren aan waarschijnlijkheid",
           "fallacies_titles_0_9": "Appelleren aan traditie",
           "fallacies_descs_0_0":
-              "Bewijs gebruiken van een naamloze 'expert' of 'onderzoek' of een gegeneraliseerde groep (zoals 'wetenschappers') om te beweren dat iets waar is..",
+              "Bewijs gebruiken van een naamloze 'expert' of 'onderzoek' of een gegeneraliseerde groep (zoals 'wetenschappers') om te beweren dat iets waar is.",
           "fallacies_descs_0_1":
-              "Beweren dat iets waar is omdat (een person die de autoriteit heeft) expert het zegt.",
+              "Beweren dat iets waar is omdat (een persoon die de autoriteit heeft) expert het zegt.",
           "fallacies_descs_0_2":
               "Beweren dat iets waar is omdat het een algemeen gebruik is.",
           "fallacies_descs_0_3":
@@ -3517,21 +3517,21 @@ class AppTranslations extends Translations {
           "fallacies_descs_0_9":
               "Beweren dat iets waar is omdat het (blijkbaar) altijd zo geweest is.",
           "fallacies_examples_0_0":
-              "'Men zegt dat het 7 jaar duurt voordat kauwgum verteerd is.'",
+              "'Men zegt dat het zeven jaar duurt voordat kauwgum verteerd is.'",
           "fallacies_examples_0_1":
               "'Meer dan 4000 vooraanstaande wetenschappers en ingenieurs betwisten de opwarming van de aarde.'",
           "fallacies_examples_0_2":
-              "'Deze bank heft problemen met corruptive, maar er gebeurt niets dat niet bij andere banken gebeurt.'",
+              "'Deze bank heeft problemen met corruptie, maar er gebeurt niets dat niet bij andere banken gebeurt.'",
           "fallacies_examples_0_3":
-              "'Niemand heft aan mij bewezen dat God bestaat. Dus weet ik dat er geen God is.'",
+              "'Niemand heeft aan mij bewezen dat god bestaat. Dus weet ik dat er geen god is.'",
           "fallacies_examples_0_4":
-              "'Het oog is een ongelofelijk complex biomechanisch apparaat met duizenden samenvallende onderdelen. Hoe kan dat bestaan zonder een intelligente ontwerper?'",
+              "'Het oog is een ongelooflijk complex biomechanisch apparaat met duizenden samenvallende onderdelen. Hoe kan dat bestaan zonder een intelligente ontwerper?'",
           "fallacies_examples_0_5": "'Als het meer kost moet het beter zijn.'",
           "fallacies_examples_0_6":
-              "'De nieuwste versie van dit besturingssysteem gaat mijn computer beter en sneller maken..'",
+              "'De nieuwste versie van dit besturingssysteem gaat mijn computer beter en sneller maken.'",
           "fallacies_examples_0_7": "'Melk is onmisbaar voor gezonde botten.'",
           "fallacies_examples_0_8":
-              "'In het universum zijn miljarden melkwegstelsels met miljarden sterren in het universum. Er moet dus op een andere planneet intelligent leven zijn.'",
+              "'In het universum zijn miljarden melkwegstelsels met miljarden sterren in het universum. Er moet dus op een andere planeet intelligent leven zijn.'",
           "fallacies_examples_0_9":
               "'De overheid heeft altijd bestaan, daarom kan de samenleving niet zonder.'",
           "fallacies_titles_1_0": "Appelleren aan gevolgen",
@@ -3541,7 +3541,7 @@ class AppTranslations extends Translations {
           "fallacies_titles_1_4": "Appelleren aan medelijden",
           "fallacies_titles_1_5": "Appelleren aan spot",
           "fallacies_titles_1_6": "Appelleren aan wrok",
-          "fallacies_titles_1_7": "Appelleren aan ijdele Hoop",
+          "fallacies_titles_1_7": "Appelleren aan ijdele hoop",
           "fallacies_descs_1_0":
               "Beweren dat een overtuiging onwaar is omdat het iets impliceert dat je liever niet gelooft.",
           "fallacies_descs_1_1":
@@ -3569,7 +3569,7 @@ class AppTranslations extends Translations {
           "fallacies_examples_1_4":
               "'De oud-dictator is een oude, stervende man. Het is verkeerd om hem te berechten voor de daden waarvan hij verdacht wordt.'",
           "fallacies_examples_1_5":
-              "'Geloven in God is als het geloven in Sinterklaas en Piet.'",
+              "'Geloven in god is als het geloven in Sinterklaas en Piet.'",
           "fallacies_examples_1_6":
               "'Vind jij het ook zo vervelend dat de NOS zoveel zendtijd krijgt terwijl ze hun linkse politieke agenda laten zien?'",
           "fallacies_examples_1_7":
@@ -3579,10 +3579,10 @@ class AppTranslations extends Translations {
           "fallacies_titles_2_2": "Eenheid",
           "fallacies_titles_2_3": "Ontwerp bedrog",
           "fallacies_titles_2_4": "Gokkersmisvatting",
-          "fallacies_titles_2_5": "Snelle gerenalisatie",
+          "fallacies_titles_2_5": "Snelle generalisatie",
           "fallacies_titles_2_6": "Overhaaste conclusie",
           "fallacies_titles_2_7": "Vals compromis",
-          "fallacies_titles_2_8": "Dawling van het perfectionisme",
+          "fallacies_titles_2_8": "Dwaling van het perfectionisme",
           "fallacies_titles_2_9": "Dwaling van het relativeren",
           "fallacies_titles_2_10": "Generalisering",
           "fallacies_titles_2_11": "Brede generalisatie",
@@ -3600,7 +3600,7 @@ class AppTranslations extends Translations {
           "fallacies_descs_2_5":
               "Een brede conclusie trekken op basis van een klein voorbeeld.",
           "fallacies_descs_2_6":
-              "Snel een conclusie trekken zonder daarvoor eerlijk en relevant bewijs voor te hebben overwogen..",
+              "Snel een conclusie trekken zonder daarvoor eerlijk en relevant bewijs voor te hebben overwogen.",
           "fallacies_descs_2_7":
               "Aannemen dat het antwoord in het midden ligt omdat twee tegenovergestelde argumenten het overwegen evenwaardig zijn.",
           "fallacies_descs_2_8":
@@ -3611,13 +3611,13 @@ class AppTranslations extends Translations {
               "Aannemen dat een observatie van een klein aantal, geldt voor een groot aantal.",
           "fallacies_descs_2_11": "Een algemene regel te breed toepassen.",
           "fallacies_descs_2_12":
-              "Omdat twee dingen dezelfde eigenschappen hebben, aannnemen dat ze hetzelfde zijn.",
+              "Omdat twee dingen dezelfde eigenschappen hebben, aannemen dat ze hetzelfde zijn.",
           "fallacies_examples_2_0":
               "'Ik stop niet met roken, mijn opa leeft nog steeds en heeft zijn hele leven lang gerookt.'",
           "fallacies_examples_2_1":
               "'Recente terroristische aanslagen zijn door moslims gepleegd, daarom zijn alle terroristen moslim.'",
           "fallacies_examples_2_2":
-              "'Veel Gereformeerden zijn tegen het homohuwelijk, evolutie en abortus. Daarom zijn alle Gereformeerden homofoben, creationisten en pro-life..'",
+              "'Veel gereformeerden zijn tegen het homohuwelijk, evolutie en abortus. Daarom zijn alle gereformeerden homofoben, creationisten en pro-life.'",
           "fallacies_examples_2_3":
               "'De iPhone X is een mooi ontworpen en mooist ogende telefoon, daarom is het de beste telefoon.'",
           "fallacies_examples_2_4":
@@ -3625,7 +3625,7 @@ class AppTranslations extends Translations {
           "fallacies_examples_2_5":
               "'Een vrouw heeft mijn auto geschampt tijdens het inparkeren, vrouwen kunnen echt niet rijden.'",
           "fallacies_examples_2_6":
-              "'Ze vind het erg dat de Pil uit het pakket is? Wat een slet!'",
+              "'Ze vindt het erg dat de pil uit het pakket is? Wat een slet!'",
           "fallacies_examples_2_7":
               "'Ik ben achterop je auto gereden, maar vind dat ik het hoef te betalen, jij vindt dat wel? Eerlijk zou zijn als we allebei de helft zouden betalen.'",
           "fallacies_examples_2_8":
@@ -3640,10 +3640,10 @@ class AppTranslations extends Translations {
               "'Een theorie is een onbewezen idee. De natuurwetenschap gebruikt de term Evolutietheorie, dus de evolutie is een onbewezen idee.'",
           "fallacies_titles_3_0": "Gevolg bevestigen",
           "fallacies_titles_3_1": "Cirkelredenering",
-          "fallacies_titles_3_2": "Cum Hoc Ergo Propter Hoc",
+          "fallacies_titles_3_2": "Cum hoc ergo propter hoc",
           "fallacies_titles_3_3": "Oorzaak ontkennen",
-          "fallacies_titles_3_4": "Negeren van een agemene oorzaak",
-          "fallacies_titles_3_5": "Post Hoc Ergo Propter Hoc",
+          "fallacies_titles_3_4": "Negeren van een algemene oorzaak",
+          "fallacies_titles_3_5": "Post hoc ergo propter hoc",
           "fallacies_titles_3_6": "Twee fouten maken een goed",
           "fallacies_titles_3_7": "Wie zwijgt stemt toe",
           "fallacies_descs_3_0":
@@ -3657,7 +3657,7 @@ class AppTranslations extends Translations {
           "fallacies_descs_3_4":
               "Beweren dat het ene veroorzaakt moet zijn door het andere terwijl een derde (onbekende) gebeurtenis waarschijnlijk de oorzaak is.",
           "fallacies_descs_3_5":
-              "Aaannemen dat iets een gevolg is omdat het  gebeurt na het voorgaande. Ook wel de verwarring van Correlatie en Causaliteit genoemd.",
+              "Aannemen dat iets een gevolg is omdat het  gebeurt na het voorgaande. Ook wel de verwarring van Correlatie en Causaliteit genoemd.",
           "fallacies_descs_3_6":
               "Omdat iets slechts is gebeurd, aannemen dat een andere slechte gebeurtenis het weer goed maakt.",
           "fallacies_descs_3_7":
@@ -3669,9 +3669,9 @@ class AppTranslations extends Translations {
           "fallacies_examples_3_2":
               "'Er worden steeds meer gewelddadige videogames gespeeld, daarom is er steeds meer geweld '",
           "fallacies_examples_3_3":
-              "'Als je een diploma hebt krijg je werk. Als je geen diploma krijg krijg je geen werk.'",
+              "'Als je een diploma hebt krijg je werk. Als je geen diploma hebt krijg je geen werk.'",
           "fallacies_examples_3_4":
-              "'Videogames zijn geweldadig, daardoor is er steeds meer geweld.'",
+              "'Videogames zijn gewelddadig, daardoor is er steeds meer geweld.'",
           "fallacies_examples_3_5":
               "'De zon komt altijd op nadat de haan gekraaid heeft, dus de zon komt op doordát de haan kraait.'",
           "fallacies_examples_3_6":
@@ -3692,7 +3692,7 @@ class AppTranslations extends Translations {
           "fallacies_descs_4_0":
               "Het steeds opnieuw herzien van een argument om problemen te verklaren.",
           "fallacies_descs_4_1":
-              "Geen nieuwe argumenten introduceren maar de conclusie van je bewering gebruiken als bewijs voor je bewering.",
+              "Geen nieuwe argumenten introduceren, maar de conclusie van je bewering gebruiken als bewijs voor je bewering.",
           "fallacies_descs_4_2":
               "Het generaliseren van een niet-representatief onderdeel om zo het argument versterken.",
           "fallacies_descs_4_3":
@@ -3712,32 +3712,32 @@ class AppTranslations extends Translations {
           "fallacies_descs_4_10":
               "Iets pretenderen waarvan het niet mogelijk is om te bewijzen of deze waar of onwaar is.",
           "fallacies_examples_4_0":
-              "'Maar doet Rijkswaterstaat nou nog meer naar het onderhoud van de dijken, veiligheid op de waterwegen, onderzoek en kustwacht?'",
+              "'Maar wat doet Rijkswaterstaat eigenlijk nog meer dan het onderhoud van de dijken, veiligheid op de waterwegen, onderzoek en kustwacht?'",
           "fallacies_examples_4_1":
               "'Alle drugs zijn schadelijk, daarom zijn ze illegaal.'",
           "fallacies_examples_4_2":
-              "'Uit de dagelijkse poll van Stempunt.nl blijkt dat 90% van de Nederlanders voor abortus is.'",
+              "'Uit de dagelijkse poll van stempunt.nl blijkt dat 90% van de Nederlanders voor abortus is.'",
           "fallacies_examples_4_3":
-              "'De Mariniers hadden bij het invallen bij de Treinkaping een vooroordeel over Molukkers, dus hebben ze sneller geschoten. '",
+              "'De mariniers hadden bij het invallen bij de Treinkaping een vooroordeel over Molukkers, dus hebben ze sneller geschoten.'",
           "fallacies_examples_4_4":
-              "'We moeten bezuinigen op de zorg, anders wordt de staatsschuld te groot. We kunnen het ons niet veroorloven dat de staatsschuld groter wordt, dus moeten we bezuinigen in de zorg. '",
+              "'We moeten bezuinigen op de zorg, anders wordt de staatsschuld te groot. We kunnen het ons niet veroorloven dat de staatsschuld groter wordt, dus moeten we bezuinigen in de zorg.'",
           "fallacies_examples_4_5":
               "'Er waren nog nooit zoveel mensen aanwezig bij de inauguratie van een president.'",
           "fallacies_examples_4_6":
-              "'Ik geef niet aan het Rode Kruis, want tijdens de oorlog, dat de bommen op Rotterdam en de Joden op straat bespuwd werden, heeft het Rode Kruis in Nederland niets gedaan om de de mensen bij te staan tijdens de Jodenvervolging.'",
+              "'Ik geef niet aan het Rode Kruis, want tijdens de oorlog, dat de bommen op Rotterdam en de Joden op straat bespuwd werden, heeft het Rode Kruis in Nederland niets gedaan om de mensen bij te staan tijdens de Jodenvervolging.'",
           "fallacies_examples_4_7":
               "'Waarom zou een minister ontslagen moeten worden over een paar niet ingeleverde bonnetjes? Er zijn ministers die wel ergere dingen gedaan hebben.'",
           "fallacies_examples_4_8":
-              "'IAls we wiet gaan legaliseren zullen meer mensen cocaine en heroine gaan gebruiken. Dan moeten we die ook legaliseren.'",
+              "'Als we wiet gaan legaliseren zullen meer mensen cocaïne en heroïne gaan gebruiken. Dan moeten we die ook legaliseren.'",
           "fallacies_examples_4_9":
               "'Irak heeft nucleaire technologie in handen. Ze maken chemische en biologische wapens, ze willen ook nucleaire wapens maken.'",
           "fallacies_examples_4_10":
-              "'Hij is zo blij omdat hij de Geest van God ontvangen heeft.'",
+              "'Hij is zo blij omdat hij de Heilige Geest ontvangen heeft.'",
           "fallacies_titles_5_0": "Op de persoon",
           "fallacies_titles_5_1": "Bewijslast",
-          "fallacies_titles_5_2": "Oorzakelijk Ad Hominem",
+          "fallacies_titles_5_2": "Oorzakelijk ad hominem",
           "fallacies_titles_5_3": "Ontstaansmisvatting",
-          "fallacies_titles_5_4": "Schuld door assosiatie",
+          "fallacies_titles_5_4": "Schuld door associatie",
           "fallacies_titles_5_5": "Stropopredenering",
           "fallacies_descs_5_0":
               "Aan een argument voorbijgaan door een irrelevante aanval te openen op de persoon in plaats van op hun bewering.",
@@ -3750,7 +3750,7 @@ class AppTranslations extends Translations {
           "fallacies_descs_5_4":
               "Een idee of bewering in diskrediet brengen door het te associëren met een persoon of groep.",
           "fallacies_descs_5_5":
-              "Door een verdraaide of eenvoudige karikatuur van een argument te maken een tegenbewering maken.",
+              "Door een verdraaide of eenvoudige karikatuur van een argument te maken, een tegenbewering maken.",
           "fallacies_examples_5_0":
               "'Iedereen die tegen het koningshuis is, hecht geen waarde aan ons koninkrijk.'",
           "fallacies_examples_5_1":
@@ -3760,7 +3760,7 @@ class AppTranslations extends Translations {
           "fallacies_examples_5_3":
               "'Natuurlijk gaat de NOS niet gaat zeggen dat Trump goede ideeën heeft, daar zijn ze te links voor.'",
           "fallacies_examples_5_4":
-              "'Dus jij vindt dat we niet strenger moeten controleren op vliegvelden zoals de terroristen willen? Ben je soms een voorstander van terrorisme? ?'",
+              "'Dus jij vindt dat we niet strenger moeten controleren op vliegvelden zoals de terroristen willen? Ben je soms een voorstander van terrorisme?'",
           "fallacies_examples_5_5":
               "'Je zegt dat de Verenigde Staten geen muur moet bouwen om Mexicanen buiten het land te houden. Dus eigenlijk zeg je dat de VS zijn eigen land niet mag beschermen?'"
         }
