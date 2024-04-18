@@ -299,7 +299,7 @@ class AppTranslations extends Translations {
           "fallacies_descs_5_2":
               "Stating a claim isn't credible only because of the advocate's interest in their claim.",
           "fallacies_descs_5_3":
-              "Attacking the cause or origin of a claim, rather than it's substance.",
+              "Attacking the cause or origin of a claim, rather than its substance.",
           "fallacies_descs_5_4":
               "Discrediting an idea or claim by associating it with an undesirable person or group.",
           "fallacies_descs_5_5":
@@ -616,7 +616,7 @@ class AppTranslations extends Translations {
           "fallacies_descs_5_2":
               "Stating a claim isn't credible only because of the advocate's interest in their claim.",
           "fallacies_descs_5_3":
-              "Attacking the cause or origin of a claim, rather than it's substance.",
+              "Attacking the cause or origin of a claim, rather than its substance.",
           "fallacies_descs_5_4":
               "Discrediting an idea or claim by associating it with an undesirable person or group.",
           "fallacies_descs_5_5":
