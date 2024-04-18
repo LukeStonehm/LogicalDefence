@@ -255,7 +255,7 @@ class AppTranslations extends Translations {
           "fallacies_descs_4_5":
               "An outright untruth repeated knowingly as a fact.",
           "fallacies_descs_4_6":
-              "Describing an occurrence in vivid detail, even if it is a rare occurrence, to convince someone that it is a true.",
+              "Describing an occurrence in vivid detail, even if it is a rare occurrence, to convince someone that it is true.",
           "fallacies_descs_4_7":
               "Introducing irrelevant material to the argument to distract and lead towards a different conclusion.",
           "fallacies_descs_4_8":
@@ -572,7 +572,7 @@ class AppTranslations extends Translations {
           "fallacies_descs_4_5":
               "An outright untruth repeated knowingly as a fact.",
           "fallacies_descs_4_6":
-              "Describing an occurrence in vivid detail, even if it is a rare occurrence, to convince someone that it is a true.",
+              "Describing an occurrence in vivid detail, even if it is a rare occurrence, to convince someone that it is true.",
           "fallacies_descs_4_7":
               "Introducing irrelevant material to the argument to distract and lead towards a different conclusion.",
           "fallacies_descs_4_8":
