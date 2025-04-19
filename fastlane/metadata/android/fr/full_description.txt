@@ -1,5 +1,3 @@
-Défense logique (Logical Defence)
-
 Préparez-vous à lutter contre les sophistes du monde avec cette belle application.
 
 Renforcez votre esprit critique, et commencez à défendre votre esprit contre les sophistes du monde.
@@ -12,8 +10,6 @@ L'honnêteté est la première des vertus, donc soyons douloureusement honnête 
 
 Ok, assez claironné. C'est une application qui affiche une liste des erreurs logiques qui hantent l'esprit de tous les rationalistes.
 
-Ceci est un logiciel libre (GNU v2), et la source est hébergée sur GitHub; n'hésitez pas à me contacter.
-
-Dépôt GitHub: https://github.com/LukeStonehm/LogicalDefence
+Ceci est un logiciel libre (GNU v2), et la <a href="https://github.com/LukeStonehm/LogicalDefence">source est hébergée sur GitHub</a>; n'hésitez pas à me contacter.
 
 N'hésitez pas à laisser vos commentaires / suggestions. Et si vous téléchargez… Merci!

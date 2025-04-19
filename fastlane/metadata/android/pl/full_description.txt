@@ -17,6 +17,6 @@ Główne funkcje:
 - Przejrzysta zawartość.
 - Możliwość wyboru języka.
 
-Ten projekt w pełni otwartoźródłowy (GNU v2), a kod źródłowy jest hostowany na GitHubie, więc w każdej chwili możesz stworzyć swoje własne odgałęzienie :)
+Ten projekt w pełni otwartoźródłowy (GNU v2), a <a href="https://github.com/LukeStonehm/LogicalDefence">kod źródłowy jest hostowany na GitHubie</a>, więc w każdej chwili możesz stworzyć swoje własne odgałęzienie :)
 
 Możesz śmiało zostawić komentarz/sugestię. Dziękujemy za pobranie!

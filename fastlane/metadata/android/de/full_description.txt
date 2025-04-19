@@ -1,5 +1,3 @@
-Logische Selbstverteidigung
-
 Stähle dich, um deinen Verstand gegen die Sprache der Sophisten zu verteidigen.
 
 Mit dieser wunderschönen App kannst du dich auf den Kampf gegen die Sophisten dieser Welt vorbereiten.
@@ -21,7 +19,6 @@ Einige Funktionen:
 - Einfache Sprachenauswahl.
 
 
-Diese App ist freie Software (GNU v2) und der Quellcode ist auf GitHub verfügbar. Du kannst das Projekt gerne forken :)
-GitHub Repository: https://github.com/LukeStonehm/LogicalDefence
+Diese App ist freie Software (GNU v2) und der <a href="https://github.com/LukeStonehm/LogicalDefence">Quellcode ist auf GitHub verfügbar</a>. Du kannst das Projekt gerne forken :)
 
 Kommentare und Hinweise sind gerne gesehen. Danke für den Download!

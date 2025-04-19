@@ -1,5 +1,3 @@
-Defesa Lógica (Logical Defense)
-
 Prepare-se para lutar contra os sofistas do mundo com este belo aplicativo.
 
 Arme-se e proteja sua mente contra a linguagem utilizada pelos sofistas. 
@@ -19,7 +17,6 @@ Algumas características:
 - Uma bela tela informativa;
 - Função de seleção de idioma.
 
-Este é um projeto totalmente livre (GNU v2), e o código está hospedado no Github e aceitamos colaborações :)
-Repositório GitHub: https://github.com/LukeStonehm/LogicalDefence
+Este é um projeto totalmente livre (GNU v2), e o <a href="https://github.com/LukeStonehm/LogicalDefence">código está hospedado no Github</a> e aceitamos colaborações :)
 
 Sinta-se à vontade para deixar comentários e sugestões. Obrigado por instalar o aplicativo!

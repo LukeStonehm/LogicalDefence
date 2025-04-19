@@ -1,5 +1,3 @@
-Defensa lógica (Logical Defence)
-
 Vence a los sofistas del mundo contemporáneo con esta práctica aplicación.
 
 Ármate de valor y defiéndete de los trucos idiomáticos empleados por los sofistas del mundo contemporáneo.
@@ -20,7 +18,6 @@ Características destacables:
 - Bonita pantalla de 'Acerca de'.
 - Función de selección del idioma.
 
-Somos un proyecto de código abierto (GNU v2), con el código fuente alojado en GitHub, y aceptamos colaboraciones :)
-Repositorio de GitHub: https://github.com/LukeStonehm/LogicalDefence
+Somos un proyecto de código abierto (GNU v2), con el <a href="https://github.com/LukeStonehm/LogicalDefence">código fuente alojado en GitHub</a>, y aceptamos colaboraciones :)
 
 No olvides dejarnos un comentario con tus opiniones/sugerencias y... ¡Gracias por probarla!
