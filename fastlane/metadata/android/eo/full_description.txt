@@ -14,6 +14,6 @@ Bone, sufiĉo da parolaĉo. Tio ĉi estas aplikaĵo, kiu montras liston de logik
 - klara enhavo;
 - eblo por ŝanĝi lingvon.
 
-Tiu ĉi projekto estas plene malfermkoda (GNU v2), kaj ĝia fontkodo estas gastigata ĉe GitHub, do bonvole idigu ĝin :)
+Tiu ĉi projekto estas plene malfermkoda (GNU v2), kaj ĝia <a href="https://github.com/LukeStonehm/LogicalDefence">fontkodo estas gastigata ĉe GitHub</a>, do bonvole idigu ĝin :)
 
 Bonvolu enmeti viajn opiniojn kaj proponojn. Dankon por elŝuti!

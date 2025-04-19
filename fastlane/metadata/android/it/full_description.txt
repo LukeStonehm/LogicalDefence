@@ -18,8 +18,6 @@ Alcune delle funzionalità:
 - Schermata delle informazioni carina.
 - Selezione della lingua.
 
-Questo è un progetto completamente libero (GNU v2), ed il codice sorgente si trova su GitHub, quindi sentiti libero di esplorare :)
-
-GitHub: https://github.com/LukeStonehm/LogicalDefence
+Questo è un progetto completamente libero (GNU v2), ed il <a href="https://github.com/LukeStonehm/LogicalDefence">codice sorgente si trova su GitHub</a>, quindi sentiti libero di esplorare :)
 
 Per favore, lasciaci commenti o suggerimenti. Grazie per aver scelto la logica!
